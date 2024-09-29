@@ -56,8 +56,8 @@ window "mainwindow"
 		anchor2 = -1,-1
 		is-default = true
 		saved-params = "pos;size;is-minimized;is-maximized"
-		title = "Coyote Bayou"
-		icon = 'icons\\aethergiestlogo.png'
+		title = "Frostfall Keep"
+		icon = 'icons\\frostfallkeeplogo.png'
 		macro = "default"
 		menu = "menu"
 	elem "split"
@@ -119,7 +119,7 @@ window "infowindow"
 		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		is-pane = true
-		image = 'icons\\CoyoteBayouServerBanner.png'
+		image = 'icons\\FrostfallKeepServerBanner.png'
 		outer-size = 656x538
 		inner-size = 640x499
 	elem "setoocstatus"
@@ -249,7 +249,7 @@ window "preferences_window"
 	elem "preferences_window"
 		type = MAIN
 		pos = 281,0
-		size = 1280x1001
+		size = 1280x901
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		is-visible = false
@@ -257,16 +257,6 @@ window "preferences_window"
 		saved-params = "pos;size;is-maximized;focus"
 		statusbar = false
 		image = 'icons\\CharacterCreator.png'
-	elem "Powerbutton"
-		type = BUTTON
-		pos = 922,891
-		size = 39x46
-		anchor1 = 72,89
-		anchor2 = 75,94
-		saved-params = "is-checked"
-		text = ""
-		image = 'icons\\Chargenbutton.png'
-		command = "Powerbutton"
 	elem "preferences_browser"
 		type = BROWSER
 		pos = 31,19
