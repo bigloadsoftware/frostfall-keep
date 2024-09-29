@@ -109,7 +109,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/path
 	var/vr_path
 	var/default_slot = 1				//Holder so it doesn't default to slot 1, rather the last one used
-	var/max_save_slots = 30
+	var/max_save_slots = 8
 	var/lockdown = FALSE // prevents any funny business while we delete
 
 	//non-preference stuff
@@ -324,7 +324,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 	var/list/ignoring = list()
 
-	var/clientfps = 0
+	var/clientfps = 60
 
 	var/parallax
 
@@ -440,7 +440,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			load_path(C.ckey)
 			unlock_content = C.IsByondMember()
 			if(unlock_content)
-				max_save_slots = 30
+				max_save_slots = 8
 	var/loaded_preferences_successfully = load_preferences()
 	if(loaded_preferences_successfully)
 		if(load_character())
@@ -472,7 +472,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 	dat += "<a href='?_src_=prefs;preference=tab;tab=[SETTINGS_TAB]' [current_tab == SETTINGS_TAB ? "class='linkOn'" : ""]>Character Settings</a>"
 	dat += "<a href='?_src_=prefs;preference=tab;tab=[APPEARANCE_TAB]' [current_tab == APPEARANCE_TAB ? "class='linkOn'" : ""]>Character Appearance</a>"
-	dat += "<a href='?_src_=prefs;preference=tab;tab=[CHAR_INFO_TAB]' [current_tab == CHAR_INFO_TAB ? "class='linkOn'" : ""]>Character Info</a>"
+	// dat += "<a href='?_src_=prefs;preference=tab;tab=[CHAR_INFO_TAB]' [current_tab == CHAR_INFO_TAB ? "class='linkOn'" : ""]>Character Info</a>"
 	dat += "<a href='?_src_=prefs;preference=tab;tab=[ERP_TAB]' [current_tab == ERP_TAB ? "class='linkOn'" : ""]>Underlying Appearance</a>"
 	dat += "<a href='?_src_=prefs;preference=tab;tab=[LOADOUT_TAB]' [current_tab == LOADOUT_TAB ? "class='linkOn'" : ""]>Loadout</a>"
 	dat += "<a href='?_src_=prefs;preference=tab;tab=[GAME_PREFERENCES_TAB]' [current_tab == GAME_PREFERENCES_TAB ? "class='linkOn'" : ""]>Game Preferences</a>"
@@ -506,26 +506,26 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						dat += "<a style='white-space:nowrap;' href='?_src_=prefs;preference=changeslot;num=[i];' [i == default_slot ? "class='linkOn'" : ""]>[name]</a> "
 					dat += "</center>"
 
-			dat += "<center><h2>Quest Board UID</h2>"
-			dat += "[quester_uid]</center>"
-			var/cash_change = SSeconomy.player_login(src)
-			var/list/llogin_msg = list()
-			llogin_msg += "<center><B>Last Login:</B> [time2text(last_quest_login)]"
-			llogin_msg += " <B>Banked Cash:</B> [SSeconomy.format_currency(saved_unclaimed_points, TRUE)]"
-			if(cash_change > 0)
-				llogin_msg += " ([span_green("[SSeconomy.format_currency(cash_change, TRUE)]")] activity bonus)"
-			else if(cash_change < 0)
-				llogin_msg += " ([span_alert("[SSeconomy.format_currency(cash_change, TRUE)]")] inactivity tax)"
-			llogin_msg += "</center>"
-			dat += llogin_msg.Join()
-			if(CONFIG_GET(flag/roundstart_traits))
-				dat += "<center>"
-				if(SSquirks.initialized && !(PMC_QUIRK_OVERHAUL_2K23 in current_version))
-					dat += "<a href='?_src_=prefs;preference=quirk_migrate'>CLICK HERE to migrate your old quirks to the new system!</a>"
-				dat += "<a href='?_src_=prefs;preference=quirkmenu'>"
-				dat += "<h2>Configure Quirks</a></h2><br></center>"
-				dat += "</a>"
-				dat += "<center><b>Current Quirks:</b> [get_my_quirks()]</center>"
+			// dat += "<center><h2>Quest Board UID</h2>"
+			// dat += "[quester_uid]</center>"
+			// var/cash_change = SSeconomy.player_login(src)
+			// var/list/llogin_msg = list()
+			// llogin_msg += "<center><B>Last Login:</B> [time2text(last_quest_login)]"
+			// llogin_msg += " <B>Banked Cash:</B> [SSeconomy.format_currency(saved_unclaimed_points, TRUE)]"
+			// if(cash_change > 0)
+			// 	llogin_msg += " ([span_green("[SSeconomy.format_currency(cash_change, TRUE)]")] activity bonus)"
+			// else if(cash_change < 0)
+			// 	llogin_msg += " ([span_alert("[SSeconomy.format_currency(cash_change, TRUE)]")] inactivity tax)"
+			// llogin_msg += "</center>"
+			// dat += llogin_msg.Join()
+			// if(CONFIG_GET(flag/roundstart_traits))
+			// 	dat += "<center>"
+			// 	if(SSquirks.initialized && !(PMC_QUIRK_OVERHAUL_2K23 in current_version))
+			// 		dat += "<a href='?_src_=prefs;preference=quirk_migrate'>CLICK HERE to migrate your old quirks to the new system!</a>"
+			// 	dat += "<a href='?_src_=prefs;preference=quirkmenu'>"
+			// 	dat += "<h2>Configure Quirks</a></h2><br></center>"
+			// 	dat += "</a>"
+			// 	dat += "<center><b>Current Quirks:</b> [get_my_quirks()]</center>"
 			dat += "<center><h2>S.P.E.C.I.A.L.</h2>"
 			dat += "<a href='?_src_=prefs;preference=special;task=menu'>Allocate Points</a><br></center>"
 			//Left Column
@@ -539,25 +539,47 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 			dat += "<b>Gender:</b> <a href='?_src_=prefs;preference=gender;task=input'>[gender == MALE ? "Male" : (gender == FEMALE ? "Female" : (gender == PLURAL ? "Non-binary" : "Object"))]</a><BR>"
 			dat += "<b>Age:</b> <a style='display:block;width:30px' href='?_src_=prefs;preference=age;task=input'>[age]</a><BR>"
-			dat += "<b>Top/Bottom/Switch:</b> <a href='?_src_=prefs;preference=tbs;task=input'>[tbs]</a><BR>"
-			dat += "<b>Orientation:</b> <a href='?_src_=prefs;preference=kisser;task=input'>[kisser]</a><BR>"
+			// dat += "<b>Top/Bottom/Switch:</b> <a href='?_src_=prefs;preference=tbs;task=input'>[tbs]</a><BR>"
+			// dat += "<b>Orientation:</b> <a href='?_src_=prefs;preference=kisser;task=input'>[kisser]</a><BR>"
 			dat += "</td>"
 			//Middle Column
 			dat +="<td width='30%' valign='top'>"
-			dat += "<h2>Matchmaking preferences:</h2>"
-			if(SSmatchmaking.initialized)
-				for(var/datum/matchmaking_pref/match_pref as anything in SSmatchmaking.all_match_types)
-					var/max_matches = initial(match_pref.max_matches)
-					if(!max_matches)
-						continue // Disabled.
-					var/current_value = clamp((matchmaking_prefs[match_pref] || 0), 0, max_matches)
-					var/set_name = !current_value ? "Disabled" : (max_matches == 1 ? "Enabled" : "[current_value]")
-					dat += "<b>[initial(match_pref.pref_text)]:</b> <a href='?_src_=prefs;preference=set_matchmaking_pref;matchmake_type=[match_pref]'>[set_name]</a><br>"
+
+			dat += "<h3>Flavor Text</h3>"
+			dat += "<a href='?_src_=prefs;preference=flavor_text;task=input'><b>Set Examine Text</b></a><br>"
+			if(length(features["flavor_text"]) <= 40)
+				if(!length(features["flavor_text"]))
+					dat += "\[...\]"
+				else
+					dat += "[features["flavor_text"]]"
 			else
-				dat += "<b>Loading matchmaking preferences...</b><br>"
-				dat += "<b>Refresh once the game has finished setting up...</b><br>"
-			dat += "</td>"
-			//Right column
+				dat += "[TextPreview(features["flavor_text"])]...<BR>"
+
+			dat += "<h3>OOC notes</h3>"
+			dat += "<a href='?_src_=prefs;preference=ooc_notes;task=input'><b>Set OOC notes</b></a><br>"
+			var/ooc_notes_len = length(features["ooc_notes"])
+			if(ooc_notes_len <= 40)
+				if(!ooc_notes_len)
+					dat += "\[...\]<br>"
+				else
+					dat += "[features["ooc_notes"]]<br>"
+			else
+				dat += "[TextPreview(features["ooc_notes"])]...<br>"
+
+			// dat += "<h2>Matchmaking preferences:</h2>"
+			// if(SSmatchmaking.initialized)
+			// 	for(var/datum/matchmaking_pref/match_pref as anything in SSmatchmaking.all_match_types)
+			// 		var/max_matches = initial(match_pref.max_matches)
+			// 		if(!max_matches)
+			// 			continue // Disabled.
+			// 		var/current_value = clamp((matchmaking_prefs[match_pref] || 0), 0, max_matches)
+			// 		var/set_name = !current_value ? "Disabled" : (max_matches == 1 ? "Enabled" : "[current_value]")
+			// 		dat += "<b>[initial(match_pref.pref_text)]:</b> <a href='?_src_=prefs;preference=set_matchmaking_pref;matchmake_type=[match_pref]'>[set_name]</a><br>"
+			// else
+			// 	dat += "<b>Loading matchmaking preferences...</b><br>"
+			// 	dat += "<b>Refresh once the game has finished setting up...</b><br>"
+			// dat += "</td>"
+			// //Right column
 			dat +="<td width='30%' valign='top'>"
 			dat += "<h2>Profile Picture ([pfphost]):</h2><BR>"
 			dat += "<b>Picture:</b> <a href='?_src_=prefs;preference=ProfilePicture;task=input'>[profilePicture ? "<img src=[PfpHostLink(profilePicture, pfphost)] width='125' height='auto' max-height='300'>" : "Upload a picture!"]</a><BR>"
@@ -646,8 +668,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				if(!chosen_limb_id || !(chosen_limb_id in pref_species.allowed_limb_ids))
 					chosen_limb_id = pref_species.limbs_id || pref_species.id
 				dat += "<b>Body Sprite:</b><a style='display:block;width:100px' href='?_src_=prefs;preference=bodysprite;task=input'>[chosen_limb_id]</a><br>"
-			dat += "</td>"
-			dat += APPEARANCE_CATEGORY_COLUMN
+			//dat += "</td>"
+			//dat += APPEARANCE_CATEGORY_COLUMN
 			var/use_skintones = pref_species.use_skintones			
 			var/mutant_colors
 			if((MUTCOLORS in pref_species.species_traits) || (MUTCOLORS_PARTSONLY in pref_species.species_traits))
@@ -703,6 +725,18 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						dat += "<span style='border: 1px solid #161616; background-color: #[left_eye_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=eye_left;task=input'>Change</a><br>"
 						dat += "<b>Right Color</b><br>"
 						dat += "<span style='border: 1px solid #161616; background-color: #[right_eye_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=eye_right;task=input'>Change</a><br>"
+
+			//AnimalCrossing voice
+			dat += "<h3>Vocal Bark</h3>"
+			dat += "<b>Voice Sound:</b></b><a style='display:block;width:100px' href='?_src_=prefs;preference=typing_indicator_sound;task=input'>[features_speech["typing_indicator_sound"]]</a><br>"
+			dat += "<b>Voice When:</b></b><a style='display:block;width:100px' href='?_src_=prefs;preference=typing_indicator_sound_play;task=input'>[features_speech["typing_indicator_sound_play"]]</a><br>"			
+			dat += "</b><a style='display:block;width:100px' href='?_src_=prefs;preference=typing_indicator_speed;task=input'>[features_speech["typing_indicator_speed"]]</a><br>"
+			dat += "</b><a style='display:block;width:100px' href='?_src_=prefs;preference=typing_indicator_pitch;task=input'>[features_speech["typing_indicator_pitch"]]</a><br>"
+			dat += "</b><a style='display:block;width:100px' href='?_src_=prefs;preference=typing_indicator_variance;task=input'>[features_speech["typing_indicator_variance"]]</a><br>"
+			dat += "</b><a style='display:block;width:100px' href='?_src_=prefs;preference=typing_indicator_volume;task=input'>[features_speech["typing_indicator_volume"]]</a><br>"
+			dat += "</b><a style='display:block;width:100px' href='?_src_=prefs;preference=typing_indicator_max_words_spoken;task=input'>[features_speech["typing_indicator_max_words_spoken"]]</a><br>"
+			dat += "</td>"
+
 			//  END COLUMN 2
 			dat += APPEARANCE_CATEGORY_COLUMN
 			if(HAIR in pref_species.species_traits)
