@@ -14,6 +14,7 @@
 	socks_color = "5e5e5e"
 	skin_tone = random_skin_tone()
 	hair_style = "Bedhead"
+	hair_style_2 = "Bald"
 	facial_hair_style = "Shaved"
 	hair_color = random_short_color()
 	facial_hair_color = hair_color
@@ -34,6 +35,8 @@
 	features["insect_fluff"] = "None"
 	features["flavor_text"] = "" //Oh no.
 	features["body_model"] = gender
+	features["grad_style"] = "None"
+	features["grad_style_2"] = "None"
 
 	pref_species = new /datum/species/mammal()
 	features["tail"] = "Fox"
