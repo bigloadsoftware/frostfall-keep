@@ -504,7 +504,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						if(!name)
 							name = "Character[i]"
 						dat += "<a style='white-space:nowrap;' href='?_src_=prefs;preference=changeslot;num=[i];' [i == default_slot ? "class='linkOn'" : ""]>[name]</a> "
-					dat += "</center>"
+					dat += "<hr><br>"
 
 			// dat += "<center><h2>Quest Board UID</h2>"
 			// dat += "[quester_uid]</center>"
@@ -518,14 +518,16 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			// 	llogin_msg += " ([span_alert("[SSeconomy.format_currency(cash_change, TRUE)]")] inactivity tax)"
 			// llogin_msg += "</center>"
 			// dat += llogin_msg.Join()
-			// if(CONFIG_GET(flag/roundstart_traits))
-			// 	dat += "<center>"
-			// 	if(SSquirks.initialized && !(PMC_QUIRK_OVERHAUL_2K23 in current_version))
-			// 		dat += "<a href='?_src_=prefs;preference=quirk_migrate'>CLICK HERE to migrate your old quirks to the new system!</a>"
-			// 	dat += "<a href='?_src_=prefs;preference=quirkmenu'>"
-			// 	dat += "<h2>Configure Quirks</a></h2><br></center>"
-			// 	dat += "</a>"
-			// 	dat += "<center><b>Current Quirks:</b> [get_my_quirks()]</center>"
+
+			if(CONFIG_GET(flag/roundstart_traits))
+				dat += "<center>"
+				if(SSquirks.initialized && !(PMC_QUIRK_OVERHAUL_2K23 in current_version))
+					dat += "<a href='?_src_=prefs;preference=quirk_migrate'>CLICK HERE to migrate your old quirks to the new system!</a>"
+				dat += "<a href='?_src_=prefs;preference=quirkmenu'>"
+				dat += "<h2>Configure Quirks</a></h2><br></center>"
+				dat += "</a>"
+				dat += "<center><b>Current Quirks:</b> [get_my_quirks()]</center>"
+
 			dat += "<center><h2>S.P.E.C.I.A.L.</h2>"
 			dat += "<a href='?_src_=prefs;preference=special;task=menu'>Allocate Points</a><br></center>"
 			//Left Column
@@ -644,7 +646,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						if(!name)
 							name = "Character[i]"
 						dat += "<a style='white-space:nowrap;' href='?_src_=prefs;preference=changeslot;num=[i];' [i == default_slot ? "class='linkOn'" : ""]>[name]</a> "
-					dat += "</center>"
+					dat += "<hr><br>"
 			dat += "<table><tr><td width='340px' height='300px' valign='top'>"
 			
 			//	START COLUMN 1
@@ -1037,7 +1039,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						if(!name)
 							name = "Character[i]"
 						dat += "<a style='white-space:nowrap;' href='?_src_=prefs;preference=changeslot;num=[i];' [i == default_slot ? "class='linkOn'" : ""]>[name]</a> "
-					dat += "</center>"
+					dat += "<hr><br>"
 			dat += "<table><tr><td width='340px' height='300px' valign='top'>"
 			dat += APPEARANCE_CATEGORY_COLUMN
 			dat += "<h3>Flavor Text</h3>"
@@ -1494,7 +1496,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			dat += "<h2>Preferences</h2>" //Because fuck me if preferences can't be fucking modularized and expected to update in a reasonable timeframe.
 			dat += "<b>End of round deathmatch:</b> <a href='?_src_=prefs;preference=end_of_round_deathmatch'>[end_of_round_deathmatch ? "Enabled" : "Disabled"]</a><br>"
 			dat += "<h2>Citadel Preferences</h2>" //Because fuck me if preferences can't be fucking modularized and expected to update in a reasonable timeframe.
-			dat += "<b>Widescreen:</b> <a href='?_src_=prefs;preference=widescreenpref'>[widescreenpref ? "Enabled ([CONFIG_GET(string/default_view)])" : "Disabled (15x15)"]</a><br>"
+			// dat += "<b>Widescreen:</b> <a href='?_src_=prefs;preference=widescreenpref'>[widescreenpref ? "Enabled ([CONFIG_GET(string/default_view)])" : "Disabled (15x15)"]</a><br>"
 			dat += "<b>Auto stand:</b> <a href='?_src_=prefs;preference=autostand'>[autostand ? "Enabled" : "Disabled"]</a><br>"
 			dat += "<b>Auto OOC:</b> <a href='?_src_=prefs;preference=auto_ooc'>[auto_ooc ? "Disabled" : "Enabled" ]</a><br>"
 			dat += "<b>Force Slot Storage HUD:</b> <a href='?_src_=prefs;preference=no_tetris_storage'>[no_tetris_storage ? "Enabled" : "Disabled"]</a><br>"
@@ -1602,6 +1604,25 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			dat += "<br>"
 			*/
 		if(LOADOUT_TAB)
+			//first thing we are showing the characters still
+			if(path)
+				var/savefile/S = new /savefile(path)
+				if(S)
+					dat += "<center>"
+					var/name
+					var/unspaced_slots = 0
+					for(var/i=1, i<=max_save_slots, i++)
+						unspaced_slots++
+						if(unspaced_slots > 8)
+							dat += "<br>"
+							unspaced_slots = 0
+						S.cd = "/character[i]"
+						S["real_name"] >> name
+						if(!name)
+							name = "Character[i]"
+						dat += "<a style='white-space:nowrap;' href='?_src_=prefs;preference=changeslot;num=[i];' [i == default_slot ? "class='linkOn'" : ""]>[name]</a> "
+					dat += "<hr><br>"
+
 			//calculate your gear points from the chosen item
 			gear_points = CONFIG_GET(number/initial_gear_points)
 			var/list/chosen_gear = loadout_data["SAVE_[loadout_slot]"]
