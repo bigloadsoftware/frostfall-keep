@@ -1,4 +1,4 @@
-environment = "fortune13.dme"
+environment = "frostfallKeep.dme"
 
 [langserver]
 dreamchecker = true
