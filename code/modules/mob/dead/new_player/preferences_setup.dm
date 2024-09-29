@@ -37,6 +37,13 @@
 	features["body_model"] = gender
 	features["grad_style"] = "None"
 	features["grad_style_2"] = "None"
+	features_speech["typing_indicator_speed"] = "Select Speed"
+	features_speech["typing_indicator_pitch"] = "Select Pitch"
+	features_speech["typing_indicator_variance"] = "Select Variance"
+	features_speech["typing_indicator_volume"] = "Select Volume"
+	features_speech["typing_indicator_max_words_spoken"] = "Select Max Words"
+	features_override["hair_style_2"] = "Bald"
+	features_override["grad_style_2"] = "None"
 
 	pref_species = new /datum/species/mammal()
 	features["tail"] = "Fox"

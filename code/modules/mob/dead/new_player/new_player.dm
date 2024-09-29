@@ -52,12 +52,12 @@
 	if(client?.prefs)
 		output += "<center><p>Welcome, <b>[client.prefs.be_random_name ? "random name player" : client.prefs.real_name]</b></p>"
 		output += "<center><p><a href='byond://?src=[REF(src)];show_preferences=1'>Setup Character</a></p>"
-		if(SSquirks.initialized)
-			if(!(PMC_QUIRK_OVERHAUL_2K23 in client.prefs.current_version))
-				output += "<center><p>[span_alert("You have quirks from the old system that haven't been converted!")]</p>"
-				output += "<center><p><a href='byond://?src=[REF(src)];quirkconversion=1'>Click here to do something about that!</a></p>"
-			else
-				output += "<center><p><a href='byond://?src=[REF(src)];quirks=1'>Configure Quirks!</a></p>"
+		// if(SSquirks.initialized)
+		// 	if(!(PMC_QUIRK_OVERHAUL_2K23 in client.prefs.current_version))
+		// 		output += "<center><p>[span_alert("You have quirks from the old system that haven't been converted!")]</p>"
+		// 		output += "<center><p><a href='byond://?src=[REF(src)];quirkconversion=1'>Click here to do something about that!</a></p>"
+		// 	else
+		// 		output += "<center><p><a href='byond://?src=[REF(src)];quirks=1'>Configure Quirks!</a></p>"
 
 	if(SSticker.current_state <= GAME_STATE_PREGAME)
 		output += "<p>Please be patient, the game is starting soon!</p>"
@@ -65,11 +65,11 @@
 		output += "<p><a href='byond://?src=[REF(src)];refresh_chat=1)'>(Fix Chat Window)</a></p>"
 		output += "<p><a href='byond://?src=[REF(src)];fit_viewport_lobby=1)'>(Fit Viewport)</a></p>"
 	else
-		output += "<p><a href='byond://?src=[REF(src)];manifest=1'>View the Crew Manifest</a></p>"
-		output += "<p><a href='byond://?src=[REF(src)];directory=1'>View Character Directory</a></p>"
+		output += "<p><a href='byond://?src=[REF(src)];manifest=1'>Examine the Occupation Scroll</a></p>"
+		// output += "<p><a href='byond://?src=[REF(src)];directory=1'>View Character Directory</a></p>"
 		output += "<p><a href='byond://?src=[REF(src)];late_join=1'>Join Game!</a></p>"
 		output += "<p>[LINKIFY_READY("Observe", PLAYER_READY_TO_OBSERVE)]</p>"
-		output += "<p><a href='byond://?src=[REF(src)];join_as_creature=1'>Join as Simple Creature!</a></p>"
+		// output += "<p><a href='byond://?src=[REF(src)];join_as_creature=1'>Join as Simple Creature!</a></p>"
 		output += "<p><a href='byond://?src=[REF(src)];refresh_chat=1)'>(Fix Chat Window)</a></p>"
 		output += "<p><a href='byond://?src=[REF(src)];fit_viewport_lobby=1)'>(Fit Viewport)</a></p>"
 
