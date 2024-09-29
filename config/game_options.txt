@@ -20,7 +20,7 @@ OOC_DURING_ROUND
 
 ## EMOJI ###
 ## Comment this out if you want to disable emojis
-#EMOJIS
+EMOJIS
 
 ## MOB MOVEMENT ###
 
