@@ -15,11 +15,6 @@
 	name = "grey gloves"
 	path = /obj/item/clothing/gloves/color/grey
 
-/datum/gear/gloves/chameleon
-	name = "chameleon gloves"
-	path = /obj/item/clothing/gloves/chameleon
-	cost = 0
-
 /datum/gear/gloves/brown
 	name = "brown gloves"
 	path = /obj/item/clothing/gloves/color/brown
@@ -27,18 +22,6 @@
 /datum/gear/gloves/leather
 	name = "leather gloves"
 	path = /obj/item/clothing/gloves/f13/leather
-
-/datum/gear/gloves/military
-	name = "military gloves"
-	path = /obj/item/clothing/gloves/f13/military
-
-/datum/gear/gloves/rifleman
-	name = "rifleman gloves"
-	path = /obj/item/clothing/gloves/rifleman
-
-/datum/gear/gloves/latex
-	name = "latex gloves"
-	path = /obj/item/clothing/gloves/color/latex
 
 /datum/gear/gloves/handwraps
 	name = "handwraps"
