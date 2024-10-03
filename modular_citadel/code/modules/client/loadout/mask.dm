@@ -54,27 +54,9 @@
 	name = "scarecrow mask"
 	path = /obj/item/clothing/mask/scarecrow
 
-/datum/gear/mask/paper
-	name = "paper mask"
-	path = /obj/item/clothing/mask/paper
-	cost = 1	//costs one because get owned max dennison
-
 /datum/gear/mask/balaclava
 	name = "balaclava"
 	path = /obj/item/clothing/mask/balaclava
-
-/datum/gear/mask/rusbalaclava
-	name = "russian balaclava"
-	path = /obj/item/clothing/mask/russian_balaclava
-
-/datum/gear/mask/gasmask
-	name= "gas mask"
-	path = /obj/item/clothing/mask/gas
-
-/datum/gear/mask/gasmask/chameleon
-	name = "voice changing mask"
-	path = /obj/item/clothing/mask/chameleon
-	cost = 1
 
 /// Bandanas ///
 
@@ -109,44 +91,7 @@
 	path = /obj/item/clothing/mask/bandana/skull
 	cost = 1
 
-/datum/gear/mask/bandana/momento
-	name = "momento bandana"
-	path = /obj/item/clothing/mask/bandana/momentobandana
-
-/datum/gear/mask/bandana/outlaw
-	name = "outlaw bandana"
-	path = /obj/item/clothing/mask/bandana/legion/legdecan
-
-/datum/gear/mask/bandana/bandito
-	name = "bandito bandana"
-	path = /obj/item/clothing/mask/bandana/legion/legvet
-
-/datum/gear/mask/bandana/thieves
-	name = "thieves bandana"
-	path = /obj/item/clothing/mask/bandana/legion/legrecruit
-
-/datum/gear/mask/bandana/desperado
-	name = "desperado bandana"
-	path = /obj/item/clothing/mask/bandana/legion/camp
-
 /// Misc
-
-/datum/gear/mask/moustache
-	name = "fake moustache"
-	path = /obj/item/clothing/mask/fakemoustache
-	subcategory = LOADOUT_SUBCATEGORY_MASK_GENERAL
-
-/datum/gear/mask/broken_goner_mask
-	name = "aesthetic gas mask"
-	path = /obj/item/clothing/mask/gas/goner/aesthetic
-
-/datum/gear/mask/clown_hat
-	name = "clown gas mask"
-	path = /obj/item/clothing/mask/gas/clown_hat
-
-/datum/gear/mask/sexy_clown
-	name = "sexy clown gas mask"
-	path = /obj/item/clothing/mask/gas/sexyclown
 
 /datum/gear/mask/kitsune
 	name = "white kitsune mask"
@@ -155,7 +100,3 @@
 /datum/gear/mask/kitsune/black
 	name = "black kitsune mask"
 	path = /obj/item/clothing/mask/kitsune/black
-
-
-
-

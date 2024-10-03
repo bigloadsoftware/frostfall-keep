@@ -66,31 +66,6 @@
 	name = "simple apron"
 	path = /obj/item/clothing/neck/apron/labor
 
-/datum/gear/neck/stethe
-	name = "stethoscope"
-	path = /obj/item/clothing/neck/stethoscope
-
-/datum/gear/neck/chameleon
-	name = "chameleon neckpiece"
-	subcategory = LOADOUT_SUBCATEGORY_NECK_GENERAL
-	path = /obj/item/clothing/neck/cloak/chameleon
-	cost = 0
-
-/datum/gear/neck/blacktie
-	name = "black tie"
-	subcategory = LOADOUT_SUBCATEGORY_NECK_GENERAL
-	path = /obj/item/clothing/neck/tie/black
-
-/datum/gear/neck/bluetie
-	name = "blue tie"
-	subcategory = LOADOUT_SUBCATEGORY_NECK_GENERAL
-	path = /obj/item/clothing/neck/tie/blue
-
-/datum/gear/neck/redtie
-	name = "red tie"
-	subcategory = LOADOUT_SUBCATEGORY_NECK_GENERAL
-	path = /obj/item/clothing/neck/tie/red
-
 /datum/gear/neck/scarf
 	name = "white scarf"
 	subcategory = LOADOUT_SUBCATEGORY_NECK_SCARVES
@@ -139,10 +114,6 @@
 /datum/gear/neck/scarf/stripedgreen
 	name = "striped green scarf"
 	path = /obj/item/clothing/neck/stripedgreenscarf
-
-/datum/gear/neck/scarf/desertscarf
-	name = "desert scarf"
-	path = /obj/item/clothing/neck/scarf/cptpatriot
 
 /datum/gear/neck/scarf/laika
 	name = "Scarf-Cape w/ Holster"
@@ -193,23 +164,9 @@
 	name = "Tricolor Scarf-Cape w/ Holster"
 	path = /obj/item/clothing/neck/laika/tricolor
 
-/datum/gear/neck/scarf/laika/starspangledbanner
-	name = "Star Spangled Scarf-Cape w/ Holster"
-	path = /obj/item/clothing/neck/laika/starspangledbanner
-
 /datum/gear/neck/scarf/laika/striped
 	name = "Striped Scarf-Cape w/ Holster"
 	path = /obj/item/clothing/neck/laika/striped
-
-/datum/gear/neck/medolier
-	name = "medolier"
-	path = /obj/item/storage/belt/medolier
-	cost = 2
-
-/datum/gear/neck/bandolier
-	name = "bandolier"
-	path = /obj/item/storage/belt/bandolier
-	cost = 2
 
 /datum/gear/neck/shoulderholster
 	name = "standard holster"
@@ -346,11 +303,6 @@
 	path = /obj/item/clothing/neck/tie/inf_cloak
 	cost = 0
 
-/datum/gear/neck/carrotcloak
-	name = "carrot cloak"
-	path = /obj/item/clothing/neck/tie/carrotcloak
-	cost = 0
-
 /datum/gear/neck/festive
 	name = "festive cloak"
 	path = /obj/item/clothing/neck/tie/festive
@@ -364,11 +316,6 @@
 /datum/gear/neck/wintergreencloak
 	name = "winter green cloak"
 	path = /obj/item/clothing/neck/tie/wintergreencloak
-	cost = 0
-
-/datum/gear/neck/flagcape
-	name = "american flag cape"
-	path = /obj/item/clothing/neck/tie/flagcape
 	cost = 0
 
 /datum/gear/neck/fzuliecloak
@@ -474,86 +421,6 @@
 /datum/gear/neck/domcape
 	name = "Dominia Cape"
 	path = /obj/item/clothing/neck/tie/aurora/dominia_cape_consular
-	cost = 0
-
-/datum/gear/neck/polcape
-	name = "Polish Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories
-	cost = 0
-
-/datum/gear/neck/icelandcape
-	name = "Icelandic Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no2
-	cost = 0
-
-/datum/gear/neck/finlandcape
-	name = "Finnish Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no3
-	cost = 0
-
-/datum/gear/neck/norwaycape
-	name = "Norwegian Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no4
-	cost = 0
-
-/datum/gear/neck/natogermanycape
-	name = "West German Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no5
-	cost = 0
-
-/datum/gear/neck/frcape
-	name = "French Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no6
-	cost = 0
-
-/datum/gear/neck/denmcape
-	name = "Danish Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no7
-	cost = 0
-
-/datum/gear/neck/swedcape
-	name = "Swedish Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no8
-	cost = 0
-
-/datum/gear/neck/tsarcape
-	name = "Tsar Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no9
-	cost = 0
-
-/datum/gear/neck/irecape
-	name = "Irish Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no10
-	cost = 0
-
-/datum/gear/neck/brazcape
-	name = "Brazilian Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no11
-	cost = 0
-
-/datum/gear/neck/cancape
-	name = "Canadian Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no12
-	cost = 0
-
-/datum/gear/neck/ukcape
-	name = "British Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no13
-	cost = 0
-
-/datum/gear/neck/auscape
-	name = "Australian Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no14
-	cost = 0
-
-/datum/gear/neck/nzeacape
-	name = "New Zealand Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no15
-	cost = 0
-
-/datum/gear/neck/italiancape
-	name = "Italian Cape"
-	path = /obj/item/clothing/neck/tie/flagcapesaccessories/no16
 	cost = 0
 
 /datum/gear/neck/thundercape
