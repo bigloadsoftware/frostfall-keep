@@ -21,11 +21,11 @@
 
 /obj/item/metaldetector/proc/salvage_scan_pulse(turf/T, range = world.view)
 	var/list/salvage = list()
-	for(var/turf/open/indestructible/ground/outside/desert/M in range(range, T))
+	for(var/turf/open/indestructible/ground/outside/dirt/harsh/M in range(range, T))
 		if(M.salvage)
 			salvage += M
 	if(LAZYLEN(salvage))
-		for(var/turf/open/indestructible/ground/outside/desert/M in salvage)
+		for(var/turf/open/indestructible/ground/outside/dirt/harsh/M in salvage)
 			var/obj/effect/temp_visual/detector_overlay/oldC = locate(/obj/effect/temp_visual/detector_overlay) in M
 			if(oldC)
 				qdel(oldC)

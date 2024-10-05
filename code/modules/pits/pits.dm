@@ -9,7 +9,7 @@
 	icon_state = "pit"
 	mouse_opacity = 0
 	layer = HIGH_TURF_LAYER
-	var/turf/open/indestructible/ground/outside/desert/parent
+	var/turf/open/indestructible/ground/outside/dirt/harsh/parent
 
 /obj/dugpit/New(lnk)
 	..()
@@ -35,7 +35,7 @@
 	return GM
 */
 
-/turf/open/indestructible/ground/outside/desert/proc/handle_item_insertion(obj/item/W, mob/user)
+/turf/open/indestructible/ground/outside/dirt/harsh/proc/handle_item_insertion(obj/item/W, mob/user)
 	if(!istype(W))
 		return
 
@@ -72,7 +72,7 @@
 				qdel(W)
 
 
-/turf/open/indestructible/ground/outside/desert/attack_hand(mob/living/carbon/human/M)
+/turf/open/indestructible/ground/outside/dirt/harsh/attack_hand(mob/living/carbon/human/M)
 	if (dug)
 		if (storedindex==0)
 			M.show_message(span_notice("There is nothing in the pit!"), 1)
@@ -83,7 +83,7 @@
 			storedindex--
 			I.forceMove(get_turf(M))
 
-/turf/open/indestructible/ground/outside/desert/proc/finishBury(mob/user)
+/turf/open/indestructible/ground/outside/dirt/harsh/proc/finishBury(mob/user)
 	if(!(gravebody in src.loc))
 		gravebody = null
 	user.show_message(span_notice("You cover the hole with dirt."), 1)
@@ -98,14 +98,14 @@
 		mypit.icon_state = "mound_small"
 		update_icon()
 
-/turf/open/indestructible/ground/outside/desert/proc/finishBody()
+/turf/open/indestructible/ground/outside/dirt/harsh/proc/finishBody()
 	gravebody.loc = mypit
 	unburylevel = 0
 
-/turf/open/indestructible/ground/outside/desert/proc/finishCoffin()
+/turf/open/indestructible/ground/outside/dirt/harsh/proc/finishCoffin()
 	gravecoffin.loc = mypit
 
-/turf/open/indestructible/ground/outside/desert/attackby(obj/item/W, mob/user, params)
+/turf/open/indestructible/ground/outside/dirt/harsh/attackby(obj/item/W, mob/user, params)
 
 	if(!W || !user)
 		return 0
@@ -144,7 +144,7 @@
 			if (gravebody!=null)
 				user.show_message(span_notice("You start covering the body in the hole with dirt..."), 1)
 				if (do_after(user, (120 * digging_speed), target=gravebody))
-					if(istype(src, /turf/open/indestructible/ground/outside/desert))
+					if(istype(src, /turf/open/indestructible/ground/outside/dirt/harsh))
 						finishBury(user)
 						finishBody()
 				/*for(var/mob/H in oview(src, 7))
@@ -158,13 +158,13 @@
 			else if (gravecoffin != null)
 				user.show_message(span_notice("You start burying the coffin..."), 1)
 				if (do_after(user, (120 * digging_speed), target=gravebody))
-					if(istype(src, /turf/open/indestructible/ground/outside/desert))
+					if(istype(src, /turf/open/indestructible/ground/outside/dirt/harsh))
 						finishBury(user)
 						finishCoffin()
 			else
 				user.show_message(span_notice("You start covering the hole with dirt..."), 1)
 				if(do_after(user, (120 * digging_speed), target = src))
-					if(istype(src, /turf/open/indestructible/ground/outside/desert))
+					if(istype(src, /turf/open/indestructible/ground/outside/dirt/harsh))
 						finishBury(user)
 
 
@@ -172,7 +172,7 @@
 			user.show_message(span_notice("You start digging..."), 1)
 			playsound(src, 'sound/effects/shovel_dig.ogg', 50, 1) //FUCK YO RUSTLE I GOT'S THE DIGS SOUND HERE
 			if(do_after(user, (50 * digging_speed), target = src))
-				if(istype(src, /turf/open/indestructible/ground/outside/desert))
+				if(istype(src, /turf/open/indestructible/ground/outside/dirt/harsh))
 					if(pit_sand < 1)
 						user.show_message(span_notice("The ground has been already dug up!"), 1)
 						return
@@ -209,7 +209,7 @@
 			return FALSE
 
 
-/turf/open/indestructible/ground/outside/desert/proc/gets_dug(mob/user)
+/turf/open/indestructible/ground/outside/dirt/harsh/proc/gets_dug(mob/user)
 	if(dug)
 		return
 	for (var/obj/item/I in pitcontents)

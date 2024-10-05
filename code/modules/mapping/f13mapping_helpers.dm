@@ -4,7 +4,7 @@
 
 /obj/effect/baseturf_helper/wasteland
 	name = "wasteland baseturf editor"
-	baseturf = /turf/open/indestructible/ground/outside/desert
+	baseturf = /turf/open/indestructible/ground/outside/dirt/harsh
 
 /obj/effect/baseturf_helper/mountain
 	name = "mountain baseturf editor"

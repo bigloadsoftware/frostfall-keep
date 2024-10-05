@@ -274,7 +274,7 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 	/obj/item/stack/ore/blackpowder/twenty = 10,))
 // DESERT
 
-/turf/open/indestructible/ground/outside/desert
+/turf/open/indestructible/ground/outside/dirt/harsh
 	name = "desert"
 	icon_state = "wasteland"
 //	step_sounds = list("human" = "dirtfootsteps")
@@ -297,7 +297,7 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 	var/unburylevel = 0
 
 //For sculpting with more precision, the random picking does not work very well. Slowdown 0.5 instead of 1. No random armor or gunpowder or titanium. Use directions for control. - Pebbles
-/turf/open/indestructible/ground/outside/desert/sonora
+/turf/open/indestructible/ground/outside/dirt/harsh/sonora
 	icon = 'icons/fallout/turfs/wasteland.dmi'
 	icon_state = "desertsmooth"
 	slowdown = 0.3
@@ -305,23 +305,23 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 	barefootstep = FOOTSTEP_LOOSE_SAND
 	clawfootstep = FOOTSTEP_LOOSE_SAND
 
-/turf/open/indestructible/ground/outside/desert/sonora/coarse
+/turf/open/indestructible/ground/outside/dirt/harsh/sonora/coarse
 	icon_state = "desertcoarse"
 	slowdown = 0.6
 
-/turf/open/indestructible/ground/outside/desert/sonora/coarse2
+/turf/open/indestructible/ground/outside/dirt/harsh/sonora/coarse2
 	icon_state = "desertcoarse2"
 	slowdown = 0.6
 
-/turf/open/indestructible/ground/outside/desert/sonora/rough
+/turf/open/indestructible/ground/outside/dirt/harsh/sonora/rough
 	icon_state = "desertrough"
 	slowdown = 0.4
 
-/turf/open/indestructible/ground/outside/desert/harsh
+/turf/open/indestructible/ground/outside/dirt/harsh/harsh
 	icon_state = "wasteland"
 	icon = 'icons/fallout/turfs/ground_harsh.dmi'
 
-/turf/open/indestructible/ground/outside/desert/Initialize()
+/turf/open/indestructible/ground/outside/dirt/harsh/Initialize()
 	. = ..()
 	if(prob(2))
 		var/obj/derp = pickweight(GLOB.dirt_loots)
@@ -343,7 +343,7 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 					DS.pixel_x = -32
 			DS.dir = dir = turn(direction, 180)
 
-/turf/open/indestructible/ground/outside/desert/harsh/Initialize()
+/turf/open/indestructible/ground/outside/dirt/harsh/harsh/Initialize()
 	. = ..()
 	if(prob(2))
 		var/obj/derp = pickweight(GLOB.dirt_loots)
@@ -371,7 +371,7 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 /obj/effect/overlay/desert/sonora/edge/corner
 	icon_state = "desertcorner"
 
-/turf/open/indestructible/ground/outside/desert/MakeSlippery(wet_setting, min_wet_time, wet_time_to_add, max_wet_time, permanent)
+/turf/open/indestructible/ground/outside/dirt/harsh/MakeSlippery(wet_setting, min_wet_time, wet_time_to_add, max_wet_time, permanent)
 	return //I mean, it makes sense that deserts don't get slippery, I guess... :(
 
 /turf/open/indestructible/ground/outside/dirt
