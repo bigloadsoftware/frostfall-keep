@@ -108,7 +108,7 @@
 	spawnHiddenStashes = TRUE
 	greeble = OUTSIDE_JUNK_DISTRIBUTION
 
-/turf/open/indestructible/ground/outside/desert
+/turf/open/indestructible/ground/outside/dirt/harsh
 	spawnPlants = TRUE
 	spawnHiddenStashes = TRUE
 	greeble = OUTSIDE_JUNK_DISTRIBUTION
