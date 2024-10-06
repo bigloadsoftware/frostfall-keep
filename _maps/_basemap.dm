@@ -4,6 +4,8 @@
 
 #ifndef LOWMEMORYMODE
 	#ifdef ALL_MAPS
+		#include "map_files/frostfallkeep/frostfallkeep.dmm"
+		/*
 		#include "map_files/coyote_bayou/Dungeons.dmm"
 		#include "map_files/coyote_bayou/Texarkana_underground.dmm"
 		#include "map_files/coyote_bayou/Nash_and_Texarkana.dmm"
@@ -16,6 +18,7 @@
 		#include "map_files/coyote_bayou/Garland-City.dmm"
 		#include "map_files/coyote_bayou/Newboston.dmm"
 		#include "map_files/coyote_bayou/Newboston-Upper.dmm"
+		*/
 		#ifdef TRAVISBUILDING
 			#include "templates.dm"
 		#endif

@@ -2086,7 +2086,7 @@
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 9
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "gf" = (
 /obj/structure/table/wood/bar,
 /obj/item/pizzabox/meat,
@@ -2094,7 +2094,7 @@
 	pixel_y = 10
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "gh" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/doublesheetbrown,
@@ -2102,25 +2102,25 @@
 /area/f13/underground/cave/vault/fourfivefour)
 "gj" = (
 /turf/open/floor/plasteel/white/corner,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "go" = (
 /obj/machinery/vending/hydroseeds,
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 5
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "gw" = (
 /obj/machinery/seed_extractor,
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 9
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "gx" = (
 /obj/structure/chair/comfy/purple{
 	dir = 1
 	},
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "gA" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/drinks{
@@ -2131,7 +2131,7 @@
 /obj/item/storage/box/drinkingglasses,
 /obj/item/storage/box/drinkingglasses,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "gE" = (
 /obj/machinery/smartfridge/bottlerack/gardentool,
 /obj/item/reagent_containers/glass/bucket/wood,
@@ -2149,14 +2149,14 @@
 /obj/structure/bed/double,
 /obj/item/bedsheet/doublesheetblue,
 /turf/open/floor/carpet/royalblue,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "gO" = (
 /turf/open/floor/plating/beach/coastline_b,
 /area/f13/underground/mountain)
 "gQ" = (
 /obj/machinery/computer/operating,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "gV" = (
 /turf/closed/indestructible/fakedoor{
 	name = "CentCom Warehouse"
@@ -2166,7 +2166,7 @@
 /turf/open/floor/plasteel/white/corner{
 	dir = 8
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "gY" = (
 /obj/machinery/microwave/white_stove,
 /turf/open/floor/plasteel/f13/whitemarble,
@@ -2176,7 +2176,7 @@
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "ha" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/grass,
@@ -2184,12 +2184,12 @@
 "hb" = (
 /obj/machinery/iv_drip/telescopic,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hc" = (
 /obj/structure/table/wood/poker,
 /obj/item/toy/cards/deck,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hd" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/indestructible/riveted,
@@ -2199,11 +2199,11 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hl" = (
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hq" = (
 /obj/machinery/shower{
 	dir = 1
@@ -2212,7 +2212,7 @@
 	color = "#ffc0cb"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hs" = (
 /obj/effect/landmark/prisonwarp,
 /turf/open/floor/plasteel/vault{
@@ -2248,7 +2248,7 @@
 /obj/machinery/light/small,
 /obj/structure/table/wood/poker,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hy" = (
 /obj/item/pizzabox/pineapple,
 /obj/structure/table/wood/bar,
@@ -2256,7 +2256,7 @@
 	pixel_y = 10
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hA" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -2280,7 +2280,7 @@
 /turf/open/floor/plasteel/white/side{
 	dir = 6
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hK" = (
 /turf/open/floor/f13{
 	icon_state = "floorrustysolid"
@@ -2289,7 +2289,7 @@
 "hL" = (
 /obj/structure/table/glass,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hN" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/drinks/beer{
@@ -2300,7 +2300,7 @@
 /obj/item/reagent_containers/food/drinks/shaker,
 /obj/item/reagent_containers/glass/rag,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hP" = (
 /obj/structure/fluff/beach_towel,
 /obj/structure/fluff/beach_towel,
@@ -2316,11 +2316,11 @@
 /obj/structure/bed/double,
 /obj/item/bedsheet/doublesheetpurple,
 /turf/open/floor/carpet/purple,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hT" = (
 /obj/machinery/chem_dispenser,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "hX" = (
 /turf/closed/indestructible/fakedoor{
 	name = "CentCom Cell"
@@ -3084,9 +3084,6 @@
 	},
 /turf/open/floor/circuit/green,
 /area/tdome/arena)
-"kc" = (
-/turf/open/floor/carpet/blue,
-/area/f13/building)
 "ke" = (
 /obj/machinery/light,
 /turf/open/floor/grass,
@@ -3142,7 +3139,7 @@
 "kv" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "kw" = (
 /turf/open/floor/plasteel/brown,
 /area/f13/underground/mountain)
@@ -3248,7 +3245,7 @@
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 8
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "kO" = (
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -3312,7 +3309,7 @@
 	id = "OwenHideawayS"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "le" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -3324,7 +3321,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 8
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "lk" = (
 /obj/structure/christmas/xmaslights{
 	dir = 1
@@ -3336,7 +3333,7 @@
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "ln" = (
 /obj/machinery/firealarm{
 	dir = 1;
@@ -3516,7 +3513,7 @@
 /turf/open/floor/plasteel/white/side{
 	dir = 4
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "lR" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
@@ -3690,12 +3687,12 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/stellar,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "mB" = (
 /obj/machinery/light,
 /obj/structure/christmas/xmaslights,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "mC" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
@@ -3867,14 +3864,14 @@
 "nb" = (
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/fakespace,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "ne" = (
 /obj/structure/closet/crate/wooden{
 	pixel_y = 10
 	},
 /obj/item/stack/sheet/mineral/wood/fifty,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "ni" = (
 /turf/open/floor/plasteel/grimy,
 /area/tdome/tdomeobserve)
@@ -4135,7 +4132,7 @@
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 6
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "nR" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -4774,7 +4771,7 @@
 	pixel_x = 10
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "pr" = (
 /obj/machinery/light{
 	dir = 1;
@@ -4853,7 +4850,7 @@
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 9
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "pI" = (
 /obj/structure/flora/junglebush/b,
 /turf/open/floor/grass,
@@ -5308,7 +5305,7 @@
 	pixel_y = 10
 	},
 /turf/open/floor/carpet/purple,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "rb" = (
 /turf/closed/indestructible/rock,
 /area/f13/underground/mountain)
@@ -5604,7 +5601,7 @@
 /turf/open/floor/plasteel/white/side{
 	dir = 10
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "sa" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -5647,7 +5644,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 5
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "so" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/machinery/light{
@@ -5884,7 +5881,7 @@
 	name = "hot spring";
 	color = "#BBBBBB"
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "sY" = (
 /obj/machinery/msgterminal/command{
 	dir = 8;
@@ -5946,7 +5943,7 @@
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "to" = (
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
@@ -6247,7 +6244,7 @@
 /turf/open/floor/plasteel/white/corner{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "uf" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/vault{
@@ -6484,7 +6481,7 @@
 	name = "hot spring";
 	color = "#BBBBBB"
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "uK" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/wiki/barman_recipes,
@@ -6806,12 +6803,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floordirty"
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "vu" = (
 /turf/open/floor/plasteel/white/side{
 	dir = 8
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "vy" = (
 /obj/machinery/light{
 	dir = 1
@@ -7008,7 +7005,7 @@
 /obj/structure/table/glass,
 /obj/item/flashlight/lamp,
 /turf/open/floor/carpet/royalblue,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "we" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/darkred/corner{
@@ -7066,7 +7063,7 @@
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "wq" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -7239,7 +7236,7 @@
 "wO" = (
 /obj/structure/table/glass,
 /turf/open/floor/fakespace,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "wP" = (
 /obj/structure/fireplace{
 	dir = 8
@@ -7360,7 +7357,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 5
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "xC" = (
 /obj/machinery/vending/wallmed{
 	name = "Emergency NanoMed";
@@ -7377,7 +7374,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floordirty"
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "xH" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/monitor/secret,
@@ -7402,7 +7399,7 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/open/floor/carpet/blue,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "xN" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/terminal{
@@ -7423,12 +7420,12 @@
 /obj/item/stack/sheet/mineral/wood/fifty,
 /obj/item/lighter/fusion,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "xQ" = (
 /turf/open/floor/plasteel/white/corner{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "xR" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
 	dir = 4
@@ -7467,7 +7464,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "ya" = (
 /turf/open/floor/carpet/green,
 /area/f13/underground/mountain)
@@ -7598,11 +7595,11 @@
 "yV" = (
 /obj/structure/table/glass,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "yX" = (
 /obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "yZ" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
@@ -7652,14 +7649,14 @@
 "zm" = (
 /obj/structure/bookcase/manuals/research_and_development,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "zn" = (
 /turf/open/indestructible/ground/inside/mountain,
 /area/centcom/evac)
 "zp" = (
 /obj/machinery/vending/medical/nash,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "zr" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/secure_data,
@@ -7734,7 +7731,7 @@
 "zN" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "zS" = (
 /obj/structure/chair/bench,
 /obj/effect/decal/cleanable/dirt,
@@ -7763,13 +7760,13 @@
 "zV" = (
 /obj/structure/christmas/xmaslights,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Ab" = (
 /obj/structure/chair/left{
 	dir = 4
 	},
 /turf/open/floor/carpet/stellar,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Ac" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/ausbushes/brflowers,
@@ -8007,7 +8004,7 @@
 /obj/item/stack/sheet/mineral/wood/fifty,
 /obj/item/storage/box/matches,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Be" = (
 /obj/effect/fake_stairs/south,
 /turf/open/floor/plating/beach/sand,
@@ -8073,7 +8070,7 @@
 "BB" = (
 /obj/machinery/sleeper/clockwork,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "BE" = (
 /turf/open/floor/holofloor/beach/coast_t,
 /area/f13/underground/mountain)
@@ -8086,7 +8083,7 @@
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "BH" = (
 /obj/vehicle/ridden/secway,
 /obj/machinery/button/door{
@@ -8116,7 +8113,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "BL" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/terminal{
@@ -8125,12 +8122,12 @@
 	},
 /obj/machinery/light/small,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "BM" = (
 /obj/structure/table/glass,
 /obj/machinery/reagentgrinder,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "BO" = (
 /obj/machinery/button/door{
 	id = "XCCQMLoaddoor2";
@@ -8156,7 +8153,7 @@
 "BQ" = (
 /obj/machinery/door/airlock/ckey/highsecurity/andy,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "BR" = (
 /obj/machinery/light/broken,
 /obj/structure/flora/grass/jungle,
@@ -8170,7 +8167,7 @@
 /area/f13/underground/mountain)
 "BV" = (
 /turf/open/floor/carpet/purple,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "BZ" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 8
@@ -8442,7 +8439,7 @@
 	termtag = "Security"
 	},
 /turf/open/floor/carpet/blue,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "CZ" = (
 /obj/structure/barricade/sandbags,
 /obj/structure/barricade/wooden,
@@ -8516,7 +8513,7 @@
 	light_color = "#e8eaff"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Dn" = (
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
@@ -8530,7 +8527,7 @@
 /area/centcom/evac)
 "Dq" = (
 /turf/open/floor/plasteel/white/side,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Dr" = (
 /obj/structure/simple_door/metal/dirtystore,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -8539,7 +8536,7 @@
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
 /obj/structure/table/wood/bar,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Dx" = (
 /obj/machinery/light{
 	dir = 8
@@ -8547,7 +8544,7 @@
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 8
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Dy" = (
 /obj/structure/barricade/sandbags,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -8580,7 +8577,7 @@
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "DS" = (
 /obj/structure/curtain{
 	color = "#ffc0cb"
@@ -8621,7 +8618,7 @@
 	name = "hot spring";
 	color = "#BBBBBB"
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "DV" = (
 /obj/machinery/light/small,
 /obj/structure/chair/bench,
@@ -8636,7 +8633,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/stellar,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "DY" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/indestructible/ground/inside/mountain,
@@ -8644,11 +8641,11 @@
 "Eb" = (
 /obj/structure/campfire/stove,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Ec" = (
 /obj/structure/rack/shelf_metal,
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Eg" = (
 /obj/machinery/light/small/broken{
 	dir = 4
@@ -8669,7 +8666,7 @@
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
 /turf/open/floor/carpet/blue,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Es" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner,
 /obj/effect/turf_decal/stripes/corner{
@@ -8697,7 +8694,7 @@
 	name = "hot spring";
 	color = "#BBBBBB"
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Eu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/stool/retro/black,
@@ -8716,7 +8713,7 @@
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "EB" = (
 /obj/structure/simple_door/metal/dirtystore,
 /obj/structure/decoration/rag,
@@ -8769,7 +8766,7 @@
 "EP" = (
 /obj/machinery/dna_scannernew,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "EQ" = (
 /obj/structure/flora/ausbushes/pointybush,
 /obj/structure/flora/wasteplant/wild_mesquite,
@@ -8810,7 +8807,7 @@
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Fc" = (
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/underground/cave/vault/fourfivefour)
@@ -8840,7 +8837,7 @@
 	light_color = "#706891"
 	},
 /turf/open/floor/plasteel/white/corner,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Fj" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/grass/jungle,
@@ -8879,7 +8876,7 @@
 /obj/item/stack/sheet/mineral/wood/fifty,
 /obj/item/lighter/fusion,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Fp" = (
 /obj/structure/fluff/beach_towel{
 	dir = 4
@@ -8906,7 +8903,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 5
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "FK" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 9
@@ -8973,13 +8970,13 @@
 "Gh" = (
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/whiteblue/side,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Gj" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/white/corner{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Gk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -8987,16 +8984,12 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
-"Gp" = (
-/obj/machinery/light,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "Gr" = (
 /obj/structure/simple_door/bunker/glass,
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floordirty"
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Gs" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/plasteel/f13/whitemarble,
@@ -9057,7 +9050,7 @@
 "GI" = (
 /obj/machinery/light,
 /turf/open/floor/carpet/blue,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "GJ" = (
 /obj/structure/flora/ausbushes/pointybush,
 /obj/structure/flora/wild_plant/flower/blue_two,
@@ -9075,7 +9068,7 @@
 /area/tdome/tdomeobserve)
 "GN" = (
 /turf/open/floor/fakespace,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "GP" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -9088,7 +9081,7 @@
 /obj/item/stack/sheet/mineral/wood/fifty,
 /obj/item/storage/box/matches,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "GR" = (
 /obj/structure/window,
 /turf/open/floor/plasteel/f13/whitemarble,
@@ -9110,17 +9103,17 @@
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "GU" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "GV" = (
 /obj/structure/bookcase/manuals/engineering,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "GY" = (
 /obj/effect/decal/cleanable/glass,
 /obj/structure/flora/grass/jungle,
@@ -9148,14 +9141,14 @@
 /obj/item/reagent_containers/spray/cleaner,
 /obj/item/crafting/abraxo,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Hf" = (
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/one)
 "Hg" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/plasteel/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Hi" = (
 /obj/structure/wreck/trash/two_tire,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -9186,7 +9179,7 @@
 "Hp" = (
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/plasteel/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Hq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -9238,7 +9231,7 @@
 "HF" = (
 /obj/structure/table/wood/fancy/blue,
 /turf/open/floor/carpet/stellar,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "HJ" = (
 /obj/structure/table/reinforced,
 /obj/structure/barricade/bars,
@@ -9251,7 +9244,7 @@
 /turf/open/floor/plasteel/whiteblue/corner{
 	dir = 4
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "HN" = (
 /obj/structure/chair,
 /obj/effect/landmark/thunderdome/observe,
@@ -9289,7 +9282,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "HX" = (
 /obj/effect/decal/cleanable/glass,
 /obj/structure/flora/grass/jungle,
@@ -9303,7 +9296,7 @@
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Id" = (
 /obj/machinery/computer/security/telescreen,
 /obj/structure/table/reinforced,
@@ -9643,7 +9636,7 @@
 "Jq" = (
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/plasteel/whitegreen/side,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Js" = (
 /turf/open/floor/plasteel/red/corner{
 	dir = 8
@@ -9693,7 +9686,7 @@
 "JA" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "JD" = (
 /obj/machinery/door/poddoor{
 	id = "thunderdomehea";
@@ -9705,7 +9698,7 @@
 "JE" = (
 /obj/machinery/smartfridge/bottlerack,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "JF" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -9721,7 +9714,7 @@
 	light_color = "#706891"
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "JI" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 24
@@ -9849,7 +9842,7 @@
 /obj/structure/table/glass,
 /obj/item/flashlight/lamp,
 /turf/open/floor/carpet/purple,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Ky" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2";
@@ -9885,7 +9878,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floordirty"
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "KD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/poker,
@@ -10236,7 +10229,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/blue,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "LX" = (
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
@@ -10275,11 +10268,11 @@
 /turf/open/floor/plasteel/white/side{
 	dir = 9
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Ml" = (
 /obj/structure/bookcase,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Mo" = (
 /obj/structure/simple_door/dirtyglass,
 /obj/item/mine/stun,
@@ -10300,7 +10293,7 @@
 /area/f13/underground/cave/vault/fourfivefour)
 "Mx" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Mz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/prewar/poster72{
@@ -10314,7 +10307,7 @@
 "MF" = (
 /obj/machinery/smartfridge/food,
 /turf/closed/wall/r_wall/f13/vault,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "MH" = (
 /obj/structure/ladder/unbreakable/binary/unlinked,
 /turf/open/indestructible/airblock,
@@ -10327,7 +10320,7 @@
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "MJ" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/doublesheethos,
@@ -10344,7 +10337,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 9
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "MU" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/weather/dirt{
@@ -10382,7 +10375,7 @@
 	name = "hot spring";
 	color = "#BBBBBB"
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Nb" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 5
@@ -10410,13 +10403,13 @@
 	},
 /obj/structure/table/wood/fancy,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Nj" = (
 /obj/structure/chair/right{
 	dir = 4
 	},
 /turf/open/floor/carpet/stellar,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Nr" = (
 /turf/closed/wall/f13/wood,
 /area/f13/underground/cave/vault/fourfivefour)
@@ -10444,7 +10437,7 @@
 /obj/machinery/chem_dispenser/drinks/fullupgrade,
 /obj/structure/table/wood/bar,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "NI" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 9
@@ -10456,13 +10449,13 @@
 /turf/open/floor/plasteel/white/corner{
 	dir = 4
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "NL" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/white/side{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "NQ" = (
 /obj/structure/sink{
 	dir = 4;
@@ -10472,7 +10465,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "NR" = (
 /obj/machinery/light{
 	dir = 8
@@ -10482,7 +10475,7 @@
 "NU" = (
 /obj/machinery/smartfridge/drinks,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "NX" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/grass,
@@ -10496,7 +10489,7 @@
 "NZ" = (
 /obj/structure/flora/chomp/potplant1,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Oa" = (
 /obj/effect/turf_decal{
 	dir = 8
@@ -10510,7 +10503,7 @@
 /obj/item/storage/box/syringes,
 /obj/item/storage/box/medsprays,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Oh" = (
 /obj/item/flashlight/lantern/dim,
 /obj/structure/rack,
@@ -10570,7 +10563,7 @@
 /obj/structure/bookcase/manuals/medical,
 /obj/machinery/light,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "OC" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -10586,10 +10579,10 @@
 "OH" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "OJ" = (
-/turf/open/floor/f13/wood,
-/area/f13/building)
+/turf/open/space/basic,
+/area/f13/underground/cave/vault/fourfivefour)
 "OK" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -10609,7 +10602,7 @@
 	},
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "OO" = (
 /obj/machinery/light{
 	dir = 8;
@@ -10618,7 +10611,7 @@
 /turf/open/floor/plasteel/white/corner{
 	dir = 4
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "OP" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/grass/jungle,
@@ -10632,7 +10625,7 @@
 "OS" = (
 /obj/machinery/smartfridge/chemistry/preloaded,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "OV" = (
 /obj/machinery/light,
 /turf/open/indestructible/ground/outside/dirt,
@@ -10657,7 +10650,7 @@
 /area/f13/underground/cave/vault/fourfivefour)
 "Pd" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Pg" = (
 /obj/structure/door_assembly/door_assembly_com,
 /obj/structure/flora/tree/jungle,
@@ -10700,7 +10693,7 @@
 /obj/structure/closet/crate/large,
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "PB" = (
 /obj/structure/chair/sofa/right{
 	dir = 1
@@ -10727,19 +10720,13 @@
 "PJ" = (
 /obj/machinery/nuclearbomb/beer,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
-"PP" = (
-/turf/closed/wall/r_wall/f13/vault,
-/area/f13/building)
-"PS" = (
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/underground/mountain)
+/area/f13/underground/cave/vault/fourfivefour)
 "PU" = (
 /obj/structure/chair/folding{
 	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "PZ" = (
 /obj/machinery/button/door{
 	name = "Shutter Bolts";
@@ -10749,7 +10736,7 @@
 /turf/open/floor/plasteel/white/side{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Qa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/f13/steak,
@@ -10763,7 +10750,7 @@
 	internal_radio = 0
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Qg" = (
 /obj/structure/sink{
 	icon_state = "water";
@@ -10871,7 +10858,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 5
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "QC" = (
 /obj/docking_port/stationary{
 	dir = 8;
@@ -10945,7 +10932,7 @@
 /obj/item/reagent_containers/blood/radaway,
 /obj/item/reagent_containers/blood/radaway,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "QR" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -10978,7 +10965,7 @@
 	name = "hot spring";
 	color = "#BBBBBB"
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "QX" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -11007,7 +10994,7 @@
 	pixel_y = -32
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Rn" = (
 /obj/machinery/power/smes,
 /turf/open/floor/f13,
@@ -11015,7 +11002,7 @@
 "Rp" = (
 /obj/structure/bookcase/manuals,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Rs" = (
 /obj/machinery/light{
 	dir = 8
@@ -11024,11 +11011,11 @@
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Rv" = (
 /obj/structure/fireplace,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Rx" = (
 /obj/machinery/light{
 	dir = 1;
@@ -11037,7 +11024,7 @@
 /turf/open/floor/plasteel/white/corner{
 	dir = 8
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Rz" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -11059,7 +11046,7 @@
 	light_color = "#e8eaff"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "RI" = (
 /obj/effect/turf_decal,
 /turf/open/floor/plasteel,
@@ -11069,7 +11056,7 @@
 	id = "OwenHideawayS"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "RL" = (
 /turf/closed/wall/r_wall/f13superstore{
 	icon_state = "supermart0"
@@ -11083,7 +11070,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/blue,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "RO" = (
 /obj/structure/bed/old,
 /obj/effect/decal/remains/human,
@@ -11100,7 +11087,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 10
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "RT" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable{
@@ -11235,7 +11222,7 @@
 "Sx" = (
 /obj/structure/fireplace,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Sz" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -11278,7 +11265,7 @@
 "SG" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "SH" = (
 /obj/effect/turf_decal/bot_white/left,
 /turf/open/floor/plasteel/vault{
@@ -11331,7 +11318,7 @@
 /turf/open/floor/plasteel/whitegreen/corner{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "SO" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
@@ -11343,7 +11330,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "SR" = (
 /obj/machinery/light_switch{
 	pixel_x = 27
@@ -11369,7 +11356,7 @@
 "SU" = (
 /obj/machinery/door/airlock,
 /turf/open/floor/plasteel/f13/vault_floor/blue,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "SV" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/terminal{
@@ -11393,7 +11380,7 @@
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 4
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Te" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -11402,7 +11389,7 @@
 "Tf" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/blue,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Tg" = (
 /obj/structure/table,
 /obj/item/radio/off,
@@ -11434,7 +11421,7 @@
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "To" = (
 /turf/open/indestructible/airblock,
 /area/fabric_of_reality)
@@ -11447,7 +11434,7 @@
 	dir = 1
 	},
 /turf/open/floor/fakespace,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Tt" = (
 /obj/effect/turf_decal{
 	dir = 1
@@ -11456,7 +11443,7 @@
 /area/tdome/tdomeobserve)
 "Tv" = (
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "TE" = (
 /obj/structure/window/reinforced{
 	color = "#3e3d42";
@@ -11466,13 +11453,13 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "TH" = (
 /obj/structure/chair/stool/retro/backed{
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "TI" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
 	dir = 4
@@ -11490,7 +11477,7 @@
 /area/f13/underground/mountain)
 "TN" = (
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "TP" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/reagent_containers/food/snacks/fishmeat/carp,
@@ -11499,7 +11486,7 @@
 /obj/item/reagent_containers/food/snacks/fishmeat/carp,
 /obj/item/reagent_containers/food/snacks/fishmeat/carp,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "TQ" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -11516,11 +11503,11 @@
 "TW" = (
 /obj/machinery/chem_master,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "TY" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/fakespace,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "TZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -11552,7 +11539,7 @@
 	pixel_y = 19
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Uh" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -11577,7 +11564,7 @@
 "Um" = (
 /obj/structure/bookcase,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Un" = (
 /obj/structure/table/glass,
 /obj/item/soap/deluxe,
@@ -11585,7 +11572,7 @@
 /obj/item/storage/box/gloves,
 /obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Ut" = (
 /turf/closed/indestructible/fakedoor{
 	name = "Thunderdome Admin"
@@ -11621,16 +11608,16 @@
 /area/centcom/evac)
 "UG" = (
 /turf/open/floor/plasteel/whiteblue/side,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "UH" = (
 /turf/open/floor/plasteel/white/corner{
 	dir = 4
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "UJ" = (
 /obj/structure/flora/tree/pine/xmas/presents,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "UM" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -11664,7 +11651,7 @@
 "UZ" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/carpet/red,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Va" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -11676,16 +11663,16 @@
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 9
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Vc" = (
 /obj/structure/simple_door/bunker,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Vj" = (
 /turf/open/floor/plasteel/white/side{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Vk" = (
 /turf/open/floor/plasteel/f13/whitemarble,
 /area/f13/underground/mountain)
@@ -11762,7 +11749,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "VZ" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 5
@@ -11810,13 +11797,13 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Wm" = (
 /obj/structure/curtain{
 	color = "#ffc0cb"
 	},
 /turf/open/floor/carpet/purple,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Wn" = (
 /obj/structure/wreck/car/bike{
 	dir = 9
@@ -11832,7 +11819,7 @@
 /obj/item/storage/box/cups,
 /obj/structure/table/wood/bar,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Wx" = (
 /obj/structure/rack,
 /obj/item/clothing/under/color/red,
@@ -11854,7 +11841,7 @@
 "Wz" = (
 /obj/machinery/door/airlock/ckey/highsecurity/andy,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "WA" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
@@ -11872,7 +11859,7 @@
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 10
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "WE" = (
 /obj/machinery/light{
 	dir = 8
@@ -11897,7 +11884,7 @@
 "WL" = (
 /obj/machinery/light,
 /turf/open/floor/fakespace,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "WM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/decoration/rag,
@@ -11946,7 +11933,7 @@
 /turf/open/floor/plasteel/white/side{
 	dir = 5
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "WW" = (
 /obj/effect/turf_decal/vg_decals/numbers/two,
 /turf/open/floor/plasteel/dark,
@@ -11965,10 +11952,10 @@
 /obj/machinery/light,
 /obj/structure/bed/roller,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Xc" = (
 /turf/open/floor/plasteel/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Xf" = (
 /obj/effect/fake_stairs/west,
 /turf/open/floor/plating/beach/sand,
@@ -11976,7 +11963,7 @@
 "Xi" = (
 /obj/structure/closet/crate/large,
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Xk" = (
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/underground/cave/vault/fourfivefour)
@@ -11990,7 +11977,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 6
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Xz" = (
 /obj/machinery/light/small,
 /turf/open/indestructible/ground/inside/subway,
@@ -12005,7 +11992,7 @@
 	light_color = "#706891"
 	},
 /turf/open/floor/plasteel/white/side,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "XF" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/seedspawner,
@@ -12038,7 +12025,7 @@
 	height = 2
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "XQ" = (
 /obj/structure/table,
 /obj/item/wirecutters,
@@ -12051,7 +12038,7 @@
 /turf/open/floor/plasteel/white/side{
 	dir = 8
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "XS" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
 	dir = 4
@@ -12088,7 +12075,7 @@
 "Yf" = (
 /obj/structure/bed/roller,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Yh" = (
 /obj/machinery/light{
 	dir = 4
@@ -12096,7 +12083,7 @@
 /turf/open/floor/plasteel/white/corner{
 	dir = 8
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Yj" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/doublesheetrd,
@@ -12108,18 +12095,18 @@
 	},
 /obj/structure/rug/big/rug_fancy,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Yn" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Yo" = (
 /turf/open/floor/plasteel/whitegreen/side{
 	dir = 4
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Yp" = (
 /obj/structure/bedsheetbin/towel,
 /turf/open/floor/plating/beach/sand,
@@ -12133,7 +12120,7 @@
 	},
 /obj/structure/table/wood/fancy,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Yr" = (
 /obj/structure/fireplace,
 /turf/open/floor/carpet/green,
@@ -12169,7 +12156,7 @@
 "YB" = (
 /obj/machinery/computer/cloning,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "YE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/wreck/trash/machinepile,
@@ -12189,7 +12176,7 @@
 	light_color = "#e8eaff"
 	},
 /turf/open/floor/plasteel/white/corner,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "YI" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
 	dir = 1
@@ -12205,7 +12192,7 @@
 	light_color = "#706891"
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "YM" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
 	dir = 8
@@ -12224,7 +12211,7 @@
 	dir = 4
 	},
 /turf/open/floor/fakespace,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "YP" = (
 /obj/structure/table/reinforced,
 /obj/item/kitchen/rollingpin,
@@ -12232,7 +12219,7 @@
 /turf/open/floor/plasteel/whiteblue/side{
 	dir = 1
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "YQ" = (
 /obj/structure/flora/junglebush/b,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -12246,7 +12233,7 @@
 	},
 /obj/machinery/chem_heater,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "YV" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/seedspawner,
@@ -12284,7 +12271,7 @@
 /turf/open/floor/plasteel/white/side{
 	dir = 8
 	},
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "Zk" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner,
 /obj/effect/turf_decal/stripes/corner{
@@ -12365,7 +12352,7 @@
 	color = "#00008B"
 	},
 /turf/open/floor/carpet/royalblue,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "ZN" = (
 /obj/effect/decal/waste,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -12389,7 +12376,7 @@
 "ZW" = (
 /obj/structure/dresser,
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
-/area/f13/building)
+/area/f13/underground/cave/vault/fourfivefour)
 "ZZ" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
@@ -64462,9 +64449,9 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
 Tn
 Tn
 Tn
@@ -64476,25 +64463,25 @@ Tn
 Tn
 Tn
 Tn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -64719,39 +64706,39 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
 Tn
-PP
-PP
-PP
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
 Tn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -64976,39 +64963,39 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 Qf
 Yn
 TN
-PP
+xf
 BB
 Yn
 TN
-PP
+xf
 Tn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -65233,11 +65220,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 YB
 TN
 TN
@@ -65245,27 +65232,27 @@ kv
 TN
 TN
 Rc
-PP
+xf
 Tn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -65490,19 +65477,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 EP
 Wl
 TN
-PP
+xf
 BB
 TN
 TN
-PP
+xf
 Tn
 Tn
 Tn
@@ -65516,13 +65503,13 @@ Tn
 Tn
 Tn
 Tn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -65747,39 +65734,39 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
 Tn
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
 kv
-PP
-PP
-PP
-PP
-PP
-PP
-PP
-PP
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
 Tn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -66004,12 +65991,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
 Tn
 Tn
-PP
+xf
 hT
 TN
 TN
@@ -66018,25 +66005,25 @@ TN
 zp
 yX
 TP
-PP
+xf
 Ec
 Dm
 hq
-PP
+xf
 He
-PP
+xf
 Ec
 Dm
 hq
-PP
+xf
 Tn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -66261,12 +66248,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 YU
 TN
 TN
@@ -66275,25 +66262,25 @@ TN
 TN
 TN
 Xa
-PP
+xf
 ZW
 Mx
 TE
-PP
+xf
 Ug
-PP
+xf
 ZW
 Mx
 TE
-PP
+xf
 Tn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -66518,12 +66505,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 TW
 TN
 TN
@@ -66532,25 +66519,25 @@ TN
 TN
 TN
 Yf
-PP
+xf
 Mx
 Mx
 NQ
-PP
+xf
 TN
-PP
+xf
 Mx
 Mx
 NQ
-PP
+xf
 Tn
 Tn
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -66775,12 +66762,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 BM
 pq
 TN
@@ -66788,26 +66775,26 @@ kv
 TN
 TN
 hb
-PP
-PP
-PP
+xf
+xf
+xf
 SU
-PP
-PP
+xf
+xf
 kv
-PP
-PP
+xf
+xf
 SU
-PP
-PP
-PP
+xf
+xf
+xf
 Tn
 Tn
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -67032,20 +67019,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
 TN
 QP
-PP
-PP
+xf
+xf
 YH
 lQ
 lQ
@@ -67057,14 +67044,14 @@ lQ
 lQ
 lQ
 OO
-PP
-PP
+xf
+xf
 Tn
 Tn
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -67289,19 +67276,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 gQ
 TN
 TN
 kv
 TN
-PP
-PP
+xf
+xf
 gj
 hJ
 Xc
@@ -67315,13 +67302,13 @@ Xc
 Xc
 WV
 UH
-PP
-PP
+xf
+xf
 Tn
 Tn
-aa
-aa
-aa
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -67546,18 +67533,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 OM
 TN
 TN
-PP
+xf
 kv
-PP
+xf
 gj
 hJ
 Mk
@@ -67573,12 +67560,12 @@ vu
 rW
 WV
 UH
-PP
-PP
+xf
+xf
 Tn
 Tn
-aa
-aa
+OJ
+OJ
 aa
 aa
 aa
@@ -67803,39 +67790,39 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
 Tn
 Tn
-PP
+xf
 Un
 pq
 Wl
-PP
+xf
 gj
 lQ
 hJ
 Mk
 xQ
-PP
-PP
-PP
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
+xf
 gW
 rW
 WV
 UH
-PP
-PP
+xf
+xf
 Tn
 Tn
-aa
+OJ
 aa
 aa
 aa
@@ -68060,39 +68047,39 @@ aa
 aa
 aa
 aa
-aa
-aa
+OJ
+OJ
 Tn
 Tn
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
 Dq
 Xc
 Mk
 xQ
-PP
-PP
+xf
+xf
 pE
 Dx
 kK
 WD
-PP
+xf
 gA
 hN
-PP
-PP
+xf
+xf
 gW
 rW
 WV
 UH
-PP
-PP
+xf
+xf
 Tn
-aa
+OJ
 aa
 aa
 aa
@@ -68317,39 +68304,39 @@ aa
 aa
 aa
 aa
-aa
-aa
+OJ
+OJ
 Tn
-PP
-PP
+xf
+xf
 ZL
 gZ
 Ym
-PP
+xf
 Fh
 hJ
 Mk
 xQ
-PP
-PP
+xf
+xf
 gc
 SN
 Hp
 Xc
 Jq
-PP
-OJ
-OJ
+xf
+mP
+mP
 SG
-PP
-PP
+xf
+xf
 gW
 rW
 WV
 NJ
-PP
+xf
 Tn
-aa
+OJ
 aa
 aa
 aa
@@ -68574,37 +68561,37 @@ aa
 aa
 aa
 aa
-aa
-aa
+OJ
+OJ
 Tn
-PP
+xf
 wc
 ZL
-OJ
-OJ
+mP
+mP
 vt
 Dq
 Xc
 Vj
-PP
-PP
+xf
+xf
 gw
 SN
 Xc
 Hp
 Xc
 Jq
-PP
+xf
 YL
-OJ
-OJ
+mP
+mP
 NU
-PP
-PP
+xf
+xf
 Dq
 Xc
 Vj
-PP
+xf
 Tn
 Tn
 Tn
@@ -68831,19 +68818,19 @@ aa
 aa
 aa
 aa
-aa
+OJ
 Tn
 Tn
-PP
+xf
 gL
 ZL
 Bd
 Eb
-PP
+xf
 Dq
 Xc
 Vj
-PP
+xf
 Vb
 SN
 Xc
@@ -68851,13 +68838,13 @@ Xc
 Hp
 Xc
 Jq
-PP
-OJ
-OJ
-OJ
-OJ
-OJ
-PP
+xf
+mP
+mP
+mP
+mP
+mP
+xf
 Dq
 Xc
 Vj
@@ -69090,17 +69077,17 @@ aa
 aa
 Tn
 Tn
-PP
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
+xf
 Dq
 Xc
 Vj
-PP
+xf
 GT
 Xc
 Xc
@@ -69108,13 +69095,13 @@ Xc
 Hp
 Xc
 Jq
-PP
-OJ
+xf
+mP
 hL
 hL
 hL
 hL
-PP
+xf
 Dq
 Xc
 Vj
@@ -69346,18 +69333,18 @@ aa
 aa
 aa
 Tn
-PP
-PP
+xf
+xf
 lk
 Ia
 Yq
 MI
 BF
-PP
+xf
 Dq
 Xc
 Vj
-PP
+xf
 go
 Yo
 Yo
@@ -69365,13 +69352,13 @@ Yo
 Ta
 Yo
 nP
-PP
-OJ
+xf
+mP
 TH
 TH
 TH
 TH
-PP
+xf
 Dq
 Xc
 Vj
@@ -69603,36 +69590,36 @@ aa
 aa
 aa
 Tn
-PP
+xf
 xP
-OJ
-OJ
-OJ
-OJ
-OJ
+mP
+mP
+mP
+mP
+mP
 KC
 Dq
 Xc
 Vj
-PP
-PP
+xf
+xf
 Hg
 Hg
 MF
-PP
-PP
-PP
-PP
-OJ
-OJ
-OJ
-OJ
-OJ
-PP
+xf
+xf
+xf
+xf
+mP
+mP
+mP
+mP
+mP
+xf
 Dq
 Xc
 PZ
-PP
+xf
 Tn
 Tn
 Tn
@@ -69860,18 +69847,18 @@ aa
 aa
 aa
 Tn
-PP
+xf
 JG
-OJ
-OJ
-OJ
-OJ
+mP
+mP
+mP
+mP
 zV
 nb
 Dq
 Xc
 Vj
-PP
+xf
 MT
 lh
 lh
@@ -69889,9 +69876,9 @@ DL
 Dq
 Xc
 Vj
-PP
+xf
 Tn
-aa
+OJ
 aa
 aa
 aa
@@ -70117,24 +70104,24 @@ aa
 aa
 aa
 Tn
-PP
+xf
 Sx
-OJ
-OJ
+mP
+mP
 UJ
-OJ
+mP
 mB
 nb
 XD
 Xc
 Vj
-PP
+xf
 hj
 Xc
 Xc
 Xc
 UG
-PP
+xf
 GN
 GN
 HF
@@ -70146,9 +70133,9 @@ DL
 Dq
 Xc
 NL
-PP
+xf
 Tn
-aa
+OJ
 aa
 aa
 aa
@@ -70374,18 +70361,18 @@ aa
 aa
 aa
 Tn
-PP
+xf
 JG
-OJ
-OJ
-OJ
-OJ
+mP
+mP
+mP
+mP
 zV
 nb
 Dq
 Xc
 Vj
-PP
+xf
 YP
 Xc
 JA
@@ -70403,9 +70390,9 @@ DL
 Dq
 Xc
 Vj
-PP
+xf
 Tn
-aa
+OJ
 aa
 Nr
 Nr
@@ -70631,18 +70618,18 @@ aa
 aa
 aa
 Tn
-PP
+xf
 Fo
-OJ
-OJ
-OJ
-OJ
-OJ
+mP
+mP
+mP
+mP
+mP
 KC
 Dq
 Xc
 Vj
-PP
+xf
 BJ
 Xc
 JA
@@ -70656,13 +70643,13 @@ GN
 GN
 GN
 WL
-PP
+xf
 Dq
 Xc
 Vj
-PP
+xf
 Tn
-aa
+OJ
 aa
 Nr
 XF
@@ -70712,7 +70699,7 @@ Au
 Au
 Au
 Au
-PS
+Kv
 Au
 Rn
 Rn
@@ -70888,18 +70875,18 @@ aa
 aa
 aa
 Tn
-PP
-PP
+xf
+xf
 wp
 Fb
 Ni
 Ey
 tn
-PP
+xf
 Dq
 Xc
 Vj
-PP
+xf
 VX
 Xc
 JA
@@ -70917,9 +70904,9 @@ DL
 Dq
 Xc
 Vj
-PP
+xf
 Tn
-aa
+OJ
 aa
 Nr
 so
@@ -70969,7 +70956,7 @@ WE
 UQ
 xt
 Au
-PS
+Kv
 Au
 Nv
 Nv
@@ -71146,17 +71133,17 @@ aa
 aa
 Tn
 Tn
-PP
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
+xf
 Dq
 Xc
 Vj
-PP
+xf
 HV
 Xc
 JA
@@ -71174,9 +71161,9 @@ DL
 Dq
 Xc
 Vj
-PP
+xf
 Tn
-aa
+OJ
 aa
 Nr
 ib
@@ -71226,7 +71213,7 @@ gY
 yc
 ic
 Au
-PS
+Kv
 Au
 Nv
 jO
@@ -71401,19 +71388,19 @@ aa
 aa
 aa
 aa
-aa
+OJ
 Tn
 Tn
-PP
+xf
 Kx
 Wm
 Rs
 Ym
-PP
+xf
 Dq
 Xc
 Vj
-PP
+xf
 Qz
 HM
 JA
@@ -71431,9 +71418,9 @@ DL
 Dq
 Xc
 Vj
-PP
+xf
 Tn
-aa
+OJ
 aa
 Nr
 gE
@@ -71658,20 +71645,20 @@ aa
 aa
 aa
 aa
-aa
-aa
+OJ
+OJ
 Tn
-PP
+xf
 hR
 Wm
-OJ
-OJ
+mP
+mP
 vt
 Dq
 Xc
 Vj
-PP
-PP
+xf
+xf
 xv
 HM
 Xc
@@ -71683,14 +71670,14 @@ GN
 GN
 GN
 GN
-PP
-PP
+xf
+xf
 Dq
 Xc
 Vj
-PP
+xf
 Tn
-aa
+OJ
 aa
 Nr
 Wq
@@ -71915,39 +71902,39 @@ aa
 aa
 aa
 aa
-aa
-aa
+OJ
+OJ
 Tn
-PP
-PP
+xf
+xf
 Wm
 GQ
 Eb
-PP
+xf
 Rx
 rW
 WV
 UH
-PP
-PP
+xf
+xf
 FI
 HM
 UG
-PP
+xf
 GN
 GN
 GN
 GN
 YO
-PP
-PP
+xf
+xf
 gj
 hJ
 Mk
 Gj
-PP
+xf
 Tn
-aa
+OJ
 aa
 Nr
 TJ
@@ -72172,22 +72159,22 @@ aa
 aa
 aa
 aa
-aa
-aa
+OJ
+OJ
 Tn
 Tn
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
 gW
 rW
 WV
 UH
-PP
-PP
+xf
+xf
 sn
 Xo
 TY
@@ -72195,16 +72182,16 @@ GN
 GN
 GN
 GN
-PP
-PP
+xf
+xf
 gj
 hJ
 Mk
 xQ
-PP
-PP
+xf
+xf
 Tn
-aa
+OJ
 aa
 Nr
 Xn
@@ -72429,39 +72416,39 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
 Tn
 Tn
-PP
+xf
 Um
 zN
 NZ
-PP
-PP
+xf
+xf
 Dq
 Xc
 WV
 UH
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
 TY
 TY
-PP
-PP
+xf
+xf
 gj
 hJ
 vu
 xQ
-PP
-PP
-PP
+xf
+xf
+xf
 Tn
-aa
+OJ
 aa
 Nr
 JI
@@ -72686,16 +72673,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
-OJ
-OJ
-OJ
-OJ
+xf
+mP
+mP
+mP
+mP
 OH
 gW
 vu
@@ -72712,13 +72699,13 @@ lQ
 lQ
 hJ
 Vj
-PP
+xf
 Vc
-PP
-PP
-PP
+xf
+xf
+xf
 Tn
-aa
+OJ
 aa
 Nr
 yK
@@ -72943,19 +72930,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 YL
-OJ
-OJ
-Gp
-PP
-PP
-PP
+mP
+mP
+LX
+xf
+xf
+xf
 gW
 rW
 Xc
@@ -72969,13 +72956,13 @@ Xc
 Xc
 Mk
 xQ
-PP
-Kv
+xf
+Xk
 GU
 PJ
-PP
+xf
 Tn
-aa
+OJ
 aa
 Nr
 UA
@@ -73200,20 +73187,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
-kc
+xf
+QZ
 LT
-kc
-kc
-PP
+QZ
+QZ
+xf
 Tn
-PP
-PP
+xf
+xf
 Yh
 vu
 vu
@@ -73225,13 +73212,13 @@ vu
 vu
 vu
 ue
-PP
-PP
-Kv
-Kv
-Kv
-PP
-PP
+xf
+xf
+Xk
+Xk
+Xk
+xf
+xf
 Tn
 aa
 Nr
@@ -73457,38 +73444,38 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 Eq
 CY
 Tf
-kc
-PP
+QZ
+xf
 Tn
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
 Gr
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
 xG
-PP
-PP
-PP
-Kv
-Kv
-Kv
-Kv
-PP
+xf
+xf
+xf
+Xk
+Xk
+Xk
+Xk
+xf
 Tn
 aa
 Nr
@@ -73714,38 +73701,38 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 Tf
 RN
-kc
-kc
-PP
+QZ
+QZ
+xf
 Tn
-PP
+xf
 ne
 Tv
 Tv
 Tv
 Tv
 GV
-PP
+xf
 Et
 DU
 uJ
 BV
-PP
+xf
 Tn
-PP
+xf
 Wv
-Kv
+Xk
 PU
 PU
-PP
+xf
 Tn
 aa
 aa
@@ -73971,38 +73958,38 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 xK
-kc
-kc
+QZ
+QZ
 GI
-PP
+xf
 Tn
-PP
+xf
 Tv
 Tv
 gx
 Tv
 Tv
 zm
-PP
+xf
 Et
 uJ
 uJ
 BV
-PP
+xf
 Tn
-PP
+xf
 NH
-Kv
+Xk
 hc
 hx
-PP
+xf
 Tn
 aa
 aa
@@ -74228,38 +74215,38 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
 Tn
-PP
+xf
 Rv
 Tv
 yV
 Tv
 Tv
 OB
-PP
+xf
 Et
 uJ
 uJ
 BV
-PP
+xf
 Tn
-PP
+xf
 Dv
-Kv
+Xk
 xZ
 xZ
-PP
+xf
 Tn
 aa
 aa
@@ -74485,10 +74472,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
 Tn
 Tn
 Tn
@@ -74497,26 +74484,26 @@ Tn
 Tn
 Tn
 Tn
-PP
+xf
 Tv
 Tv
 gx
 Tv
 Tv
 Rp
-PP
+xf
 sX
 MY
 QV
 qZ
-PP
+xf
 Tn
-PP
-PP
+xf
+xf
 gf
 hy
-PP
-PP
+xf
+xf
 Tn
 aa
 aa
@@ -74742,37 +74729,37 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
+xf
 JE
 Tv
 Tv
 Tv
 Tv
 Ml
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
 Tn
 Tn
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
 Tn
 Tn
 aa
@@ -74999,26 +74986,26 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 Tn
-PP
-PP
+xf
+xf
 Pz
 Tv
 UZ
 BL
-PP
-PP
+xf
+xf
 Tn
 Tn
 Tn
@@ -75031,7 +75018,7 @@ Tn
 Tn
 Tn
 Tn
-aa
+OJ
 aa
 aa
 aa
@@ -75256,39 +75243,39 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 Tn
 Tn
-PP
-PP
-PP
-PP
-PP
-PP
+xf
+xf
+xf
+xf
+xf
+xf
 Tn
 Tn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa
@@ -75513,18 +75500,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 Tn
 Tn
 Tn
@@ -75533,19 +75520,19 @@ Tn
 Tn
 Tn
 Tn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
+OJ
 aa
 aa
 aa

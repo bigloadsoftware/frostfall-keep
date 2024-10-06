@@ -3390,7 +3390,6 @@
 	dir = 2;
 	icon_state = "housewindowbrokenvertical"
 	},
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/building/coyote/nash/school/groundfloor)
 "buV" = (
 /obj/structure/tires/five{
@@ -7620,7 +7619,6 @@
 /area/f13/building)
 "doz" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/building)
 "doE" = (
 /obj/structure/table/wasteland,
@@ -8257,7 +8255,6 @@
 "dEB" = (
 /obj/effect/fake_stairs/west,
 /obj/structure/railing,
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/building)
 "dEL" = (
 /obj/structure/table/wasteland,
@@ -16157,7 +16154,6 @@
 /area/f13/building/tribal/cave)
 "gTX" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "gUE" = (
 /turf/open/indestructible/ground/inside/mountain,
@@ -20663,7 +20659,6 @@
 /area/f13/brotherhood)
 "iPq" = (
 /obj/structure/debris/v1,
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/building/coyote/nash/mall/groundfloor)
 "iPs" = (
 /obj/effect/spawner/lootdrop/f13/common,
@@ -20898,13 +20893,6 @@
 /obj/effect/decal/cleanable/glitter/pink,
 /turf/open/floor/plasteel/cult,
 /area/f13/building/tribal/caveofforever)
-"iTP" = (
-/turf/open/indestructible/ground/outside/desert,
-/turf/open/indestructible/ground/outside/road{
-	color = "#999999";
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/wasteland/city/newboston/outdoors)
 "iTV" = (
 /mob/living/simple_animal/hostile/raider/baseball,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -21090,12 +21078,6 @@
 /obj/machinery/light/floor,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/tcommsat/server)
-"iXc" = (
-/turf/open/indestructible/ground/outside/desert,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright0"
-	},
-/area/f13/wasteland/city/newboston/outdoors)
 "iXA" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -22645,7 +22627,6 @@
 /obj/structure/fence{
 	dir = 8
 	},
-/turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/wasteland)
 "jDC" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -25226,7 +25207,6 @@
 	icon_state = "storewindowtop";
 	color = "#999999"
 	},
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/building)
 "kHh" = (
 /obj/structure/table/wasteland,
@@ -25256,7 +25236,6 @@
 	color = "#A47449";
 	dir = 1
 	},
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/building)
 "kHB" = (
 /obj/structure/displaycase,
@@ -26843,7 +26822,6 @@
 	},
 /area/f13/building)
 "lmt" = (
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "lmO" = (
 /obj/effect/turf_decal/weather/dirt,
@@ -33528,7 +33506,6 @@
 	max_integrity = 140
 	},
 /obj/structure/curtain/directional/west,
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/building)
 "oeT" = (
 /obj/structure/table/wood/settler,
@@ -34133,10 +34110,6 @@
 /obj/item/shovel{
 	pixel_y = 8;
 	pixel_x = 6
-	},
-/turf/open/indestructible/ground/outside/desert{
-	color = "#705454";
-	name = "sand pit"
 	},
 /area/f13/building/workshop/nash)
 "ose" = (
@@ -37803,7 +37776,6 @@
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
 /obj/effect/spawner/lootdrop/f13/uncommon,
-/turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/wasteland)
 "pYi" = (
 /obj/structure/closet/cabinet,
@@ -38345,7 +38317,6 @@
 /obj/structure/window/fulltile/house{
 	icon_state = "housewindowvertical"
 	},
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/building/coyote/nash/school/groundfloor)
 "qmj" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -38552,12 +38523,6 @@
 	color = "#766E65"
 	},
 /area/f13/building/tribal)
-"qro" = (
-/turf/open/indestructible/ground/outside/desert,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop2right"
-	},
-/area/f13/wasteland/city/newboston/outdoors)
 "qrr" = (
 /turf/open/indestructible/ground/outside/dirthole,
 /area/f13/wasteland)
@@ -38575,7 +38540,6 @@
 	pixel_y = -10
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/wasteland)
 "qrG" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -39526,7 +39490,6 @@
 "qFZ" = (
 /obj/structure/debris/v1,
 /obj/structure/debris/v1,
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/building/coyote/nash/mall/groundfloor)
 "qGd" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -43020,7 +42983,6 @@
 /obj/structure/simple_door/wood,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/caves)
 "sbW" = (
 /obj/structure/table/wood/settler,
@@ -49050,7 +49012,6 @@
 "uKQ" = (
 /obj/structure/stairs/west,
 /obj/structure/railing,
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/building)
 "uLv" = (
 /obj/item/fishingrod,
@@ -49645,7 +49606,6 @@
 	},
 /area/f13/wasteland/city/newboston/outdoors)
 "uYv" = (
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland/city/newboston/outdoors)
 "uYx" = (
 /obj/effect/turf_decal/siding/wood,
@@ -50469,7 +50429,6 @@
 /obj/structure/window/fulltile/house{
 	dir = 2
 	},
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/building/coyote/nash/school/groundfloor)
 "vpN" = (
 /obj/structure/rack,
@@ -50988,7 +50947,6 @@
 	max_integrity = 140
 	},
 /obj/structure/curtain/directional/west,
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland/city/newboston/library)
 "vzy" = (
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -53002,7 +52960,6 @@
 "wvK" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "wvX" = (
 /obj/structure/spacevine,
@@ -53573,7 +53530,6 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
 	},
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland/city/newboston/outdoors)
 "wJM" = (
 /obj/structure/simple_door/house,
@@ -53981,7 +53937,6 @@
 /area/f13/building)
 "wUu" = (
 /obj/structure/wreck/trash/five_tires,
-/turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/wasteland)
 "wUA" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -55991,7 +55946,6 @@
 /area/f13/wasteland/city/newboston/outdoors)
 "xKT" = (
 /obj/structure/window/fulltile/house,
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/building/coyote/nash/school/groundfloor)
 "xLg" = (
 /turf/open/floor/f13/wood{
@@ -57320,7 +57274,6 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "ylm" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -112068,18 +112021,18 @@ cFj
 vQw
 ejp
 eLP
-iTP
+eLP
 ukQ
-iTP
+eLP
 ukQ
-iTP
+eLP
 ukQ
 eLP
 ukQ
 eLP
 ukQ
 eLP
-iTP
+eLP
 nam
 iEP
 cFj
@@ -112338,7 +112291,7 @@ eLP
 nam
 nam
 nam
-iTP
+eLP
 qJx
 hoo
 dWx
@@ -112580,7 +112533,7 @@ dWx
 mmq
 kZL
 lXZ
-iTP
+eLP
 lBR
 eLP
 orA
@@ -112589,10 +112542,10 @@ orA
 eLP
 orA
 eLP
-iTP
+eLP
 eLP
 ukQ
-iTP
+eLP
 eLP
 tum
 mUE
@@ -112836,14 +112789,14 @@ dWx
 dWx
 vaH
 mdh
-qro
+fdf
 tkO
 orA
-iTP
+eLP
 orA
-iTP
+eLP
 orA
-iTP
+eLP
 orA
 ukQ
 ukQ
@@ -112851,7 +112804,7 @@ nam
 xNi
 orA
 eLP
-iTP
+eLP
 ukQ
 mdh
 hoo
@@ -113095,7 +113048,7 @@ mmq
 mdh
 lVZ
 avK
-iXc
+avK
 avK
 avK
 avK
