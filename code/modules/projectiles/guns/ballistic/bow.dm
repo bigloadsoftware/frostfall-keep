@@ -288,6 +288,24 @@
 	trigger_guard = TRIGGER_GUARD_NONE
 	damage_multiplier = GUN_EXTRA_DAMAGE_T3 //50 damage. bolt action rifle firepower
 
+/obj/item/gun/ballistic/bow/crossbow
+	name = "Crossbow template"
+	desc = "you shouldn't see this."
+	icon = 'modular_coyote/icons/objects/bows.dmi'
+	icon_state = "crossbowlight"
+	item_state = "crossbowlight"
+	trigger_guard = TRIGGER_GUARD_NONE
+	damage_multiplier = GUN_EXTRA_DAMAGE_T3 //50 damage. bolt action rifle firepower
+
+/obj/item/gun/ballistic/bow/crossbow/crossbowlight
+	name = "Crossbow"
+	desc = "A sturdy crossbow."
+	icon = 'modular_coyote/icons/objects/bows.dmi'
+	icon_state = "crossbowlight"
+	item_state = "crossbowlight"
+	trigger_guard = TRIGGER_GUARD_NONE
+	damage_multiplier = GUN_EXTRA_DAMAGE_T3
+
 //////////////
 //	Tier 3	//
 //////////////

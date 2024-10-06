@@ -3872,6 +3872,7 @@
 #include "modular_citadel\code\modules\client\loadout\shoes.dm"
 #include "modular_citadel\code\modules\client\loadout\suit.dm"
 #include "modular_citadel\code\modules\client\loadout\uniform.dm"
+#include "modular_citadel\code\modules\client\loadout\weapons.dm"
 #include "modular_citadel\code\modules\clothing\neck.dm"
 #include "modular_citadel\code\modules\clothing\trek.dm"
 #include "modular_citadel\code\modules\clothing\suits\suits.dm"
