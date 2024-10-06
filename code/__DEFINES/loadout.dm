@@ -19,6 +19,12 @@
 #define ERP_TAB_HOME 0
 #define ERP_TAB_REARRANGE 1
 
+//weapons
+#define LOADOUT_CATEGORY_WEAPONS 				"Weapons"
+#define LOADOUT_SUBCATEGORY_WEAPONS_MELEE 		"Melee"
+#define LOADOUT_SUBCATEGORY_WEAPONS_RANGED 		"Ranged"
+#define LOADOUT_SUBCATEGORY_WEAPONS_MAGIC		"Magic"
+
 //backpack
 #define LOADOUT_CATEGORY_BACKPACK 				"In backpack"
 #define LOADOUT_SUBCATEGORY_BACKPACK_GENERAL 	"General" //basically anything that there's not enough of to have its own subcategory
