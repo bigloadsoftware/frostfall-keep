@@ -524,12 +524,12 @@
 	message_admins(span_adminnotice("[key_name_admin(usr)] changed the equipment of [ADMIN_LOOKUPFLW(H)] to [dresscode]."))
 
 /client/proc/robust_dress_shop()
-	var/list/outfits = list("Cancel","Naked","Custom","As Job...")
-	var/list/paths = subtypesof(/datum/outfit) - typesof(/datum/outfit/job)
-	for(var/path in paths)
-		var/datum/outfit/O = path //not much to initalize here but whatever
-		if(initial(O.can_be_admin_equipped))
-			outfits[initial(O.name)] = path
+	var/list/outfits = list("Cancel","Naked",/*"Custom", */"As Job...")
+	// var/list/paths = subtypesof(/datum/outfit) - typesof(/datum/outfit/job)
+	// for(var/path in paths)
+	// 	var/datum/outfit/O = path //not much to initalize here but whatever
+	// 	if(initial(O.can_be_admin_equipped))
+	// 		outfits[initial(O.name)] = path
 
 	var/dresscode = input("Select outfit", "Robust quick dress shop") as null|anything in outfits
 	if (isnull(dresscode))

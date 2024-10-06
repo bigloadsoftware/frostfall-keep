@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6
 {
 	margin: 0;
 	padding: 16px 0 8px 0;
-	color: #553177;
+	color: #D670AE;
 }
 
 h1
@@ -575,7 +575,7 @@ a.clicky_no_border {
 }
 .gen_setting_name {
 	padding-bottom:5px;
-	color: #553177;
+	color: #D670AE;
 	font-size: 14px;
 	font-weight: bold;
 	flex:45%;
