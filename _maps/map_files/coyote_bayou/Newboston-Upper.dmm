@@ -899,9 +899,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building/mall)
 "aLQ" = (
-/turf/open/indestructible/ground/outside/desert{
-	name = "sand pit"
-	},
 /area/f13/building/tribal)
 "aMg" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -2932,9 +2929,6 @@
 /area/f13/building)
 "ctY" = (
 /obj/structure/destructible/tribal_torch/wall/lit,
-/turf/open/indestructible/ground/outside/desert{
-	name = "sand pit"
-	},
 /area/f13/building/tribal)
 "cuQ" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -11924,9 +11918,6 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
 	},
-/turf/open/indestructible/ground/outside/desert{
-	name = "sand pit"
-	},
 /area/f13/building/tribal)
 "jwa" = (
 /obj/structure/closet/crate/bin{
@@ -12572,9 +12563,6 @@
 	dir = 9
 	},
 /obj/item/emptysandbag,
-/turf/open/indestructible/ground/outside/desert{
-	name = "sand pit"
-	},
 /area/f13/building/tribal)
 "jVw" = (
 /obj/structure/window/fulltile/house{
@@ -29200,9 +29188,6 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 5
 	},
-/turf/open/indestructible/ground/outside/desert{
-	name = "sand pit"
-	},
 /area/f13/building/tribal)
 "wio" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -30689,9 +30674,6 @@
 "xnf" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
-	},
-/turf/open/indestructible/ground/outside/desert{
-	name = "sand pit"
 	},
 /area/f13/building/tribal)
 "xnk" = (

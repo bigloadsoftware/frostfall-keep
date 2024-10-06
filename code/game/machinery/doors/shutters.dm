@@ -36,6 +36,37 @@
 	density = FALSE
 	opacity = 0
 
+/obj/machinery/door/poddoor/shutters/portcullis
+	name = "portcullis"
+	desc = "A wall of metal bars with small gaps in between."
+	icon = 'icons/obj/doors/shutters.dmi' //needs a new sprite
+	icon_state = "closed"
+	armor = ARMOR_VALUE_LIGHT
+	max_integrity = 350
+	damage_deflection = 36 //stronger, will block most one-handed melee weapons
+	proj_resist = 30 // will block weaker pistol/scattershot projectiles, though most faction weapons will get through
+	opacity = 0
+
+/obj/machinery/door/poddoor/shutters/portcullis/preopen
+	icon_state = "open"
+	density = FALSE
+	opacity = 0
+
+/obj/machinery/door/poddoor/shutters/gate
+	name = "portcullis"
+	desc = "A massive wooden gate reinforced with metal."
+	icon = 'icons/obj/doors/shutters.dmi' //needs a new sprite
+	icon_state = "closed"
+	armor = ARMOR_VALUE_LIGHT
+	max_integrity = 350
+	damage_deflection = 36 //stronger, will block most one-handed melee weapons
+	proj_resist = 30 // will block weaker pistol/scattershot projectiles, though most faction weapons will get through
+
+/obj/machinery/door/poddoor/shutters/gate/preopen
+	icon_state = "open"
+	density = FALSE
+	opacity = 0
+
 // End of old shutter stuff. Credit for the old shutter sprites to TG.
 
 /obj/machinery/door/poddoor/shutters/radiation
