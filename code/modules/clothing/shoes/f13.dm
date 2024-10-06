@@ -211,7 +211,7 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/khaans.dmi'
 	icon_state = "khan_boots"
 	item_state = "khan_boots"
-	var/boottoggled = FALSE
+	// var/boottoggled = FALSE
 
 /obj/item/clothing/shoes/f13/military/khan/Goji
 	name = "steel-tipped Snakeskin Loafers"
@@ -220,35 +220,35 @@
 	icon_state = "Gojishoes"
 	item_state = "Gojishoes"
 
-/obj/item/clothing/shoes/f13/military/khan/AltClick(mob/user)
-	. = ..()
-	if(!user.canUseTopic(src, BE_CLOSE, ismonkey(user)))
-		return
-	boot_toggle(user)
-	return TRUE
+// /obj/item/clothing/shoes/f13/military/khan/AltClick(mob/user)
+// 	. = ..()
+// 	if(!user.canUseTopic(src, BE_CLOSE, ismonkey(user)))
+// 		return
+// 	boot_toggle(user)
+// 	return TRUE
 
-/obj/item/clothing/shoes/f13/military/khan/ui_action_click()
-	boot_toggle()
+// /obj/item/clothing/shoes/f13/military/khan/ui_action_click()
+// 	boot_toggle()
 
-/obj/item/clothing/shoes/f13/military/khan/proc/boot_toggle()
-	set src in usr
+// /obj/item/clothing/shoes/f13/military/khan/proc/boot_toggle()
+// 	set src in usr
 
-	if(!can_use(usr))
-		return 0
+// 	if(!can_use(usr))
+// 		return 0
 
-	to_chat(usr, span_notice("You mess around with the shin guards."))
-	if(src.boottoggled)
-		src.icon_state = "[initial(icon_state)]"
-		src.item_state = "[initial(icon_state)]"
-		src.boottoggled = FALSE
-	else if(!src.boottoggled)
-		src.icon_state = "[initial(icon_state)]_t"
-		src.item_state = "[initial(icon_state)]_t"
-		src.boottoggled = TRUE
-	usr.update_inv_shoes()
-	for(var/X in actions)
-		var/datum/action/A = X
-		A.UpdateButtonIcon()
+// 	to_chat(usr, span_notice("You mess around with the shin guards."))
+// 	if(src.boottoggled)
+// 		src.icon_state = "[initial(icon_state)]"
+// 		src.item_state = "[initial(icon_state)]"
+// 		src.boottoggled = FALSE
+// 	else if(!src.boottoggled)
+// 		src.icon_state = "[initial(icon_state)]_t"
+// 		src.item_state = "[initial(icon_state)]_t"
+// 		src.boottoggled = TRUE
+// 	usr.update_inv_shoes()
+// 	for(var/X in actions)
+// 		var/datum/action/A = X
+// 		A.UpdateButtonIcon()
 
 
 /obj/item/clothing/shoes/f13/military/khan_pelt

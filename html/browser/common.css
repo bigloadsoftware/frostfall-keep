@@ -4,10 +4,10 @@ body
 	padding: 0;
 	margin: 0;
 	background: #383838;
-	color: #00dd00;
+	color: #20e7ee;
 	font-size: 12px;
 	font-family: 'VT323', Courier;
-	color: #2fc22f;
+	color: #128b8f;
 	line-height: 170%;
 }
 
@@ -19,7 +19,7 @@ hr
 
 a, button, a:link, a:visited, a:active, .linkOn, .linkOff
 {
-	color: #00dd00;
+	color: #20e7ee;
 	text-decoration: none;
 	padding: 1px 4px 1px 4px;
 	margin: 0 2px 0 0;
@@ -27,7 +27,7 @@ a, button, a:link, a:visited, a:active, .linkOn, .linkOff
 }
 
 a:hover {
-	background-color: #5DC966;
+	background-color: #128b8f;
 	color: black;	
 }
 
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6
 {
 	margin: 0;
 	padding: 16px 0 8px 0;
-	color: #517087;
+	color: #553177;
 }
 
 h1
@@ -131,9 +131,9 @@ h4
 {
 	clear: both;
 	padding: 6px 8px 6px 8px;
-	border-bottom: 2px solid #00dd00;
+	border-bottom: 2px solid #20e7ee;
 	background: #383838;
-	color: #00dd00;
+	color: #20e7ee;
 	font-size: 16px;
 }
 
@@ -387,13 +387,13 @@ ul {
 
 ul a:before,
 p a:before {
-	color: #00dd00;
+	color: #20e7ee;
 	content: ' > ';
 }
 
 ul a:after,
 p a:after {
-	color: #00dd00;
+	color: #20e7ee;
 	content: '  ';	
 }
 ul.sparse {
@@ -433,7 +433,9 @@ ul.sparse {
 	width: 1px;
 }
 
-.overlay:before {
+
+
+/* .overlay:before {
 	background: linear-gradient(#101010 50%, rgba(16, 16, 16, 0.02) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.03));
 	background-size: 10% 3px, 6px 10%;
 	content: "";
@@ -445,7 +447,7 @@ ul.sparse {
 		bottom: 0;
 		left: 0;
 	z-index:-1;
-}
+} */
 	
 .overlay:after {
 	background: rgba(16, 16, 16, 0.01);
@@ -463,8 +465,8 @@ ul.sparse {
 .scanline {
 	animation: scrollfade 10s 5s infinite;
 	pointer-events: none;
-	background: linear-gradient(to bottom,  rgba(0,221,0,0) 0%,rgba(0,221,0,1) 25%,rgba(0,221,0,0) 50%);
-	filter: progid:DXImageTransform.Microsoft.Gradient( startColorstr='#0000dd00', endColorstr='#0000dd00',GradientType=0 );
+	background: linear-gradient(to bottom,  rgba(0,221,0,0) 0%,rgb(70, 141, 182) 25%,rgba(0,221,0,0) 50%);
+	filter: progid:DXImageTransform.Microsoft.Gradient( startColorstr='#0020e7ee', endColorstr='#0020e7ee',GradientType=0 );
 	display: block;
 	height: 20px;
 	opacity: 0.05;
@@ -573,7 +575,7 @@ a.clicky_no_border {
 }
 .gen_setting_name {
 	padding-bottom:5px;
-	color: #517087;
+	color: #553177;
 	font-size: 14px;
 	font-weight: bold;
 	flex:45%;
@@ -623,7 +625,7 @@ td.genital_arrow_off {
 	background-color: rgba(0, 128, 0, 0.4);
 	outline-style: inset;
 	outline-width: 1px;
-	outline-color: green;
+	outline-color: #008000;
 	text-align: center;
 	margin: auto;
 	width: auto;

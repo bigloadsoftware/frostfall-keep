@@ -37,7 +37,6 @@
 /datum/gear/backpack/crayons
 	name = "Box of Crayons"
 	path = /obj/item/storage/crayons
-	subcategory = LOADOUT_SUBCATEGORY_BACKPACK_GENERAL
 
 /datum/gear/backpack/pen
 	name = "Pen"
@@ -111,6 +110,12 @@
 	name = "Cropped Denim Jacket - Accessory"
 	path = /obj/item/clothing/accessory/ncrfjacketcrop
 	cost = 1
+
+/datum/gear/hands/bedroll
+	name = "bedroll"
+	path = /obj/item/roller/bedroll
+	cost = 1
+
 
 // /////////////////////
 // //Coyote Additions//
