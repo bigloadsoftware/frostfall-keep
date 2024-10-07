@@ -1,6 +1,7 @@
 /datum/species/dwarf //not to be confused with the genetic manlets
 	name = "Dwarf"
 	id = "dwarf" //Also called Homo sapiens pumilionis
+	roundstart = FALSE
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR,HAIR,FACEHAIR,LIPS,MUTCOLORS,HORNCOLOR,WINGCOLOR,HAS_FLESH,HAS_BONE)
 	inherent_traits = list(TRAIT_DWARF)
@@ -18,6 +19,8 @@
 
 	allowed_limb_ids = list("human","mammal","aquatic","avian")
 
+/datum/species/dwarf/check_roundstart_eligible()
+	return roundstart
 
 /mob/living/carbon/human/species/dwarf //species admin spawn path
 	race = /datum/species/dwarf //and the race the path is set to.

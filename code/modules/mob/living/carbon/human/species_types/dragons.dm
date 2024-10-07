@@ -6,7 +6,7 @@
 	simple_icon = 'icons/mob/dragon/dragon_parts_greyscaled.dmi'
 	icon_rest_suffix = "-rest"
 	icon_dead_suffix = "-dead"
-	roundstart = TRUE
+	roundstart = FALSE
 	id = "dragon_bodyEmpty" //This is correct, the base icon must be empty, everything else are mutant body parts
 
 	name = "Feral Dragon"

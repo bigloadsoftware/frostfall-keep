@@ -372,7 +372,7 @@ GLOBAL_LIST_EMPTY(PDAs)
 						dat += "<li><a href='byond://?src=[REF(src)];choice=Geiger'>[PDAIMG(scanner)][g_on ? "Disable" : "Enable"] Geiger Counter[extra]</a></li>"
 				if (cartridge)
 					if (cartridge.access & CART_MANIFEST)
-						dat += "<li><a href='byond://?src=[REF(src)];choice=41'>[PDAIMG(notes)]View Crew Manifest</a></li>"
+						dat += "<li><a href='byond://?src=[REF(src)];choice=41'>[PDAIMG(notes)]View Occupation Scroll</a></li>"
 					if(cartridge.access & CART_STATUS_DISPLAY)
 						dat += "<li><a href='byond://?src=[REF(src)];choice=42'>[PDAIMG(status)]Set Status Display</a></li>"
 					dat += "</ul>"

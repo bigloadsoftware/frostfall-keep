@@ -1,6 +1,7 @@
 /datum/species/lizard
 	// Reptilian humanoids with scaled skin and tails.
 	name = "Anthromorphic Lizard"
+	roundstart = FALSE
 	id = "lizard"
 	say_mod = "hisses"
 	default_color = "00FF00"
@@ -30,6 +31,9 @@
 	wagging_type = "waggingtail_lizard"
 	species_type = "lizard"
 	allowed_limb_ids = list("mammal","aquatic","avian","shadekin")
+
+/datum/species/lizard/check_roundstart_eligible()
+	return roundstart
 
 /datum/species/lizard/random_name(gender,unique,lastname)
 	if(unique)

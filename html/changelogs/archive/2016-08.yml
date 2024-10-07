@@ -139,7 +139,7 @@
   - tweak: Watchers no longer randomly fire beams at you when damaged, and no longer
       beam you at point blank.
   Gun Hog:
-  - tweak: The AI's Crew Manifest button now uses the updated styling.
+  - tweak: The AI's Occupation Scroll button now uses the updated styling.
   Joan:
   - rscadd: Sigils of Transgression now glow brightly when stunning a target.
   - rscadd: The Global Records alert now shows the location and countdown time of

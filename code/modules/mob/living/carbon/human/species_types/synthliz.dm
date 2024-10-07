@@ -1,6 +1,7 @@
 /datum/species/synthfurry
 	name = "Synthetic Anthropomorph"
 	id = "synthliz"
+	roundstart = FALSE
 	say_mod = "beeps"
 	default_color = "00FF00"
 	species_traits = list(
@@ -59,6 +60,9 @@
 	species_type = "robotic"
 	allowed_limb_ids = list("mammal","aquatic","avian", "human", "shadekin", "protectron", "golem")
 
+/datum/species/synthfurry/check_roundstart_eligible()
+	return roundstart
+
 /datum/species/synthfurry/spec_life(mob/living/carbon/human/H)
 /*	if(H.nutrition < NUTRITION_LEVEL_FED)
 		H.nutrition = NUTRITION_LEVEL_FED
@@ -75,9 +79,10 @@
 /datum/species/synthfurry/synth_anthromorph
 	name = "Synthetic Anthromorph"
 	id = "synthfurry"
+	roundstart = FALSE
 
 /datum/species/synthfurry/ipc
-	name = "I.P.C."
+	name = "Automaton"
 	id = "ipc"
 	limbs_id = "ipc"
 	icon_limbs = "ipc"

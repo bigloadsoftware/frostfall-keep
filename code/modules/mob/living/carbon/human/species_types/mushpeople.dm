@@ -1,6 +1,7 @@
 /datum/species/mush //mush mush codecuck
 	name = "Anthromorphic Mushroom"
 	id = "mush"
+	roundstart = FALSE
 	mutant_bodyparts = list("caps" = "Round")
 
 	fixed_mut_color = "DBBF92"

@@ -16,7 +16,7 @@ export const NtosCrewManifest = (props, context) => {
       resizable>
       <NtosWindow.Content scrollable>
         <Section
-          title="Crew Manifest"
+          title="Occupation Scroll"
           buttons={(
             <Button
               icon="print"
