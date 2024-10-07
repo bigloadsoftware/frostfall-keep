@@ -137,6 +137,20 @@
 	canSmoothWith = list(SMOOTH_GROUP_OLDBRICK_WALLS, SMOOTH_GROUP_WINDOW_FULLTILE)
 	custom_materials = list(/datum/material/sandstone = 4000)
 
+/turf/closed/wall/mineral/brick/sandstone
+	name = "sandstone wall"
+	desc = "A wall with sandstone plating. Rough."
+	icon = 'icons/turf/walls/brick_wall_desert.dmi'
+	icon_state = "wall-0"
+	base_icon_state = "wall"
+	sheet_type = /obj/item/stack/sheet/mineral/sandstone//Needs replacing with an actual brick subtype
+	hardness = 40
+	explosion_block = 0
+	smoothing_flags = SMOOTH_BITMASK
+	smoothing_groups = list(SMOOTH_GROUP_CLOSED_TURFS, SMOOTH_GROUP_WALLS, SMOOTH_GROUP_OLDBRICK_WALLS)
+	canSmoothWith = list(SMOOTH_GROUP_OLDBRICK_WALLS, SMOOTH_GROUP_WINDOW_FULLTILE)
+	custom_materials = list(/datum/material/sandstone = 4000)
+
 /obj/structure/falsewall/brick/old
 	name = "weathered brick wall"
 	desc = "A wall made out of red brick."
