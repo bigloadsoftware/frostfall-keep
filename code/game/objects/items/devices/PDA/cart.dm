@@ -239,7 +239,7 @@ Code:
 <a href='byond://?src=[REF(src)];choice=Signal Code;scode=5'>+</a><br>"}
 		if (41) //crew manifest
 
-			menu = "<h4>[PDAIMG(notes)] Crew Manifest</h4>"
+			menu = "<h4>[PDAIMG(notes)] Occupation Scroll</h4>"
 			menu += "Entries cannot be modified from this terminal.<br><br>"
 			if(GLOB.data_core.general)
 				for (var/datum/data/record/t in sortRecord(GLOB.data_core.general))

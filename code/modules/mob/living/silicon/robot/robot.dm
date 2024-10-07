@@ -1124,7 +1124,7 @@
 
 /mob/living/silicon/robot/verb/viewmanifest()
 	set category = "Robot Commands"
-	set name = "View Crew Manifest"
+	set name = "View Occupation Scroll"
 
 	if(usr.stat == DEAD)
 		return //won't work if dead

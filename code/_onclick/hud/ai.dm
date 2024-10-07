@@ -57,7 +57,7 @@
 	GLOB.crewmonitor.show(AI,AI)
 
 /atom/movable/screen/ai/crew_manifest
-	name = "Crew Manifest"
+	name = "Occupation Scroll"
 	icon_state = "manifest"
 
 /atom/movable/screen/ai/crew_manifest/Click()
@@ -228,7 +228,7 @@
 	using.hud = src
 	static_inventory += using
 
-//Crew Manifest
+//Occupation Scroll
 	using = new /atom/movable/screen/ai/crew_manifest()
 	using.screen_loc = ui_ai_crew_manifest
 	using.hud = src

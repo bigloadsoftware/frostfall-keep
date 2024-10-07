@@ -1,6 +1,7 @@
 /datum/species/fly
 	name = "Anthromorphic Fly"
 	id = "fly"
+	roundstart = FALSE
 	say_mod = "buzzes"
 	species_traits = list(NOEYES,FACEHAIR,HAS_FLESH,HAS_BONE)
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID|MOB_BUG
@@ -13,6 +14,9 @@
 	exotic_bloodtype = "BUG"
 	exotic_blood_color = BLOOD_COLOR_BUG
 	species_type = "insect"
+
+/datum/species/fly/check_roundstart_eligible()
+	return roundstart
 
 /datum/species/fly/handle_chemicals(datum/reagent/chem, mob/living/carbon/human/H)
 	if(istype(chem, /datum/reagent/toxin/pestkiller))

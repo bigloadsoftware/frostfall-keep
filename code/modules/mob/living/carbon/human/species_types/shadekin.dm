@@ -5,6 +5,7 @@
 /datum/species/mammal/shadekin
 	name = "Shadekin"
 	id = SPECIES_SHADEKIN
+	roundstart = FALSE
 	say_mod = "mars"
 	mutant_bodyparts = list("mcolor" = "FFFFFF", "mcolor2" = "FFFFFF", "mcolor3" = "FFFFFF", "mam_tail" = "Shadekin", "mam_ears" = "Shadekin", "deco_wings" = "None",
 						"taur" = "None", "horns" = "None", "legs" = "Plantigrade", "meat_type" = "Mammalian")
@@ -20,3 +21,6 @@
 
 /mob/living/carbon/human/species/mammal/shadekin
 	race = /datum/species/mammal/shadekin
+
+/datum/species/mammal/shadekin/check_roundstart_eligible()
+	return roundstart

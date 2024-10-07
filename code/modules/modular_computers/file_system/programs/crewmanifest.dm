@@ -37,7 +37,7 @@
 	switch(action)
 		if("PRG_print")
 			if(computer && printer) //This option should never be called if there is no printer
-				var/contents = {"<h4>Crew Manifest</h4>
+				var/contents = {"<h4>Occupation Scroll</h4>
 								<br>
 								[GLOB.data_core ? GLOB.data_core.get_manifest_dr() : ""]
 								"}

@@ -4,7 +4,7 @@
 //like before, they cannot take piercing wounds or burn wounds or slash wounds, but they can have their bones broken by any source of wound now instead of being impervious
 
 /datum/species/ghoul
-	name = "Ghoul"
+	name = "Mutant"
 	id = "ghoul"
 	default_color = "4B4B4B"
 

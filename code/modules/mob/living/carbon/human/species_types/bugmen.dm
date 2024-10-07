@@ -1,6 +1,7 @@
 /datum/species/insect
 	name = "Anthromorphic Insect"
 	id = "insect"
+	roundstart = FALSE
 	say_mod = "chitters"
 	default_color = "00FF00"
 	species_traits = list(LIPS,EYECOLOR,HAIR,FACEHAIR,MUTCOLORS,HORNCOLOR,WINGCOLOR,HAS_FLESH,HAS_BONE)
@@ -23,3 +24,6 @@
 	allowed_limb_ids = list("insect","apid","moth","moth_not_greyscale","spider")
 
 	eye_type = "insect"
+
+/datum/species/insect/check_roundstart_eligible()
+	return roundstart

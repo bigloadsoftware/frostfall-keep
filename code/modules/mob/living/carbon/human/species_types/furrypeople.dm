@@ -1,5 +1,5 @@
 /datum/species/mammal
-	name = "Anthromorph"
+	name = "Beastman"
 	id = "mammal"
 	default_color = "4B4B4B"
 
@@ -24,7 +24,7 @@
 /datum/species/vox
 	name = "Vox"
 	id = "vox"
-	roundstart = TRUE
+	roundstart = FALSE
 	species_traits = list(MUTCOLORS,
 		EYECOLOR,
 		NO_UNDERWEAR,
