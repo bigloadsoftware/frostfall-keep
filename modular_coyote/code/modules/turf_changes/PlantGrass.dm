@@ -13,6 +13,10 @@
 	var/thingtype
 	if(spawnPlants && prob(RAND_PLANT_CHANCE))
 		thingtype = "plant"
+	else if(spawnSnowy && prob(RAND_PLANT_CHANCE))
+		thingtype = "snowy"
+	else if(spawnSnowyGarden && prob(RAND_PLANT_CHANCE))
+		thingtype = "snowygarden"
 	else if(spawnHiddenStashes && prob(HIDDEN_STASH_CHANCE))
 		thingtype = "stash"
 	else if(greeble)
@@ -52,6 +56,10 @@
 			var/list/nestnwreck = GLOB.nest_spawn_list
 			nestnwreck |= GLOB.salvage_spawn_list
 			randThing = pickweight(nestnwreck)
+		if("snowy")
+			randThing = pickweight(GLOB.snow_plant_list)
+		if("snowygarden")
+			randThing = pickweight(GLOB.gardensnow_plant_list)
 	if(randThing)
 		new randThing(src)
 		return TRUE
@@ -75,9 +83,11 @@
 	var/spawnHiddenStashes = FALSE
 	/// Type of random stuff to spawn on a turf. Supports weighted lists.
 	var/greeble
+	var/spawnSnowy = FALSE //This allows for snow plants to spawn in.
+	var/spawnSnowyGarden = FALSE
 
 /turf/open/Initialize(mapload)
-	if(mapload && !is_reserved_level(z) && (spawnPlants || greeble || spawnHiddenStashes))
+	if(mapload && !is_reserved_level(z) && (spawnPlants || greeble || spawnHiddenStashes || spawnSnowy || spawnSnowyGarden))
 		spawnRandThing()
 	. = ..()
 
@@ -103,8 +113,23 @@
 	spawnHiddenStashes = TRUE
 	greeble = OUTSIDE_JUNK_DISTRIBUTION
 
-/turf/open/indestructible/ground/outside/dirt_s
-	spawnPlants = TRUE
+/turf/open/indestructible/ground/outside/snow //Main snowy stuff; more un-pretty stuff
+	spawnPlants = FALSE
+	spawnSnowy = TRUE
+	spawnHiddenStashes = FALSE
+	greeble = FALSE
+
+/turf/open/indestructible/ground/outside/snow/garden //Snowy stuff; Less wild stuff, more pretty stuff
+	spawnPlants = FALSE
+	spawnSnowy = FALSE
+	spawnSnowyGarden = TRUE
+	spawnHiddenStashes = FALSE
+	greeble = FALSE
+
+/turf/open/indestructible/ground/outside/dirt_s //Mix between the other snowy stuff.
+	spawnPlants = FALSE
+	spawnSnowy = FALSE
+	spawnSnowyGarden = TRUE
 	spawnHiddenStashes = FALSE
 	greeble = FALSE
 
@@ -113,10 +138,11 @@
 	spawnHiddenStashes = TRUE
 	greeble = OUTSIDE_JUNK_DISTRIBUTION
 
+
 /turf/open/indestructible/ground/outside/dirt/harsh
-	spawnPlants = TRUE
-	spawnHiddenStashes = TRUE
-	greeble = OUTSIDE_JUNK_DISTRIBUTION
+	spawnPlants = FALSE
+	spawnHiddenStashes = FALSE
+	greeble = FALSE
 
 /turf/open/floor/plating/f13/outside/desert
 	spawnPlants = TRUE

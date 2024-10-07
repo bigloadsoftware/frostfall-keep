@@ -655,6 +655,12 @@
 /turf/open/floor/plasteel/f13/stone/rugged
 	icon_state = "khanstone"
 
+/turf/open/floor/plasteel/f13/stone/dark
+	icon_state = "darkstone"
+
+/turf/open/floor/plasteel/f13/stone/light
+	icon_state = "lightstone"
+
 /turf/open/floor/circuit/f13_blue
 	icon = 'icons/turf/f13floors2.dmi'
 	icon_state = "bcircuit2"

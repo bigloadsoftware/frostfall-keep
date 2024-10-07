@@ -557,7 +557,7 @@
 	icon = 'icons/fallout/structures/doors.dmi'
 	icon_state = "housedoor"
 	door_type = "housedoor"
-	opacity = TRUE
+	opacity = FALSE
 	base_opacity = FALSE
 	can_disasemble = 1
 	can_have_lock = TRUE
@@ -566,7 +566,7 @@
 	icon = 'icons/fallout/structures/doors.dmi'
 	icon_state = "private"
 	door_type = "private"
-	opacity = FALSE
+	opacity = TRUE
 	base_opacity = FALSE
 	can_disasemble = 1
 	can_have_lock = TRUE

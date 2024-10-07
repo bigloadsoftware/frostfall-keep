@@ -292,3 +292,10 @@
 	icon = 'icons/obj/rollerbed.dmi'
 	icon_state = "bedrollrolled"
 	w_class = WEIGHT_CLASS_SMALL // So you don't have to struggle with it! Besides, bedrolls can get pretty small.
+
+/obj/item/roller/bodycart //NEEDS SPRITED, and overall just fixed
+	name = "bodycart"
+	desc = "A cart made to carry bodies, dead or alive."
+	unfoldabletype = FALSE
+	icon = 'icons/obj/rollerbed.dmi'
+	icon_state = "down"
