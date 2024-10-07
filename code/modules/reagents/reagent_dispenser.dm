@@ -55,6 +55,16 @@
 	icon_state = "water_high" //I was gonna clean my room...
 	tank_volume = 100000
 
+/obj/structure/reagent_dispensers/watertank/barrel
+	name = "water barrel"
+	desc = "A barrel used for storing liquids."
+	icon = 'icons/fallout/farming/farming_structures.dmi'
+	icon_state = "barrel"
+	tank_volume = 1000
+
+/obj/structure/reagent_dispensers/watertank/barrel/empty
+	tank_volume = 0
+
 /obj/structure/reagent_dispensers/foamtank
 	name = "firefighting foam tank"
 	desc = "A tank full of firefighting foam."

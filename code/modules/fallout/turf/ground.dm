@@ -200,7 +200,34 @@ GLOBAL_LIST_INIT(plant_type_weighted, list(
 	"grass" = 50,
 	"medicinal" = 10,
 	"tree" = 10,
-))
+	))
+
+GLOBAL_LIST_INIT(snow_plant_list, list(
+	/obj/structure/flora/tree/pine = 60,
+	/obj/structure/flora/ausbushes/fullgrass = 40,
+	/obj/structure/flora/ausbushes/grassybush = 10,
+	/obj/structure/flora/ausbushes/lavendergrass = 40,
+	/obj/structure/flora/ausbushes/sparsegrass = 5,
+	/obj/structure/flora/grass/both = 0,
+	/obj/structure/flora/grass/brown = 60,
+	/obj/structure/flora/grass/green = 60,
+	/obj/structure/flora/grass/wasteland = 15,
+	/obj/structure/flora/bush = 2,
+	/obj/structure/flora/ausbushes/brflowers = 4,
+	/obj/structure/flora/ausbushes/ppflowers = 4,
+	/obj/structure/flora/ausbushes/ywflowers = 4,
+	))
+
+GLOBAL_LIST_INIT(gardensnow_plant_list, list(
+	/obj/structure/flora/ausbushes/fullgrass = 100,
+	/obj/structure/flora/ausbushes/lavendergrass = 100,
+	/obj/structure/flora/grass/both = 10,
+	/obj/structure/flora/grass/brown = 10,
+	/obj/structure/flora/grass/green = 10,
+	/obj/structure/flora/ausbushes/brflowers = 10,
+	/obj/structure/flora/ausbushes/ppflowers = 10,
+	/obj/structure/flora/ausbushes/ywflowers = 10,
+	))
 
 /turf/open/indestructible/ground/outside/dirthole
 	name = "Dirt hole"
@@ -417,12 +444,18 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 	name = "dirt"
 	icon_state = "bottomleft"
 	icon = 'icons/fallout/turfs/dirtsnow.dmi'
+	footstep = FOOTSTEP_SNOW
+	barefootstep = FOOTSTEP_SNOW
+	clawfootstep = FOOTSTEP_SNOW
 //	step_sounds = list("human" = "dirtfootsteps")
 
 /turf/open/indestructible/ground/outside/grass_s
 	name = "grass"
 	icon_state = "bottomleft"
 	icon = 'icons/fallout/turfs/snowgrass.dmi'
+	footstep = FOOTSTEP_SNOW
+	barefootstep = FOOTSTEP_SNOW
+	clawfootstep = FOOTSTEP_SNOW
 //	step_sounds = list("human" = "dirtfootsteps")
 
 /turf/open/indestructible/ground/outside/road
@@ -634,6 +667,8 @@ GLOBAL_LIST_INIT(junk_type_weighted, list(
 	barefootstep = FOOTSTEP_SNOW
 	clawfootstep = FOOTSTEP_SNOW
 
+/turf/open/indestructible/ground/outside/snow/garden
+
 /turf/open/indestructible/ground/outside/ruins/ex_act(severity, target)
 	contents_explosion(severity, target)
 	switch(severity)
@@ -751,6 +786,12 @@ GLOBAL_LIST_INIT(junk_type_weighted, list(
 	icon_state = "innermiddle"
 	icon = 'icons/fallout/turfs/asphaltdirt.dmi'
 	footstep = FOOTSTEP_ROAD
+
+/turf/open/indestructible/ground/outside/roaddirt/dark
+	name = "road"
+	icon_state = "innermiddle"
+	icon = 'icons/fallout/turfs/asphaltdirt.dmi'
+	footstep = FOOTSTEP_ROAD
 //	step_sounds = list("human" = "erikafootsteps")
 
 /turf/open/indestructible/ground/outside/sidewalkdirt
@@ -766,6 +807,9 @@ GLOBAL_LIST_INIT(junk_type_weighted, list(
 	name = "gravel"
 	icon_state = "graveldirt"
 	icon = 'icons/fallout/turfs/ground.dmi'
+	footstep = FOOTSTEP_SAND
+	barefootstep = FOOTSTEP_SAND
+	clawfootstep = FOOTSTEP_SAND
 //	step_sounds = list("human" = "erikafootsteps")
 
 // New gravel, organized. Use directions for control. - Pebbles

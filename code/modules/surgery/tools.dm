@@ -477,3 +477,29 @@
 		to_chat(user, span_warning("You refrain from hitting [L] with [src], as you are in help intent."))
 		return
 	return ..()
+
+//Medieval torture-- erm, surgery tools
+
+/obj/item/scalpel/scissors
+	name = "scissors"
+	desc = "Crude, but particularly sharp scissors, intended for easily cutting flesh open."
+	icon = 'icons/obj/tools.dmi'
+	icon_state = "crudewire"
+
+/obj/item/hemostat/clamps
+	name = "clamps"
+	desc = "A handheld tweezer-like instrument used to clamp tissue together."
+	icon = 'icons/obj/tools.dmi'
+	icon_state = "basicwire"
+
+/obj/item/cautery/simple
+	name = "cautery"
+	desc = "Just a hunk of metal attached to a handle, used to first heat up and cauterize wounds."
+	icon = 'icons/obj/tools.dmi'
+	icon_state = "crudescrew"
+
+/obj/item/retractor/forceps
+	name = "forceps"
+	desc = "A handheld mettalic tool used to push tissue apart."
+	icon = 'icons/obj/surgery.dmi'
+	icon_state = "retractor"
