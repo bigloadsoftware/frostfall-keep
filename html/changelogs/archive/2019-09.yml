@@ -181,7 +181,7 @@
   - tweak: cybernetic heart takes damage from emp like other cybernetics
   - tweak: heart injects epinephrine on crit instead of unconsciousness
   GuyonBroadway:
-  - balance: Felinids now have a very adverse reaction to chocolate products.
+  - balance: Half-Breeds now have a very adverse reaction to chocolate products.
   - bugfix: You no longer purge your entire system of food in a single puke
   Qustinnus:
   - bugfix: you can no longer exploit the pet park for unlimited happiness

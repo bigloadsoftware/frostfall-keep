@@ -633,7 +633,7 @@
   Bumtickley00:
   - bugfix: Helbital now heals brute instead of dealing brute
   Farquaar:
-  - tweak: Felinid speech is now audibly distinct from human speech.
+  - tweak: Half-Breed speech is now audibly distinct from human speech.
   LemonInTheDark:
   - rscadd: Tesla zaps will now turn tesla generators into teslas.
   - bugfix: Explosions might be a little less common, I've fixed the thing where machines

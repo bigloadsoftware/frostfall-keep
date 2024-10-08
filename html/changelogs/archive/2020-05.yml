@@ -15,10 +15,10 @@
   - rscadd: Added two new pAIs to BoxStation
   RaveRadbury:
   - rscadd: Foreigner Quirk - Removes Galactic Common
-  - rscadd: Galactic Uncommon - Given to Human and Felinid foreigners
+  - rscadd: Galactic Uncommon - Given to Human and Half-Breed foreigners
   - imageadd: Inverted Galactic Common sprite for Galactic Uncommon
   - tweak: Quirks sort into medical records rather than just dumping into notes.
-  - bugfix: Non-human/felinid Foreigners don't get Galuncom
+  - bugfix: Non-human/halfbreed Foreigners don't get Galuncom
   Skoglol:
   - admin: Added a few new smites.
   Twaticus:

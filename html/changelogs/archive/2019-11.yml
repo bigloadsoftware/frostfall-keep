@@ -241,7 +241,7 @@
       supply
   PepperPrepper:
   - bugfix: You can't hold hands with simple mobs
-  - rscadd: scan gates can now detect Felinids
+  - rscadd: scan gates can now detect Half-Breeds
   Potato Masher:
   - rscadd: Oldstation (ghost role spacestation) now has a proper basic atmos system
       with a scrubber loop, as well as additional N2 and O2 in enlarged tanks.

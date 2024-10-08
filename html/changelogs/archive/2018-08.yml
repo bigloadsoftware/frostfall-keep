@@ -163,8 +163,8 @@
       disabled (EMP'd) in the process
   kevinz000:
   - rscadd: Catpeople are now a subspecies of human. Switch your character's species
-      to "Felinid" to be one.
-  - rscadd: Oh yeah and they show up as felinids on health analyzers.
+      to "Half-Breed" to be one.
+  - rscadd: Oh yeah and they show up as Half-Breeds on health analyzers.
 2018-08-10:
   AnturK:
   - balance: Portable flashers won't burnout from failed flashes.
@@ -226,7 +226,7 @@
   - rscadd: You can now review the full list of unlocked surgeries from the operating
       computer.
   actioninja:
-  - rscadd: Added (unobtainable) Felinid Mutation Toxin.
+  - rscadd: Added (unobtainable) Half-Breed Mutation Toxin.
   lyman:
   - imageadd: Updated the Chronosuit Helmet sprite.
 2018-08-13:

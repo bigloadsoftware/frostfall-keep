@@ -458,11 +458,11 @@ SUBSYSTEM_DEF(traumas)
 						),
 
 						"anime" = typecacheof(list(
-							/datum/species/human/felinid)
+							/datum/species/human/halfbreed)
 							),
 
 						"cats" = typecacheof(list(
-							/datum/species/human/felinid)
+							/datum/species/human/halfbreed)
 							),
 						)
 

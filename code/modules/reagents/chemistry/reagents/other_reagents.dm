@@ -759,10 +759,10 @@
 	race = /datum/species/jelly/slime
 	mutationtext = span_danger("The pain subsides. Your whole body feels like slime.")
 
-/datum/reagent/mutationtoxin/felinid
-	name = "Felinid Mutation Toxin"
+/datum/reagent/mutationtoxin/halfbreed
+	name = "Half-Breed Mutation Toxin"
 	color = "#5EFF3B" //RGB: 94, 255, 59
-	race = /datum/species/human/felinid
+	race = /datum/species/human/halfbreed
 	mutationtext = span_danger("The pain subsides. You feel... like a degenerate.")
 
 /datum/reagent/mutationtoxin/lizard

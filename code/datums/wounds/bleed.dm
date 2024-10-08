@@ -417,7 +417,7 @@
 		to_chat(user, span_warning("You can't lick wounds without a tongue!")) // f in chat
 		return
 
-	// transmission is one way patient -> felinid since google said cat saliva is antiseptic or whatever, and also because felinids are already risking getting beaten for this even without people suspecting they're spreading a deathvirus
+	// transmission is one way patient -> halfbreed since google said cat saliva is antiseptic or whatever, and also because Half-Breeds are already risking getting beaten for this even without people suspecting they're spreading a deathvirus
 	for(var/datum/disease/D in victim.diseases)
 		user.ForceContractDisease(D)
 

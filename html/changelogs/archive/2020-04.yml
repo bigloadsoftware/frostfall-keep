@@ -573,7 +573,7 @@
   stylemistake:
   - bugfix: Fixed Malf AI module picker, you can now buy modules.
   uomo91:
-  - tweak: Felinids now "pounce" instead of "leap" and "tackle" when using gripper
+  - tweak: Half-Breeds now "pounce" instead of "leap" and "tackle" when using gripper
       gloves.
 2020-04-26:
   Arkatos:
