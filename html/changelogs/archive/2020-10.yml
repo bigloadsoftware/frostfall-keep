@@ -71,7 +71,7 @@
   - bugfix: The Airlock Painter should now paint airlocks in all appropriate scenarios
       where it failed to do so before.
   - bugfix: The Dwarfism mutation no longer bends and breaks reality. As a result,
-      Flat Felinid Friday is once again cancelled.
+      Flat Half-Breed Friday is once again cancelled.
   - tweak: You can now throw a lot of throwable things over railings where previously
       you couldn't. Including people. Just like God intended.
   - bugfix: Suit Storage Units will now correctly eject their contents in a variety
@@ -636,7 +636,7 @@
   Kylerace:
   - bugfix: dressers are allowed to cease existing without needless littering
   Ryll/Shaps:
-  - bugfix: Felinids can no longer contract heart attacks and appendicitis from licking
+  - bugfix: Half-Breeds can no longer contract heart attacks and appendicitis from licking
       the wounds of the injured.
   Timberpoes:
   - bugfix: Shapeshifting code will no longer runtime when attempting to cast a shapeshift

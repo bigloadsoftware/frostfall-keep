@@ -1514,8 +1514,8 @@ GLOBAL_VAR_INIT(crotch_call_cooldown, 0)
 /mob/living/carbon/human/species/dullahan
 	race = /datum/species/dullahan
 
-/mob/living/carbon/human/species/felinid
-	race = /datum/species/human/felinid
+/mob/living/carbon/human/species/halfbreed
+	race = /datum/species/human/halfbreed
 
 /mob/living/carbon/human/species/fly
 	race = /datum/species/fly

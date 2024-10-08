@@ -354,7 +354,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/icon/bgstate = "steel"
 	var/list/bgstate_options = list("000", "midgrey", "FFF", "white", "steel", "techmaint", "dark", "plating", "reinforced")
 
-	var/show_mismatched_markings = FALSE //determines whether or not the markings lists should show markings that don't match the currently selected species. Intentionally left unsaved.
+	var/show_mismatched_markings = TRUE //determines whether or not the markings lists should show markings that don't match the currently selected species. Intentionally left unsaved.
 
 	var/no_tetris_storage = FALSE
 
@@ -810,7 +810,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			var/marking_type
 			dat += APPEARANCE_CATEGORY_COLUMN
 			dat += "<b>Advanced Coloring:</b><a style='display:block;width:100px' href='?_src_=prefs;preference=color_scheme;task=input'>[(features["color_scheme"] == ADVANCED_CHARACTER_COLORING) ? "Enabled" : "Disabled"]</a>"
-			dat += "<b>Mismatched Markings:</b><a style='display:block;width:100px' href='?_src_=prefs;preference=mismatched_markings;task=input'>[show_mismatched_markings ? "Yes" : "No"]</a>"
+			//dat += "<b>Mismatched Markings:</b><a style='display:block;width:100px' href='?_src_=prefs;preference=mismatched_markings;task=input'>[show_mismatched_markings ? "Yes" : "No"]</a>"
 			if(parent.can_have_part("mam_body_markings"))
 				marking_type = "mam_body_markings"
 			if(marking_type)
@@ -3114,7 +3114,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 								features["mam_body_markings"] = list()
 						if(parent.can_have_part("tail_lizard"))
 							features["tail_lizard"] = "Smooth"
-						if(pref_species.id == "felinid")
+						if(pref_species.id == "halfbreed")
 							features["mam_tail"] = "Cat"
 							features["mam_ears"] = "Cat"
 

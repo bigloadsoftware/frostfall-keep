@@ -37,7 +37,7 @@
   Skoglol:
   - rscdel: Replaced portable air mix tanks with standard oxygen tanks.
   Urumasi:
-  - code_imp: Tweaked and renamed iscatperson() to isfelinid()
+  - code_imp: Tweaked and renamed iscatperson() to isHalf-Breed()
   kopoba:
   - bugfix: Adamantite shield get his 15 damage back on pickup
   nemvar:
