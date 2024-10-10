@@ -496,7 +496,7 @@
 	name = "cautery"
 	desc = "Just a hunk of metal attached to a handle, used to first heat up and cauterize wounds."
 	icon = 'icons/obj/tools.dmi'
-	icon_state = "crudescrew"
+	icon_state = "screwdriver_clock"
 
 /obj/item/retractor/forceps
 	name = "forceps"

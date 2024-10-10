@@ -895,3 +895,14 @@
 	origin_type = /obj/structure/chair/metal
 	custom_materials = null
 	break_chance = 50
+
+/obj/structure/chair/wood/privy //medieval toilet
+	name = "privy"
+	desc = "A wooden platform with a hole in the middle, intended for use as a toilet."
+	icon_state = "privytoilet"
+
+/obj/item/chair/wood/privy
+	desc = "A wooden platform with a hole in the middle, intended for use as a toilet."
+	icon_state = "privytoilet_toppled"
+	item_state = "privy_chair"
+	origin_type = /obj/structure/chair/wood/privy

@@ -149,3 +149,18 @@
 
 /obj/item/storage/survivalkit/triple/PopulateContents()
 	return
+
+// cracker box
+/obj/item/storage/survivalkit/crackerration
+	name = "ration box"
+	desc = "A box used to contain crackers. Hardly anything to survive off of, but needs must."
+	icon = 'icons/obj/food/containers.dmi'
+	icon_state = "woodbox"
+	component_type = /datum/component/storage/concrete/box/survivalkit/cration
+	w_class = WEIGHT_CLASS_BULKY
+	slot_flags = INV_SLOTBIT_SUITSTORE
+
+/obj/item/storage/survivalkit/crackerration/PopulateContents()
+	var/i
+	for(i=0, i<20, i++)
+		new /obj/item/reagent_containers/food/snacks/cracker(src)

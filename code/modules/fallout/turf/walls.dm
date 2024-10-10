@@ -177,6 +177,10 @@
 	smoothing_groups = list(SMOOTH_GROUP_WALLS, SMOOTH_GROUP_TENT_WALLS)
 	canSmoothWith = list(SMOOTH_GROUP_TENT_WALLS, SMOOTH_GROUP_WINDOW_FULLTILE)
 
+/turf/closed/wall/f13/tentwall/plaster //looks rather like a medieval plaster wall than a tent; maybe may make a proper sprite for this some time
+	name = "plaster wall"
+	desc = "A wall made from a composite material, held together by planks."
+
 /turf/closed/wall/f13/scrap
 	name = "scrap wall"
 	desc = "A wall held together by corrugated metal and prayers."

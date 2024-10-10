@@ -106,6 +106,7 @@
 	icon_state = "stairs"
 	anchored = TRUE
 	density = FALSE
+	layer = 1
 
 /obj/effect/fake_stairs/north
 	desc = "Perfect place for an oversized spring."

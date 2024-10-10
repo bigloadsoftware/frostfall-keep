@@ -702,6 +702,8 @@
 	base_opacity = FALSE
 	can_disasemble = 1
 	can_have_lock = FALSE
+	open_sound = "sound/f13machines/doorchainlink_open.ogg"
+	close_sound = "sound/f13machines/doorchainlink_close.ogg"
 
 /obj/structure/simple_door/civ/cellwooden
 	name = "wooden cell"

@@ -87,6 +87,14 @@
 	max_volume = STORAGE_BOX_SURVIVAL_TRIPLE_MAX_TOTAL_SPACE
 	number_of_rows = STORAGE_ROWS_SURVIVAL_TRIPLE
 
+/// crackerration
+/datum/component/storage/concrete/box/survivalkit/cration
+	max_items = STORAGE_BOX_SURVIVAL_CRATION_DEFAULT_MAX_ITEMS
+	max_w_class = STORAGE_BOX_SURVIVAL_CRATION_MAX_SIZE
+	max_combined_w_class = STORAGE_BOX_SURVIVAL_CRATION_MAX_TOTAL_SPACE
+	max_volume = STORAGE_BOX_SURVIVAL_CRATION_MAX_TOTAL_SPACE
+	number_of_rows = STORAGE_ROWS_SURVIVAL_CRATION
+
 /// Specialized kit
 /datum/component/storage/concrete/box/survivalkit/specialized
 	max_items = STORAGE_BOX_SURVIVAL_SPECIALIZED_DEFAULT_MAX_ITEMS

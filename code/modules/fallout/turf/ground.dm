@@ -204,11 +204,12 @@ GLOBAL_LIST_INIT(plant_type_weighted, list(
 
 GLOBAL_LIST_INIT(snow_plant_list, list(
 	/obj/structure/flora/tree/pine = 60,
+	/obj/structure/flora/tree/dead = 10,
 	/obj/structure/flora/ausbushes/fullgrass = 40,
 	/obj/structure/flora/ausbushes/grassybush = 10,
 	/obj/structure/flora/ausbushes/lavendergrass = 40,
 	/obj/structure/flora/ausbushes/sparsegrass = 5,
-	/obj/structure/flora/grass/both = 0,
+	/obj/structure/flora/grass/both = 60,
 	/obj/structure/flora/grass/brown = 60,
 	/obj/structure/flora/grass/green = 60,
 	/obj/structure/flora/grass/wasteland = 15,
@@ -216,6 +217,10 @@ GLOBAL_LIST_INIT(snow_plant_list, list(
 	/obj/structure/flora/ausbushes/brflowers = 4,
 	/obj/structure/flora/ausbushes/ppflowers = 4,
 	/obj/structure/flora/ausbushes/ywflowers = 4,
+	/obj/structure/flora/branch = 20,
+	/obj/structure/flora/branch_broken = 20,
+	/obj/structure/flora/brushwood = 20,
+	/obj/structure/flora/brushwoodalt = 20,
 	))
 
 GLOBAL_LIST_INIT(gardensnow_plant_list, list(
@@ -227,6 +232,10 @@ GLOBAL_LIST_INIT(gardensnow_plant_list, list(
 	/obj/structure/flora/ausbushes/brflowers = 10,
 	/obj/structure/flora/ausbushes/ppflowers = 10,
 	/obj/structure/flora/ausbushes/ywflowers = 10,
+	/obj/structure/flora/branch = 4,
+	/obj/structure/flora/branch_broken = 4,
+	/obj/structure/flora/brushwood = 4,
+	/obj/structure/flora/brushwoodalt = 4,
 	))
 
 /turf/open/indestructible/ground/outside/dirthole

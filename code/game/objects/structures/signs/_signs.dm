@@ -131,3 +131,66 @@
 	name = "nanotrasen logo"
 	desc = "The US Government corporate logo."
 	icon_state = "nanotrasen_sign1"
+
+//Medieval signs
+
+/obj/structure/sign/medieval
+	name = "wooden sign"
+	desc = "A sign, made of wood. This one's blank."
+	icon = 'modular_roguetown/misc/signs.dmi'
+	icon_state = "sign"
+
+/obj/structure/sign/medieval/written
+	name = "written sign"
+	desc = "A sign, made of wood. Its writing is illegible for some reason."
+	icon_state = "signwrote"
+
+/obj/structure/sign/medieval/eagle
+	name = "eagle sign"
+	desc = "A sign, made of wood. It depicts an eagle."
+	icon_state = "signeagle"
+
+/obj/structure/sign/medieval/spider
+	name = "spider sign"
+	desc = "A sign, made of wood. It depicts a spider."
+	icon_state = "signspider"
+
+/obj/structure/sign/medieval/tools
+	name = "sign with tools"
+	desc = "A sign, made of wood. It depicts some tools."
+	icon_state = "signdwarf"
+
+/obj/structure/sign/medieval/mug
+	name = "mugged sign"
+	desc = "A sign, made of wood. It depicts a mug."
+	icon_state = "signmug"
+
+/obj/structure/sign/medieval/exclaim
+	name = "exclaim sign"
+	desc = "A sign, made of wood. It depicts an exclamation mark."
+	icon_state = "signexclamationmark"
+
+/obj/structure/sign/medieval/question
+	name = "question sign"
+	desc = "A sign, made of wood. It depicts a question mark."
+	icon_state = "signquestionmark"
+
+/obj/structure/sign/medieval/elk
+	name = "elk sign"
+	desc = "A sign, made of wood. It depicts an elk."
+	icon_state = "signelk"
+
+/obj/structure/sign/medieval/skull
+	name = "skull sign"
+	desc = "A sign, made of wood. It depicts a skull."
+	icon_state = "signskull"
+
+/obj/structure/sign/medieval/arrow
+	name = "arrow sign"
+	desc = "A sign, made of wood. It's in the shape of an arrow."
+	icon_state = "arrowsign"
+
+/obj/structure/sign/medieval/arrowwritten
+	name = "written arrow sign"
+	desc = "A sign, made of wood. It's in the shape of an arrow, with illegible writing."
+	icon_state = "arrowsignwrote"
