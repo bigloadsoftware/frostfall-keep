@@ -407,6 +407,10 @@
 	climbable = TRUE
 	proj_pass_rate = 80
 
+/obj/structure/fence/civ/iron/fancier
+	icon = 'modular_roguetown/misc/structure.dmi'
+	icon_state = "cemetery"
+
 /obj/structure/fence/wooden/civ/picket/white
 	name = "picket fence"
 	desc = "A fence fashioned out of wood planks. Designed to keep animals in and vagrants out"

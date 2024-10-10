@@ -15,7 +15,7 @@
 	attack_verb = list("Played holodisk")
 	var/busy = 0
 	var/soundLength = 50
-	var/soundFile = 'sound/f13music/mysterious_stranger.ogg'
+	var/soundFile = 'sound/frostfallmusic/custom/notifbells.ogg'
 
 /obj/item/weapon/holodisk/New()
 		src.name = "holodisk #[rand(1,999)]"

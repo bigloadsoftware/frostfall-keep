@@ -963,6 +963,15 @@ GLOBAL_LIST_INIT(storage_tray_can_hold, typecacheof(list(
 /// How many rows in a triple survival kit
 #define STORAGE_ROWS_SURVIVAL_TRIPLE 1 // More than one row messes with volumetric UI for this particular item
 
+/// How many items total fit in a triple survival kit
+#define STORAGE_BOX_SURVIVAL_CRATION_DEFAULT_MAX_ITEMS 20
+/// How big a thing can fit in a triple survival kit
+#define STORAGE_BOX_SURVIVAL_CRATION_MAX_SIZE WEIGHT_CLASS_SMALL
+/// How much volume fits in a triple survival kit
+#define STORAGE_BOX_SURVIVAL_CRATION_MAX_TOTAL_SPACE STORAGE_BOX_SURVIVAL_TRIPLE_DEFAULT_MAX_ITEMS * STORAGE_BOX_SURVIVAL_TRIPLE_MAX_SIZE
+/// How many rows in a triple survival kit
+#define STORAGE_ROWS_SURVIVAL_CRATION 1 // More than one row messes with volumetric UI for this particular item
+
 /* * * * * * *
  * Backpacks!
  * * * * * * */

@@ -16,6 +16,11 @@
 	icon = 'icons/turf/decals.dmi'
 	icon_state = "dirt_side"
 
+/obj/effect/turf_decal/weather/lightstone
+	name = "lightstone siding"
+	icon = 'icons/turf/decals.dmi'
+	icon_state = "lightstone_edge"
+
 /obj/effect/turf_decal/weather/dirtcorner
 	name = "dirt siding"
 	icon = 'icons/turf/decals.dmi'

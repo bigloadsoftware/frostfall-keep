@@ -1,5 +1,5 @@
 /obj/structure/railing
-	name = "railing"
+	name = "wooden railing"
 	desc = "Basic railing meant to protect idiots like you from falling."
 	icon = 'icons/obj/railings.dmi'
 	icon_state = "railing"
@@ -11,12 +11,25 @@
 	plane = MOB_PLANE
 	/// armor more or less consistent with grille. max_integrity about one time and a half that of a grille.
 	armor = ARMOR_VALUE_MEDIUM
+	var/buildstacktype = /obj/item/stack/sheet/mineral/wood
+	var/buildstackamount = 3
 
 	max_integrity = 75
 
 	climbable = TRUE
 	///Initial direction of the railing.
 	var/ini_dir
+
+/obj/structure/railing/deconstruct()
+	// If we have materials, and don't have the NOCONSTRUCT flag
+	if(!(flags_1 & NODECONSTRUCT_1))
+		if(buildstacktype)
+			new buildstacktype(loc,buildstackamount)
+		else
+			for(var/i in custom_materials)
+				var/datum/material/M = i
+				new M.sheet_type(loc, FLOOR(custom_materials[M] / MINERAL_MATERIAL_AMOUNT, 1))
+	..()
 
 /obj/structure/railing/corner //aesthetic corner sharp edges hurt oof ouch
 	icon_state = "railing_corner"

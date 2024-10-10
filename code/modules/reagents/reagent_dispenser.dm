@@ -236,7 +236,8 @@
 /obj/structure/reagent_dispensers/beerkeg
 	name = "beer keg"
 	desc = "Beer is liquid bread, it's good for you..."
-	icon_state = "beer"
+	icon = 'icons/fallout/farming/farming_structures.dmi'
+	icon_state = "barrel"
 	reagent_id = /datum/reagent/consumable/ethanol/beer
 
 /obj/structure/reagent_dispensers/beerkeg/blob_act(obj/structure/blob/B)
@@ -247,24 +248,22 @@
 /obj/structure/reagent_dispensers/keg
 	name = "keg"
 	desc = "A keg."
-	icon_state = "keg"
+	icon = 'icons/fallout/farming/farming_structures.dmi'
+	icon_state = "barrel"
 
 /obj/structure/reagent_dispensers/keg/mead
 	name = "keg of mead"
 	desc = "A keg of mead."
-	icon_state = "orangekeg"
 	reagent_id = /datum/reagent/consumable/ethanol/mead
 
 /obj/structure/reagent_dispensers/keg/milk
 	name = "keg of milk"
 	desc = "A keg of pasteurised, homogenised, filtered and semi-skimmed space milk."
-	icon_state = "whitekeg"
 	reagent_id = /datum/reagent/consumable/milk
 
 /obj/structure/reagent_dispensers/keg/gargle
 	name = "keg of pan galactic gargleblaster"
 	desc = "A keg of... wow that's a long name."
-	icon_state = "bluekeg"
 	reagent_id = /datum/reagent/consumable/ethanol/gargle_blaster
 	tank_volume = 100
 
@@ -273,14 +272,12 @@
 /obj/structure/reagent_dispensers/keg/quintuple_sec
 	name = "keg of quintuple sec"
 	desc = "A keg of pure justice."
-	icon_state = "redkeg"
 	reagent_id = /datum/reagent/consumable/ethanol/quintuple_sec
 	tank_volume = 250
 
 /obj/structure/reagent_dispensers/keg/narsour
 	name = "keg of narsour"
 	desc = "A keg of eldritch terrors."
-	icon_state = "redkeg"
 	reagent_id = /datum/reagent/consumable/ethanol/narsour
 	tank_volume = 250
 
@@ -296,13 +293,11 @@
 /obj/structure/reagent_dispensers/keg/hearty_punch
 	name = "keg of hearty punch"
 	desc = "A keg that will get you right back on your feet."
-	icon_state = "redkeg"
 	reagent_id = /datum/reagent/consumable/ethanol/hearty_punch
 	tank_volume = 100 //this usually has a 15:1 ratio when being made, so we provide less of it
 
 /obj/structure/reagent_dispensers/keg/neurotoxin
 	name = "keg of neurotoxin"
 	desc = "A keg of the sickly substance known as 'neurotoxin'."
-	icon_state = "bluekeg"
 	reagent_id = /datum/reagent/consumable/ethanol/neurotoxin
 	tank_volume = 100 //2.5x less than the other kegs because it's harder to get

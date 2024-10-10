@@ -468,6 +468,19 @@
 	STR.max_items = 6
 	STR.can_hold = typecacheof(list(/obj/item/reagent_containers/food/snacks/cracker))
 
+/obj/item/storage/fancy/cracker_pack/ration
+	name = "ration box"
+	desc = "A box used to contain crackers. Hardly anything to survive off of, but needs must."
+	fancy_open = FALSE
+	icon_state = "woodbox"
+	icon_type = "woodbox"
+
+/obj/item/storage/fancy/cracker_pack/ration/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_items = 20
+	STR.can_hold = typecacheof(list(/obj/item/reagent_containers/food/snacks/cracker))
+
 /*
  * Jar of pickles
  */

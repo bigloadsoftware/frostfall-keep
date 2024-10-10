@@ -15,7 +15,7 @@
 	attack_verb = list("had a wonderful day, and was about to examine the holodisk, but suddenly noticed that someone nearby is making rather abusive gestures, and decided to hit")
 	var/busy = 0
 	var/soundLength = 50
-	var/soundFile = 'sound/f13music/mysterious_stranger.ogg'
+	var/soundFile = 'sound/frostfallmusic/custom/notifbells.ogg'
 
 /obj/item/holodisk/New()
 		src.name = "holodisk #[rand(1,999)]"

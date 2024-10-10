@@ -162,3 +162,7 @@
 	fulltile = 1
 	smoothing_flags = 0
 	level = 3
+
+/obj/structure/window/fulltile/stainedglass/light
+	icon = 'modular_roguetown/misc/structure.dmi'
+	icon_state = "lightwindow"

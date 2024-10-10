@@ -362,3 +362,10 @@
 	icon = 'icons/obj/tomb.dmi'
 	icon_state = "ladystatue-right"
 	anchored = TRUE
+
+/obj/structure/statue/knight
+	name = "Knight Statue"
+	desc = "A statue made from purely decorative armor and cloth, looks rather real... in fact, you swear it turned your head towards you."
+	icon = 'icons/obj/cardboard_cutout.dmi'
+	icon_state = "cutout_knight1"
+	anchored = TRUE

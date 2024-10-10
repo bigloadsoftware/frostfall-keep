@@ -151,12 +151,12 @@
 	density = TRUE
 	icon_state = "up"
 	M.pixel_y = initial(M.pixel_y)
-
+/*
 /obj/structure/bed/roller/Moved()
 	. = ..()
 	if(has_gravity())
 		playsound(src, 'sound/effects/roll.ogg', 100, 1)
-
+*/
 /obj/structure/bed/roller/post_unbuckle_mob(mob/living/M)
 	density = FALSE
 	icon_state = "down"
@@ -293,9 +293,53 @@
 	icon_state = "bedrollrolled"
 	w_class = WEIGHT_CLASS_SMALL // So you don't have to struggle with it! Besides, bedrolls can get pretty small.
 
-/obj/item/roller/bodycart //NEEDS SPRITED, and overall just fixed
+/obj/structure/bed/roller/bedroll/post_buckle_mob(mob/living/M)
+	density = TRUE
+	icon_state = "bedroll"
+	M.pixel_y = initial(M.pixel_y)
+
+/obj/structure/bed/roller/bedroll/Moved()
+	. = ..()
+	if(has_gravity())
+		playsound(src, 'sound/effects/roll.ogg', 100, 1)
+
+/obj/structure/bed/roller/bedroll/post_unbuckle_mob(mob/living/M)
+	density = FALSE
+	icon_state = "bedroll"
+	M.pixel_x = M.get_standard_pixel_x_offset(M.lying)
+	M.pixel_y = M.get_standard_pixel_y_offset(M.lying)
+
+
+/obj/structure/bed/roller/bodycart
 	name = "bodycart"
 	desc = "A cart made to carry bodies, dead or alive."
-	unfoldabletype = FALSE
 	icon = 'icons/obj/rollerbed.dmi'
-	icon_state = "down"
+	icon_state = "bodycartopen"
+	anchored = FALSE
+	resistance_flags = NONE
+	foldabletype = /obj/item/roller/bodycart
+	use_directionals = FALSE
+
+/obj/item/roller/bodycart //Needs to be pulled faster, but not able to be picked up. idk how
+	name = "bodycart"
+	desc = "A cart made to carry bodies, dead or alive."
+	unfoldabletype = /obj/structure/bed/roller/bodycart
+	icon = 'icons/obj/rollerbed.dmi'
+	icon_state = "bodycart"
+	w_class = WEIGHT_CLASS_GIGANTIC
+
+/obj/structure/bed/roller/bodycart/post_buckle_mob(mob/living/M)
+	density = TRUE
+	icon_state = "bodycartopen"
+	M.pixel_y = initial(M.pixel_y)
+
+/obj/structure/bed/roller/bodycart/Moved()
+	. = ..()
+	if(has_gravity())
+		playsound(src, 'sound/effects/roll.ogg', 100, 1)
+
+/obj/structure/bed/roller/bodycart/post_unbuckle_mob(mob/living/M)
+	density = FALSE
+	icon_state = "bodycart"
+	M.pixel_x = M.get_standard_pixel_x_offset(M.lying)
+	M.pixel_y = M.get_standard_pixel_y_offset(M.lying)
