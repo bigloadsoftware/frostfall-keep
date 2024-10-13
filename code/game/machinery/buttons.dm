@@ -1,6 +1,6 @@
 /obj/machinery/button
-	name = "button"
-	desc = "A remote control switch."
+	name = "winch"
+	desc = "A wheel with lugs to turn, pulling a chain, used to operate some mechanical device..."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "doorctrl"
 	var/skin = "doorctrl"
@@ -13,6 +13,7 @@
 	use_power = IDLE_POWER_USE
 	idle_power_usage = 2
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
+	density = 1
 
 /obj/machinery/button/Initialize(mapload, ndir = 0, built = 0)
 	if(istext(id) && mapload && id[1] == "!")

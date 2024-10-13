@@ -4,7 +4,8 @@
 
 #ifndef LOWMEMORYMODE
 	#ifdef ALL_MAPS
-		#include "map_files/frostfallkeep/frostfallkeep.dmm"
+		#include "map_files/frostfallkeep/Frostfallkeep.dmm"
+		#include "map_files/frostfallkeep/Frostfallkeep-Upper.dmm"
 		/*
 		#include "map_files/coyote_bayou/Dungeons.dmm"
 		#include "map_files/coyote_bayou/Texarkana_underground.dmm"

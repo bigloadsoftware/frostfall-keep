@@ -1986,3 +1986,24 @@
 	name = "bonsai"
 	icon = 'icons/obj/flora/plants.dmi'
 	icon_state = "bonsai_4"
+
+//medieval stuff
+
+/obj/structure/storagecart
+	name = "storage cart"
+	desc = "A cart made to store things."
+	icon = 'modular_roguetown/misc/structure.dmi'
+	icon_state = "cart-full"
+
+/obj/structure/storagecart/ComponentInitialize()
+	. = ..()
+	AddComponent(/datum/component/storage/concrete/sellbox)
+/*
+/datum/component/storage/concrete/sellbox
+	storage_flags = STORAGE_FLAGS_VOLUME_DEFAULT // space limited, only
+	max_w_class = WEIGHT_CLASS_GIGANTIC
+	max_combined_w_class = WEIGHT_CLASS_GIGANTIC * 10
+	max_volume = WEIGHT_CLASS_GIGANTIC * 3
+	rustle_sound = TRUE
+	number_of_rows = 3
+*/

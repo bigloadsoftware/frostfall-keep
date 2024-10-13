@@ -2049,22 +2049,22 @@
 	armor_tokens = list(ARMOR_MODIFIER_DOWN_BULLET_T1, ARMOR_MODIFIER_DOWN_LASER_T1, ARMOR_MODIFIER_DOWN_MELEE_T1, ARMOR_MODIFIER_DOWN_DT_T1)
 
 /obj/item/clothing/suit/armor/light/leather/scrap
-	name = "slim scrap armor"
-	desc = "A series of leather straps criss-crossing the body paired with stragetically placed leather and scrap plates. It looks like it'd provide okay protection against lighter strikes."
+	name = "armor scraps"
+	desc = "Scraps of different pieces of armor, haphazardly put together."
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1, ARMOR_MODIFIER_DOWN_FIRE_T1, ARMOR_MODIFIER_DOWN_LASER_T1, ARMOR_MODIFIER_UP_DT_T1)
 	icon_state = "slimscrap"
 	item_state = "slimscrap"
 
 /obj/item/clothing/suit/armor/light/leather/scrapalt
-	name = "scrap armor"
-	desc = "A series of leather straps criss-crossing the body paired with liberally placed leather and scrap plates. It looks like it'd stop small bullets and bludgeons, at least."
+	name = "medium armor scraps"
+	desc = "Scraps of different pieces of armor, haphazardly put together. This one has some makeshift bracers."
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1, ARMOR_MODIFIER_UP_BULLET_T1, ARMOR_MODIFIER_DOWN_FIRE_T1, ARMOR_MODIFIER_DOWN_LASER_T1)
 	icon_state = "scrap"
 	item_state = "scrap"
 
 /obj/item/clothing/suit/armor/light/leather/scrapheavy // not actually heavy armor
-	name = "heavy scrap armor"
-	desc = "A liberal amount of scrap and leather tied together to cover the body. Not actually all that heavy; lasers will burn right through it, but it otherwise offers decent all-around protection."
+	name = "heavy armor scraps"
+	desc = "Scraps of different pieces of armor, haphazardly put together. This one has some makeshift pauldrons and bracers."
 	slowdown = ARMOR_SLOWDOWN_MEDIUM * ARMOR_SLOWDOWN_GLOBAL_MULT
 	armor = ARMOR_VALUE_MEDIUM
 	armor_tier_desc = ARMOR_CLOTHING_MEDIUM
@@ -2074,8 +2074,8 @@
 	item_state = "scrapheavy"
 
 /obj/item/clothing/suit/armor/light/leather/lightscoutarmor 
-	name = "light scout armor"
-	desc = "A makeshift set of pauldrons made of leather and scrap metal. It offers minimal protection, but is pretty light."
+	name = "leather strips w/ gorget"
+	desc = "A few leather strips, with a gorget fashioned to the neck... at least nobody can slice your throat."
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1, ARMOR_MODIFIER_DOWN_FIRE_T1, ARMOR_MODIFIER_DOWN_LASER_T1, ARMOR_MODIFIER_UP_DT_T1)
 	icon_state = "lightscout"
 	item_state = "lightscout"
@@ -2163,20 +2163,20 @@
 ////////////////
 
 /obj/item/clothing/suit/armor/light/kit
-	name = "armor kit"
-	desc = "Separate armor parts you can wear over your clothing, giving basic protection against bullets entering some of your organs. Very well ventilated."
+	name = "leather strips w/ pauldron"
+	desc = "Some armor is better than no armor, said the corpse."
 	icon = 'icons/fallout/clothing/armored_light.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
 	icon_state = "armorkit"
 	item_state = "armorkit"
-	heat_protection = CHEST | GROIN | LEGS| ARMS | HEAD
+	heat_protection = CHEST
 	siemens_coefficient = 1.1
 	body_parts_hidden = 0
 	armor_tokens = list(ARMOR_MODIFIER_UP_DT_T1)
 
 /obj/item/clothing/suit/armor/light/kit/punk
-	name = "punk armor kit"
-	desc = "A couple of armor parts that can be worn over the clothing for moderate protection against the dangers of wasteland.<br>Do you feel lucky now? Well, do ya, punk?"
+	name = "simple pauldrons"
+	desc = "Worn by fools or the desperate. At least any blows against your shoulders wouldn't be fatal."
 	icon_state = "armorkit_punk"
 	item_state = "armorkit_punk"
 	icon = 'icons/fallout/clothing/armored_light.dmi'
@@ -2234,8 +2234,8 @@
 	mob_overlay_icon = 'modular_coyote/icons/objects/civ13suitonmob.dmi'
 
 /obj/item/clothing/suit/armor/light/kit/punk/ironchestplate
-	name = "iron chestplate"
-	desc = "An iron breastplate made after the fall of the old world, its only a little rusted on the inside."
+	name = "steel cuirass"
+	desc = "A chestplate armor piece made out of steel, unadorned and completely utilitarian."
 	icon_state = "iron_chestplate"
 	item_state = "iron_chestplate"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2252,8 +2252,8 @@
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1)
 
 /obj/item/clothing/suit/armor/light/kit/punk/roughchainmail
-	name = "rough chainmail"
-	desc = "A roughly made, but workable, set of chainmail"
+	name = "gold-adorned chainmail"
+	desc = "A chainmail hauberk with a few golden links adorning it, giving it a fancier look."
 	icon_state = "early_chainmail"
 	item_state = "early_chainmail"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2261,8 +2261,8 @@
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1)
 
 /obj/item/clothing/suit/armor/light/kit/punk/fullchainmail
-	name = "chainmail shirt"
-	desc = "A solidly made bit of chainmail in the shape of a shirt, protects the nips but may chafe."
+	name = "chainmail hauberk"
+	desc = "A standard chainmail hauberk made to resist cuts."
 	icon_state = "chainmail"
 	item_state = "chainmail"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2270,13 +2270,13 @@
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1)
 
 /obj/item/clothing/suit/armor/light/kit/punk/crusaderweak
-	name = "crusader chainmail with tabard"
+	name = "crusader chainmail w/ surcoat"
 	desc = "A full set of chainmail that covers the torso and arms. This one has a tabard with a red cross!"
 	icon_state = "knight_templar"
 	item_state = "knight_templar"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
 	mob_overlay_icon = 'modular_coyote/icons/objects/civ13suitonmob.dmi'
-	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1)
+	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T2)
 
 /obj/item/clothing/suit/armor/light/kit/punk/ironchestplatered
 	name = "iron chestplate with red cape"
@@ -2324,8 +2324,8 @@
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1)
 
 /obj/item/clothing/suit/armor/light/kit/punk/egyptianlam
-	name = "Dusty Lamellar Armor"
-	desc = "You're in denial if you like this armor, but that's okay."
+	name = "gold-adorned lamellar armor"
+	desc = "A fine piece of lamellar armor, adorned with gold."
 	icon_state = "egyptian_lamellar"
 	item_state = "egyptian_lamellar"
 	icon = 'modular_coyote/icons/objects/civ13suitobj.dmi'
@@ -2532,7 +2532,7 @@
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T2)
 
 /obj/item/clothing/suit/armor/light/kit/punk/prehistoricfur
-	name = "Messy furs"
+	name = "messy furs - brown"
 	desc = "That is definitely something you could wear."
 	icon_state = "prehistoric_fur1"
 	item_state = "prehistoric_fur1"
@@ -2541,7 +2541,7 @@
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1)
 
 /obj/item/clothing/suit/armor/light/kit/punk/prehistoricfur/two
-	name = "Messier furs"
+	name = "messy furs - black"
 	desc = "That is definitely something you could wear."
 	icon_state = "prehistoric_fur2"
 	item_state = "prehistoric_fur2"
@@ -2550,7 +2550,7 @@
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1)
 
 /obj/item/clothing/suit/armor/light/kit/punk/prehistoricfur/three
-	name = "Messier furs - White"
+	name = "messy furs - white"
 	desc = "That is definitely something you could wear."
 	icon_state = "prehistoric_fur3"
 	item_state = "prehistoric_fur3"
@@ -2559,7 +2559,7 @@
 	armor_tokens = list(ARMOR_MODIFIER_UP_MELEE_T1)
 
 /obj/item/clothing/suit/armor/light/kit/punk/prehistoricfur/four
-	name = "Messier furs - Gray"
+	name = "messy furs - gray"
 	desc = "That is definitely something you could wear."
 	icon_state = "prehistoric_fur4"
 	item_state = "prehistoric_fur4"
@@ -5331,3 +5331,84 @@
 	icon_state = "hazardamulet"
 	armor = list("linemelee" = 0, "linebullet" = 0, "linelaser" = 0, "energy" = 50, "bomb" = 0, "bio" = 75, "rad" = 75, "fire" = 75, "acid" = 75, "wound" = 0, "damage_threshold" = 0)
 	armor_tier_desc = ARMOR_CLOTHING_DESC
+
+// medieval stuff
+
+/obj/item/clothing/suit/armor/outfit/dress
+	name = "female red vestment"
+	desc = "A fancy blue female robe."
+	icon = 'icons/obj/clothing/dress.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/dress.dmi'
+	icon_state = "fem_blue"
+	item_state = "fem_blue"
+	item_color = "fem_blue"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/armor
+	body_parts_hidden = CHEST
+
+/obj/item/clothing/suit/armor/outfit/dress/rose
+	name = "female rose vestment"
+	desc = "A fancy rose female robe."
+	icon_state = "fem_rose"
+	item_state = "fem_rose"
+	item_color = "fem_rose"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/armor
+	body_parts_hidden = CHEST
+
+/obj/item/clothing/suit/armor/outfit/dress/white
+	name = "female white vestment"
+	desc = "A fancy white female robe."
+	icon_state = "fem_white"
+	item_state = "fem_white"
+	item_color = "fem_white"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/armor
+	body_parts_hidden = CHEST
+
+
+/obj/item/clothing/suit/armor/outfit/dress/redrobe
+	name = "female red surcotte"
+	desc = "Essentially a female overcoat. This one's red."
+	icon_state = "priestess"
+	item_state = "priestess"
+	item_color = "priestess"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/armor
+	body_parts_hidden = CHEST
+
+/obj/item/clothing/suit/armor/outfit/dress/bluerobe
+	name = "female blue surcotte"
+	desc = "Essentially a female overcoat. This one's blue."
+	icon_state = "priestess_blue"
+	item_state = "priestess_blue"
+	item_color = "priestess_blue"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/armor
+	body_parts_hidden = CHEST
+
+/obj/item/clothing/suit/armor/outfit/dress/purplerobe
+	name = "female purple surcotte"
+	desc = "Essentially a female overcoat. This one's purple; fancy!"
+	icon_state = "priestess_purple"
+	item_state = "priestess_purple"
+	item_color = "priestess_purple"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/armor
+	body_parts_hidden = CHEST
+
+/obj/item/clothing/suit/armor/outfit/armordress
+	name = "feminine cuirass w/ blue surcoat"
+	desc = "An iron chestplate made to fit a woman's bust, with a short blue surcoat."
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	icon_state = "fdress"
+	item_state = "fdress"
+	body_parts_hidden = CHEST
+	armor = ARMOR_VALUE_MEDIUM
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small
+	armor_tier_desc = ARMOR_CLOTHING_MEDIUM
+	slowdown = ARMOR_SLOWDOWN_MEDIUM * ARMOR_SLOWDOWN_LESS_T1 * ARMOR_SLOWDOWN_GLOBAL_MULT
+	armor_tokens = list(ARMOR_MODIFIER_DOWN_BULLET_T2 , ARMOR_MODIFIER_UP_MELEE_T2 , ARMOR_MODIFIER_UP_DT_T1)
+
+/obj/item/clothing/suit/armor/outfit/armordress/red
+	name = "feminine cuirass w/ red surcoat"
+	desc = "An iron chestplate made to fit a woman's bust, with a short red surcoat."
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	icon_state = "fdress2"
+	item_state = "fdress2"

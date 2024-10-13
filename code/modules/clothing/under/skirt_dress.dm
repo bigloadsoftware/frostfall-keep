@@ -502,7 +502,7 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/dress/coyote/pristess
-	name = "pristess dress"
+	name = "priestess dress"
 	desc = "A fancy dress"
 	icon_state = "pristess"
 	item_state = "pristess"

@@ -366,9 +366,11 @@
 /obj/machinery/door/play_attack_sound(damage_amount, damage_type = BRUTE, damage_flag = 0)
 	switch(damage_type)
 		if(BRUTE)
+			/*
 			if(glass)
 				playsound(loc, 'sound/effects/glasshit.ogg', 90, 1)
-			else if(damage_amount)
+			*/
+			if(damage_amount)
 				playsound(loc, 'sound/weapons/smash.ogg', 50, 1)
 			else
 				playsound(src, 'sound/weapons/tap.ogg', 50, 1)
@@ -516,6 +518,7 @@
 /obj/machinery/door/proc/update_freelook_sight()
 	if(!glass && GLOB.cameranet)
 		GLOB.cameranet.updateVisibility(src, 0)
+
 
 /obj/machinery/door/BlockThermalConductivity() // All non-glass airlocks block heat, this is intended.
 	if(opacity || heat_proof)

@@ -235,7 +235,7 @@
 	armor_tokens = list(ARMOR_MODIFIER_UP_BULLET_T2, ARMOR_MODIFIER_UP_LASER_T2, ARMOR_MODIFIER_UP_ENV_T1, ARMOR_MODIFIER_UP_DT_T2)
 
 /obj/item/clothing/suit/hooded/robes/grey
-	name = "grey robes"
+	name = "black robes"
 	desc = "Requisite attire for the monthly meetings of your local cult."
 	icon_state = "greyrobes"
 	item_state = "greyrobes"
