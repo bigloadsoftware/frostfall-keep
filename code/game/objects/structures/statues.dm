@@ -369,3 +369,11 @@
 	icon = 'icons/obj/cardboard_cutout.dmi'
 	icon_state = "cutout_knight1"
 	anchored = TRUE
+
+/obj/structure/ladystatuelight
+	name = "The Lady"
+	desc = "A statue of a firekeeper of old, who gave her life for Vera, and her flesh to Her flame, so that the town may survive."
+	icon = 'icons/obj/tomb.dmi'
+	icon_state = "lstatuelight"
+	anchored = TRUE
+	density = 1

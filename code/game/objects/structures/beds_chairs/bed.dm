@@ -320,6 +320,8 @@
 	foldabletype = /obj/item/roller/bodycart
 	use_directionals = FALSE
 
+// More medieval stuff
+
 /obj/item/roller/bodycart //Needs to be pulled faster, but not able to be picked up. idk how
 	name = "bodycart"
 	desc = "A cart made to carry bodies, dead or alive."
@@ -343,3 +345,11 @@
 	icon_state = "bodycart"
 	M.pixel_x = M.get_standard_pixel_x_offset(M.lying)
 	M.pixel_y = M.get_standard_pixel_y_offset(M.lying)
+
+/obj/structure/bed/cot
+	name = "cot"
+	desc = "A cot made from crude material. Not very comfortable, but more comfy than sleeping on the hard ground."
+	icon = 'modular_roguetown/misc/structure.dmi'
+	icon_state = "shitbed"
+	buildstacktype = /obj/item/stack/sheet/cloth
+	buildstackamount = 1

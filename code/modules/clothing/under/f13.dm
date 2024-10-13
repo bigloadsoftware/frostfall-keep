@@ -731,7 +731,7 @@
 	mutantrace_variation = STYLE_DIGITIGRADE
 
 /obj/item/clothing/under/f13/settler
-	name = "settler outfit"
+	name = "raggy clothes"
 	desc = "A crudely made cloth robe with a belt worn over grey pants."
 	mutantrace_variation = STYLE_DIGITIGRADE
 	icon_state = "settler"
@@ -839,8 +839,8 @@
 	item_color = "vest_and_slacks"
 
 /obj/item/clothing/under/f13/sleazeball
-	name = "loanshark outfit"
-	desc = "The symbol of profit and corruption, a black vest over a well starched white shirt."
+	name = "merchants vest"
+	desc = "Some nice trousers and shirt with a black vest."
 	mutantrace_variation = STYLE_DIGITIGRADE
 	icon_state = "vest_and_slacks"
 	item_state = "vest_and_slacks"
@@ -1015,8 +1015,8 @@
 	item_color = "chapblack"
 
 /obj/item/clothing/under/f13/machinist
-	name = "machinist bodysuit"
-	desc = "Apparel of an old-time machinist."
+	name = "work clothes"
+	desc = "A rustic leather apron over some simple workers clothes."
 	mutantrace_variation = STYLE_DIGITIGRADE
 	icon_state = "machinist"
 	item_state = "machinist"
@@ -1178,7 +1178,7 @@
 	item_color = "follower"
 
 /obj/item/clothing/under/f13/raider_leather
-	name = "raider leathers"
+	name = "scrap leather garb"
 	desc = "Scraps of material thrown together and typically worn by raiders."
 	icon_state = "raider_leather"
 	item_state = "raider_leather"
@@ -2022,15 +2022,15 @@
 //Female clothing! It's not misogyny, yet dresses shall be separate from /f13/ as Fallout build has its own female subtype.
 
 /obj/item/clothing/under/pants/f13/ghoul
-	name = "ripped pants"
-	desc = "A pair of ripped pants that were not washed for over a hundred years.<br>Thanks to these you don't get to see ghouls genitals too often.<br><i>You can also wear these, to pretend you are a feral ghoul, just saying...</i>"
+	name = "ripped trousers"
+	desc = "A pair of ripped trousers made of simple cloth. Only for the lowest of serfs."
 	mutantrace_variation = STYLE_DIGITIGRADE
 	icon_state = "ghoul"
 	item_color = "ghoul"
 
 /obj/item/clothing/under/pants/f13/cloth
-	name = "cloth pants"
-	desc = "A pair of worn dusty cloth pants made of various textile pieces.<br>Commonly found all over the wasteland."
+	name = "simple cloth trousers"
+	desc = "Trousers made for the every-day person."
 	mutantrace_variation = STYLE_DIGITIGRADE
 	icon_state = "cloth"
 	item_color = "cloth"
@@ -2043,8 +2043,8 @@
 	item_color = "caravan"
 
 /obj/item/clothing/under/pants/f13/warboy //Mad Max 4 2015 babe!
-	name = "war boy pants"
-	desc = "A pair of dark brown pants, perfect for the one who grabs the sun, riding to Valhalla."
+	name = "leather breeches"
+	desc = "Leather breeches worn for some extra bit of protection, either in work or in battle."
 	mutantrace_variation = STYLE_DIGITIGRADE
 	icon_state = "warboy"
 	item_color = "warboy"
@@ -2274,8 +2274,8 @@
 	can_adjust = TRUE
 
 /obj/item/clothing/under/f13/masonduds
-	name = "vagabond's gang attire"
-	desc = "A pair of worn buckskin trousers held up by a heavy pistol belt. The attire is synonymous with the colors of the criminal Marlow gang."
+	name = "belted trousers"
+	desc = "Some simple trousers with a simple belt."
 	mutantrace_variation = STYLE_DIGITIGRADE
 	icon_state = "masonduds"
 	item_state = "masonduds"
