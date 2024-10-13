@@ -742,11 +742,11 @@
 	icon = 'icons/fallout/clothing/belts.dmi'
 	icon_state = "sheath_sword"
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/belt.dmi'
-	item_state = "sheath_sword"
+	item_state = "boer"
 	w_class = WEIGHT_CLASS_BULKY
 	content_overlays = TRUE
 	onmob_overlays = TRUE
-	slot_flags = INV_SLOTBIT_NECK
+	slot_flags = INV_SLOTBIT_BELT | INV_SLOTBIT_BACK | INV_SLOTBIT_NECK
 
 /obj/item/storage/belt/sword/ComponentInitialize()
 	. = ..()
@@ -763,7 +763,7 @@
 	desc = "A set of sheathes and straps for carrying two curved japanese style swords."
 	icon_state = "sheath_twin"
 	item_state = "sheath_twin"
-	slot_flags = INV_SLOTBIT_BELT | INV_SLOTBIT_BACK
+	slot_flags = INV_SLOTBIT_BELT | INV_SLOTBIT_BACK | INV_SLOTBIT_NECK
 
 /obj/item/storage/belt/sword/twin/ComponentInitialize()
 	. = ..()
@@ -780,6 +780,7 @@
 	icon_state = "sheathwaist"
 	item_state = "sheathwaist"
 	w_class = WEIGHT_CLASS_BULKY
+	slot_flags = INV_SLOTBIT_BELT | INV_SLOTBIT_BACK | INV_SLOTBIT_NECK
 
 /obj/item/storage/belt/waistsheath/ComponentInitialize()
 	. = ..()

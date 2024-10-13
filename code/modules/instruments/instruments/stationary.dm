@@ -52,7 +52,7 @@
 		desc = "This old piano can barely hold a tune. Too bad all the piano tuners are dead, more or less."
 		icon_state = "piano"
 
-/obj/structure/piano/fancy
+/obj/structure/piano/fancy //
 	name = "piano"
 	icon = 'icons/obj/musician.dmi'
 	icon_state = "piano"

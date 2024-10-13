@@ -113,6 +113,7 @@
 	resistance_flags = NONE
 	var/foldabletype = /obj/item/roller
 	use_directionals = FALSE
+	var/isFoldable = TRUE
 
 /obj/structure/bed/roller/attackby(obj/item/W, mob/user, params)
 	if(istype(W, /obj/item/roller/robo))
@@ -137,7 +138,7 @@
 
 /obj/structure/bed/roller/MouseDrop(over_object, src_location, over_location)
 	. = ..()
-	if(over_object == usr && Adjacent(usr))
+	if(over_object == usr && Adjacent(usr) && isFoldable)
 		if(!ishuman(usr) || !usr.canUseTopic(src, BE_CLOSE))
 			return 0
 		if(has_buckled_mobs())
@@ -319,6 +320,8 @@
 	resistance_flags = NONE
 	foldabletype = /obj/item/roller/bodycart
 	use_directionals = FALSE
+	isFoldable = FALSE  // with false, this means that it can't be folded anymore
+	drag_delay = 0 SECONDS  // this is the slowdown when you drag an obj
 
 // More medieval stuff
 
