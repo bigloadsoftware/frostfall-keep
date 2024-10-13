@@ -3114,9 +3114,9 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 								features["mam_body_markings"] = list()
 						if(parent.can_have_part("tail_lizard"))
 							features["tail_lizard"] = "Smooth"
-						if(pref_species.id == "halfbreed")
-							features["mam_tail"] = "Cat"
-							features["mam_ears"] = "Cat"
+						// if(pref_species.id == "halfbreed")
+						// 	features["mam_tail"] = "Cat"
+						// 	features["mam_ears"] = "Cat"
 
 						//Now that we changed our species, we must verify that the mutant colour is still allowed.
 						var/temp_hsv = RGBtoHSV(features["mcolor"])
