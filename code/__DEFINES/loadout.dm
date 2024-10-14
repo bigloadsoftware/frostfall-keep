@@ -82,8 +82,10 @@
 //head
 #define LOADOUT_CATEGORY_HEAD 				"Head"
 #define LOADOUT_SUBCATEGORY_HEAD_GENERAL 	"General"
-#define LOADOUT_SUBCATEGORY_HEAD_COWBOY			"Cowboy hats"
+//#define LOADOUT_SUBCATEGORY_HEAD_COWBOY			"Cowboy hats"
 #define LOADOUT_SUBCATEGORY_HEAD_HELMETS 		"Helmets"
+#define LOADOUT_SUBCATEGORY_HEAD_TRIBAL 		"Tribal"
+#define LOADOUT_SUBCATEGORY_HEAD_FEM 		"Feminine or Other"
 
 //shoes
 #define LOADOUT_CATEGORY_SHOES 		"Shoes"

@@ -327,7 +327,7 @@
 	icon_state = "fancycrown"
 
 /obj/item/clothing/head/scarecrow_hat
-	name = "scarecrow hat"
+	name = "straw hat"
 	desc = "A simple straw hat."
 	icon_state = "scarecrow_hat"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
@@ -629,8 +629,8 @@
 	item_state = "turban_mil"
 
 /obj/item/clothing/head/burma/cowboy/black
-	name = "Burma Cowboy hat, black"
-	desc = "A wide brimmed hat in an aussie style brim more common around the wastes now a days being an easily replicate able style of fur felt hat. This one is a dark colour,...some what stupid if your trying to get heat away from you..."
+	name = "black wide-brimmed hat"
+	desc = "A black, wide-brimmed hat, worn by those who just want to keep the sun out of their eyes."
 	icon_state = "burma_cowboy_black"
 	item_state = "burma_cowboy_black"
 
@@ -815,3 +815,29 @@
 	name = "\improper Hair Bow, small"
 	desc = "A cute bow to wear in your hair!"
 	icon_state = "bow_small"
+
+// Medieval stuff
+
+/obj/item/clothing/head/brownbycocket
+	name = "brown bycocket hat"
+	desc = "A pointy hat worn by burghers or archers. This one's brown."
+	icon_state = "bycocket_brown"
+	item_state = "bycocket_brown"
+
+/obj/item/clothing/head/redbycocket
+	name = "red bycocket hat"
+	desc = "A pointy hat worn by burghers or archers. This one's red."
+	icon_state = "bycocket_red"
+	item_state = "bycocket_red"
+
+/obj/item/clothing/head/bluebycocket
+	name = "blue bycocket hat"
+	desc = "A pointy hat worn by burghers or archers. This one's blue."
+	icon_state = "bycocket_blue"
+	item_state = "bycocket_blue"
+
+/obj/item/clothing/head/greenbycocket
+	name = "green bycocket hat"
+	desc = "A pointy hat worn by burghers or archers. This one's green."
+	icon_state = "bycocket_green"
+	item_state = "bycocket_green"
