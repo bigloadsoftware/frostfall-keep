@@ -11,10 +11,47 @@
 	path = /obj/item/clothing/under/misc/gear_harness
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_GENERAL
 
+/datum/gear/uniform/pants/
+	name = "leather breeches"
+	path = /obj/item/clothing/under/pants/f13/warboy
+	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_GENERAL
+	cost = 0
+
+/datum/gear/uniform/pants/cloth
+	name = "simple cloth trousers"
+	path = /obj/item/clothing/under/pants/f13/cloth
+	cost = 0
+
+/datum/gear/uniform/pants/cloth/red
+	name = "red cloth trousers"
+	path = /obj/item/clothing/under/pants/f13/cloth/red
+	cost = 0
+
+/datum/gear/uniform/pants/cloth/blue
+	name = "blue cloth trousers"
+	path = /obj/item/clothing/under/pants/f13/cloth/blue
+	cost = 0
+
+/datum/gear/uniform/pants/cloth/green
+	name = "green cloth trousers"
+	path = /obj/item/clothing/under/pants/f13/cloth/green
+	cost = 0
+
+/datum/gear/uniform/wasteland/masonduds
+	name = "belted trousers"
+	path = /obj/item/clothing/under/f13/masonduds
+	cost = 0
+	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_GENERAL
+
 /datum/gear/uniform/sleazeball
 	name = "merchants vest"
 	path = /obj/item/clothing/under/f13/sleazeball
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_GENERAL
+
+/datum/gear/uniform/jester2
+	name = "Yellow and Red Jester Suit"
+	cost = 0
+	path = /obj/item/clothing/under/jester2
 
 // RAGS (wasteland)
 
@@ -299,29 +336,12 @@
 	path = /obj/item/clothing/under/dress/coyote/black_skirt
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_DRESSES
 
-// PANTS
-
-/datum/gear/uniform/pants/
-	name = "leather breeches"
-	path = /obj/item/clothing/under/pants/f13/warboy
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_PANTS
-	cost = 0
-
-/datum/gear/uniform/pants/cloth
-	name = "simple cloth trousers"
-	path = /obj/item/clothing/under/pants/f13/cloth
-	cost = 0
+// UNIFORMS
 
 /datum/gear/uniform/machinist
 	name = "work clothes"
 	path = /obj/item/clothing/under/f13/machinist
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_UNIFORMS
-
-/datum/gear/uniform/wasteland/masonduds
-	name = "belted trousers"
-	path = /obj/item/clothing/under/f13/masonduds
-	cost = 0
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_PANTS
 
 // TRIBAL
 

@@ -205,8 +205,8 @@
 // Great Khan boots
 
 /obj/item/clothing/shoes/f13/military/khan
-	name = "steel-tipped boots"
-	desc = "A pair of leather boots reinforced with metal toe caps. The shin guards can be removed easily (alt-click)."
+	name = "sabatons"
+	desc = "A pair of leather boots reinforced with steel plate armor."
 	icon = 'icons/fallout/clothing/khans.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/khaans.dmi'
 	icon_state = "khan_boots"
@@ -351,3 +351,42 @@
 /obj/item/clothing/shoes/f13/tribal_sandals
 	icon_state = "tribaltreads"
 	icon_state = "tribaltreads"
+
+// Medieval stuff
+
+/obj/item/clothing/shoes/f13/poulaines
+	name = "brown poulaines"
+	desc = "Pointy shoes worn by burgher men and women. These ones are brown."
+	icon_state = "p_brown"
+	item_state = "p_brown"
+	mutantrace_variation = STYLE_DIGITIGRADE
+
+/obj/item/clothing/shoes/f13/poulaines/black
+	name = "black poulaines"
+	desc = "Pointy shoes worn by burgher men and women. These ones are black."
+	icon_state = "p_black"
+	item_state = "p_black"
+
+/obj/item/clothing/shoes/f13/poulaines/red
+	name = "red poulaines"
+	desc = "Pointy shoes worn by burgher men and women. These ones are red."
+	icon_state = "p_red"
+	item_state = "p_red"
+
+/obj/item/clothing/shoes/f13/poulaines/blue
+	name = "blue poulaines"
+	desc = "Pointy shoes worn by burgher men and women. These ones are blue."
+	icon_state = "p_blue"
+	item_state = "p_blue"
+
+/obj/item/clothing/shoes/f13/poulaines/green
+	name = "green poulaines"
+	desc = "Pointy shoes worn by burgher men and women. These ones are green."
+	icon_state = "p_green"
+	item_state = "p_green"
+
+/obj/item/clothing/shoes/f13/poulaines/yellow
+	name = "yellow poulaines"
+	desc = "Pointy shoes worn by burgher men and women. These ones are yellow."
+	icon_state = "p_yellow"
+	item_state = "p_yellow"

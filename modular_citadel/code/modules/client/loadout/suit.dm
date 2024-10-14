@@ -119,61 +119,61 @@
 	name = "leather strips w/ pauldron"
 	path = /obj/item/clothing/suit/armor/light/kit
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_BALLISTICVEST
-	cost = 2
+	cost = 1
 
 /datum/gear/suit/punkkit
 	name = "simple pauldrons"
 	path = /obj/item/clothing/suit/armor/light/kit/punk
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_BALLISTICVEST
-	cost = 2
+	cost = 1
 
 /datum/gear/suit/scraparmor
 	name = "armor scraps"
 	path = /obj/item/clothing/suit/armor/light/leather/scrap
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_BALLISTICVEST
-	cost = 2
+	cost = 1
 
 /datum/gear/suit/scrapalt
 	name = "medium armor scraps"
 	path = /obj/item/clothing/suit/armor/light/leather/scrapalt
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_BALLISTICVEST
-	cost = 2
+	cost = 1
 
 /datum/gear/suit/scrapmedium
 	name = "heavy armor scraps"
 	path = /obj/item/clothing/suit/armor/light/leather/scrapheavy
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_BALLISTICVEST
-	cost = 2
+	cost = 1
 
 /datum/gear/suit/lightscout
 	name = "leather strips w/ gorget"
 	path = /obj/item/clothing/suit/armor/light/leather/lightscoutarmor
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_BALLISTICVEST
-	cost = 2
+	cost = 1
 
 /datum/gear/suit/light/kit/punk/prehistoricfur
 	name = "Messy furs - brown"
 	path = /obj/item/clothing/suit/armor/light/kit/punk/prehistoricfur
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_BALLISTICVEST
-	cost = 2
+	cost = 1
 
 /datum/gear/suit/light/kit/punk/prehistoricfur/two
 	name = "messy furs - black"
 	path = /obj/item/clothing/suit/armor/light/kit/punk/prehistoricfur/two
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_BALLISTICVEST
-	cost = 2
+	cost = 1
 
 /datum/gear/suit/light/kit/punk/prehistoricfur/three
 	name = "messy furs - white"
 	path = /obj/item/clothing/suit/armor/light/kit/punk/prehistoricfur/three
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_BALLISTICVEST
-	cost = 2
+	cost = 1
 
 /datum/gear/suit/light/kit/punk/prehistoricfur/four
 	name = "messy furs - gray"
 	path = /obj/item/clothing/suit/armor/light/kit/punk/prehistoricfur/four
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_BALLISTICVEST
-	cost = 2
+	cost = 1
 
 // JACKETS (renamed Dresses)
 

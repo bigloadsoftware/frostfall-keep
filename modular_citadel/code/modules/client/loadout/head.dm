@@ -4,6 +4,39 @@
 	slot = SLOT_HEAD
 	cost = 1
 
+// GENERAL
+
+/datum/gear/head/brownchaperon
+	name = "brown chaperon"
+	path = /obj/item/clothing/head/chaperon
+
+/datum/gear/head/redchaperon
+	name = "red chaperon"
+	path = /obj/item/clothing/head/chaperon/red
+
+/datum/gear/head/bluechaperon
+	name = "blue chaperon"
+	path = /obj/item/clothing/head/chaperon/blue
+
+/datum/gear/head/greenchaperon
+	name = "green chaperon"
+	path = /obj/item/clothing/head/chaperon/green
+
+/datum/gear/head/brownbycocket
+	name = "green bycocket"
+	path = /obj/item/clothing/head/brownbycocket
+
+/datum/gear/head/redbycocket
+	name = "red bycocket"
+	path = /obj/item/clothing/head/redbycocket
+
+/datum/gear/head/bluebycocket
+	name = "blue bycocket"
+	path = /obj/item/clothing/head/bluebycocket
+
+/datum/gear/head/greenbycocket
+	name = "green bycocket"
+	path = /obj/item/clothing/head/greenbycocket
 
 /datum/gear/head/beretred
 	name = "red beret"
@@ -21,54 +54,18 @@
 	name = "flat cap"
 	path = /obj/item/clothing/head/flatcap
 
-/datum/gear/head/vaquerohat
-	name = "vaquero hat"
-	path = /obj/item/clothing/head/helmet/f13/vaquerohat
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/pirate
-	name = "pirate hat"
-	path = /obj/item/clothing/head/pirate
-
-/datum/gear/head/rice_hat
-	name = "rice hat"
-	path = /obj/item/clothing/head/rice_hat
-
-/datum/gear/head/stormchaser
-	name = "stormchaser hat"
-	path = /obj/item/clothing/head/f13/stormchaser
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/that
-	name = "top hat"
-	path = /obj/item/clothing/head/that
-
-/datum/gear/head/beaver
-	name = "beaverskin top hat"
-	path = /obj/item/clothing/head/f13/beaver
-
-/datum/gear/head/sombrero
-	name = "sombrero"
-	path = /obj/item/clothing/head/sombrero
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/sombrerogreen
-	name = "green sombrero"
-	path = /obj/item/clothing/head/sombrero/green
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
 /datum/gear/head/scarecrow
-	name = "scarecrow hat"
+	name = "straw hat"
 	path = /obj/item/clothing/head/scarecrow_hat
 
 /datum/gear/head/wig
 	name = "black wig"
 	path = /obj/item/clothing/head/wig
-
+/*
 /datum/gear/head/wigrandom
 	name = "randomized wig"
 	path = /obj/item/clothing/head/wig/random
-
+*/
 /datum/gear/head/powderedwig
 	name = "powdered wig"
 	path = /obj/item/clothing/head/powdered_wig
@@ -77,187 +74,214 @@
 	name = "chef hat"
 	path = /obj/item/clothing/head/chefhat
 
-/datum/gear/head/hotel
-	name = "telegram cap"
-	path = /obj/item/clothing/head/hotel
-
-/datum/gear/head/headscarf
-	name = "headscarf"
-	path = /obj/item/clothing/head/f13/headscarf
-
-//Cowboy Stuff
-/datum/gear/head/cowboy
-	name = "brahmin leather cowboy hat"
-	path = /obj/item/clothing/head/helmet/f13/brahmincowboyhat
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/cowboy_alt
-	name = "rusted cowboy hat"
-	path = /obj/item/clothing/head/helmet/f13/rustedcowboyhat
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/cowboyhat
-	name = "cowboy hat"
-	path = /obj/item/clothing/head/cowboyhat
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/cowboyhat/pink
-	name = "pink cowboy hat"
-	path = /obj/item/clothing/head/cowboyhat/pink
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/cowboyhat/black
-	name = "black cowboy hat"
-	path = /obj/item/clothing/head/cowboyhat/black
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/cowboyhat/white
-	name = "white cowboy hat"
-	path = /obj/item/clothing/head/cowboyhat/white
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/marlowhat
-	name = "Boss of the Plains Hat"
-	path = /obj/item/clothing/head/helmet/f13/marlowhat
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/big_hat
-	name = "big hat"
-	path = /obj/item/clothing/head/f13/town/big
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/bountyhunter
-	name = "bounty hunter hat"
-	path = /obj/item/clothing/head/hunter
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/bandit
-	name = "bandit hat"
-	path = /obj/item/clothing/head/fluff/bandit
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/wkepi
-	name = "white kepi"
-	path = /obj/item/clothing/head/kepi
-
-/datum/gear/head/widered
-	name = "wide red hat"
-	path = /obj/item/clothing/head/widered
-
-/datum/gear/head/kabuto
-	name = "kabuto helmet"
-	path = /obj/item/clothing/head/kabuto
-
-/datum/gear/head/ushanka
-	name = "ushanka"
-	path = /obj/item/clothing/head/ushanka
-
-/datum/gear/head/ranger_tan
-	name = "tan cowboy hat"
-	path = /obj/item/clothing/head/f13/ranger_hat/tan
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/ranger_grey
-	name = "grey cowboy hat"
-	path = /obj/item/clothing/head/f13/ranger_hat
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/ranger_banded
-	name = "banded cowboy hat"
-	path = /obj/item/clothing/head/f13/ranger_hat/banded
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/flakhelm
-	name = "flak helmet"
-	path = /obj/item/clothing/head/flakhelm
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
+/datum/gear/head/cavalier
+	name = "Cavalier"
+	path = /obj/item/clothing/head/coyote/cavalier
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
 	cost = 1
 
-/datum/gear/head/banditmask
-	name = "bandit mask"
-	path = /obj/item/clothing/head/helmet/blbandit
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
+/datum/gear/head/burmacowboyblack
+	name = "black wide-brimmed hat"
+	path = /obj/item/clothing/head/burma/cowboy/black
+
+/datum/gear/head/slouch/alt
+	name = "brown wide-brimmed hat"
+	path = /obj/item/clothing/head/slouch/alt
+
+/datum/gear/head/slouch
+	name = "brown cavalier hat"
+	path = /obj/item/clothing/head/slouch
+
+/datum/gear/head/slouch/colorable
+	name = "white cavalier hat"
+	path = /obj/item/clothing/head/slouch/colorable
+
+/datum/gear/head/jester
+	name = "jester"
+	path = /obj/item/clothing/head/jester
+
+/datum/gear/head/jester2
+	name = "jester alt"
+	path = /obj/item/clothing/head/jester/alt
+
+/datum/gear/head/britishtricorne
+	name = "Black Tricorne"
+	path = /obj/item/clothing/head/coyote/britishtricorne
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
 	cost = 1
 
-/datum/gear/head/psychomask
-	name = "psycho mask"
-	path = /obj/item/clothing/head/helmet/blpsycho
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
+/datum/gear/head/chasseur_pt
+	name = "Chasseur - Green Feather"
+	path = /obj/item/clothing/head/coyote/chasseur_pt
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
 	cost = 1
 
-/datum/gear/head/bandithelm
-	name = "bandit helmet"
-	path = /obj/item/clothing/head/helmet/borderlandshelm/bandit
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
+/datum/gear/head/chasseur_nl
+	name = "Chasseur - Pro"
+	path = /obj/item/clothing/head/coyote/chasseur_nl
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
+	cost = 1
+
+/datum/gear/head/chasseur_fr
+	name = "Chasseur - Light Blue Feather"
+	path = /obj/item/clothing/head/coyote/chasseur_fr
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
+	cost = 1
+
+/datum/gear/head/chasseur_br
+	name = "Chasseur - Red Feather"
+	path = /obj/item/clothing/head/coyote/chasseur_br
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
+	cost = 1
+
+/datum/gear/head/blackcape
+	name = "Black Cape"
+	path = /obj/item/clothing/head/coyote/blackcape
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
+	cost = 1
+
+	name = "red wizard hat"
+	path = /obj/item/clothing/head/wizard/red
+
+/datum/gear/head/wizard/yellow
+	name = "yellow wizard hat"
+	path = /obj/item/clothing/head/wizard/yellow
+
+/datum/gear/head/wizard/black
+	name = "black wizard hat"
+	path = /obj/item/clothing/head/wizard/black
+
+/datum/gear/head/wizard/magus
+	name = "magus wizard hat"
+	path = /obj/item/clothing/head/wizard/magus
+
+/datum/gear/head/wizard/violet
+	name = "violet wizard hat"
+	path = /obj/item/clothing/head/wizard/violet
+
+/datum/gear/head/aurora/fur
+	name = "green fur cap"
+	path = /obj/item/clothing/head/aurora/fur
+
+/datum/gear/head/aurora/furpurle
+	name = "purple fur cap"
+	path = /obj/item/clothing/head/aurora/furpurple
+
+/datum/gear/head/aurora/furblue
+	name = "blue fur cap"
+	path = /obj/item/clothing/head/aurora/furblue
+
+/datum/gear/head/aurora/furred
+	name = "red fur cap"
+	path = /obj/item/clothing/head/aurora/furred
+
+/datum/gear/head/aurora/joku
+	name = "green joku cap"
+	path = /obj/item/clothing/head/aurora/joku
+
+/datum/gear/head/aurora/jokupurple
+	name = "purple joku cap"
+	path = /obj/item/clothing/head/aurora/jokupurple
+
+/datum/gear/head/aurora/jokublue
+	name = "blue joku cap"
+	path = /obj/item/clothing/head/aurora/jokublue
+
+/datum/gear/head/aurora/jokured
+	name = "red joku cap"
+	path = /obj/item/clothing/head/aurora/jokured
+
+/datum/gear/head/hoodcowl
+	name = "Hood cowl"
+	path= /obj/item/clothing/head/hoodcowl
+
+// Tribal
+
+/datum/gear/head/skullmask
+	name = "Tribal Skull-Mask"
+	path = /obj/item/clothing/head/helmet/f13/skull_helmet
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
 	cost = 2
 
-/datum/gear/head/vbandithelm
-	name = "looter bandit helmet"
-	path = /obj/item/clothing/head/helmet/borderlandshelm/banditv
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/stripedbandithelm
-	name = "striped bandit helmet"
-	path = /obj/item/clothing/head/helmet/borderlandshelm/banditstripe
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/merchelm
-	name = "merc helmet"
-	path = /obj/item/clothing/head/helmet/borderlandshelm/merc
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/promerchelm
-	name = "professional merc helmet"
-	path = /obj/item/clothing/head/helmet/borderlandshelm/promerc
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/unmchelmetwinter
-	name = "Winterized UNMC helmet"
-	path = /obj/item/clothing/head/helmet/unmcwinterhelmet
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 1
-/datum/gear/head/unmchelmet
-	name = "Standard UNMC Helmet"
-	path = /obj/item/clothing/head/helmet/unmchelmet
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
+/datum/gear/head/antler
+	name = "antler skullcap"
+	path = /obj/item/clothing/head/helmet/f13/wayfarer/antler
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
 	cost = 1
 
-/datum/gear/head/unmcmedichelmet
-	name = "Standard medical UNMC helmet"
-	path = /obj/item/clothing/head/helmet/unmchelmet/medic
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 1
-/datum/gear/head/unmcstealthhelmet
-	name = "American infiltrator helmet"
-	path = /obj/item/clothing/head/helmet/unmcstealthhelmet
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
+/datum/gear/head/mayanheaddress
+	name = "Exotic Headdress"
+	path = /obj/item/clothing/head/coyote/mayanheaddress
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
 	cost = 1
 
-/datum/gear/head/chinastealthhelm
-	name = "Chinese stealth helmet"
-	path = /obj/item/clothing/head/helmet/chinastealthhelm
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
+/datum/gear/head/bearpelt
+	name = "Bear Pelt"
+	path = /obj/item/clothing/head/coyote/bearpelt
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
 	cost = 1
 
-/datum/gear/head/pot
-	name = "pot helmet"
-	path = /obj/item/clothing/head/f13/pot
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
+/datum/gear/head/wolfpelt
+	name = "Wolf Pelt"
+	path = /obj/item/clothing/head/coyote/bearpelt
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
 	cost = 1
 
-//CHINA
+/datum/gear/head/lionpelt
+	name = "Lion Pelt"
+	path = /obj/item/clothing/head/coyote/lionpelt
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
+	cost = 1
 
-/datum/gear/head/chinese
-	name = "PLA field cap"
-	path = /obj/item/clothing/head/f13/chinese
+/datum/gear/head/foxpelt
+	name = "Fox Pelt"
+	path = /obj/item/clothing/head/coyote/foxpelt
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
+	cost = 1
 
-/datum/gear/head/chinese/officer
-	name = "PLA officer's cap"
-	path = /obj/item/clothing/head/f13/chinese/officer
+/datum/gear/head/whitefoxpelt
+	name = "White Fox Pelt"
+	path = /obj/item/clothing/head/coyote/whitefoxpelt
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
+	cost = 1
+
+/datum/gear/head/gatorpelt
+	name = "Gator Pelt"
+	path = /obj/item/clothing/head/coyote/gatorpelt
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
+	cost = 1
+
+/datum/gear/head/sheeppelt
+	name = "Sheep Pelt"
+	path = /obj/item/clothing/head/coyote/sheeppelt
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
+	cost = 1
+
+/datum/gear/head/goatpelt
+	name = "Goat Pelt"
+	path = /obj/item/clothing/head/coyote/goatpelt
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
+	cost = 1
+
+/datum/gear/head/lizardpelt
+	name = "Lizard Pelt"
+	path = /obj/item/clothing/head/coyote/lizardpelt
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
+	cost = 1
+
+/datum/gear/head/bisonpelt
+	name = "Bison Pelt"
+	path = /obj/item/clothing/head/coyote/bisonpelt
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
+	cost = 1
+
+/datum/gear/head/raccoonfurhat
+	name = "Raccoon Fur Hat"
+	path = /obj/item/clothing/head/coyote/raccoonfurhat
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_TRIBAL
+	cost = 1
+
+// Helmets
 
 /datum/gear/head/khan_horned
 	name = "horned helmet"
@@ -270,95 +294,6 @@
 	path = /obj/item/clothing/head/helmet/f13/khan/pelt
 	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
 	cost = 2
-
-/datum/gear/head/khan_fullhelmet
-	name = "Horned full helmet"
-	path = /obj/item/clothing/head/helmet/f13/khan/fullhelm
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/antler
-	name = "antler skullcap"
-	path = /obj/item/clothing/head/helmet/f13/wayfarer/antler
-
-/datum/gear/head/khan_bandana
-	name = "outlaw bandana"
-	path = /obj/item/clothing/head/helmet/f13/khan/bandana
-
-/datum/gear/head/headband
-	name = "red headband"
-	path = /obj/item/clothing/head/beret/headband
-
-/datum/gear/head/goner_green
-	name = "cheap helmet, green"
-	path = /obj/item/clothing/head/helmet/f13/goner/green
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/goner_blue
-	name = "cheap helmet, blue"
-	path = /obj/item/clothing/head/helmet/f13/goner/blue
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/goner_yellow
-	name = "cheap helmet, yellow"
-	path = /obj/item/clothing/head/helmet/f13/goner/yellow
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/jester
-	name = "jester"
-	path = /obj/item/clothing/head/jester
-
-/datum/gear/head/jester2
-	name = "jester alt"
-	path = /obj/item/clothing/head/jester/alt
-
-/datum/gear/head/slouch
-	name = "khaki slouch hat"
-	path = /obj/item/clothing/head/slouch
-
-/datum/gear/head/slouch/alt
-	name = "khaki slouch hat, alt version"
-	path = /obj/item/clothing/head/slouch/alt
-
-/datum/gear/head/slouch/colorable
-	name = "slouch hat, colorable"
-	path = /obj/item/clothing/head/slouch/colorable
-
-/datum/gear/head/turban
-	name = "Military Turban"
-	path = /obj/item/clothing/head/military_turban
-
-/datum/gear/head/burmacowboyblack
-	name = "Burma Cowboy Hat, black"
-	path = /obj/item/clothing/head/burma/cowboy/black
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/burmacowboyblackribbon
-	name = "Burma Cowboy Hat, black with ribbon"
-	path = /obj/item/clothing/head/burma/cowboy/black/ribbon
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/burmacowboybrown
-	name = "Burma Cowboy Hat, brown"
-	path = /obj/item/clothing/head/burma/cowboy/brown
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/pith
-	name = "Pith"
-	path = /obj/item/clothing/head/burma/pith
-
-/datum/gear/head/glengarry
-	name = "Glengarry"
-	path = /obj/item/clothing/head/burma/glengarry
-
-
-
-//Fenis Helmet & Hatapalooza//
-
-//Helmet hats
 
 /datum/gear/head/knightsimple
 	name = "Knight Simple"
@@ -409,282 +344,15 @@
 	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
 	cost = 2
 
-/datum/gear/head/samuraiwarriorone
-	name = "Stylish Samurai Helmet"
-	path = /obj/item/clothing/head/coyote/samuraiwarriorone
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/samuraiwarriortwo
-	name = "Stylish Samurai Helmet - Blue"
-	path = /obj/item/clothing/head/coyote/samuraiwarriortwo
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/samuraiwarriorthree
-	name = "Stylish Samurai Helmet - Brown"
-	path = /obj/item/clothing/head/coyote/samuraiwarriorthree
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/samuraiwarriorfour
-	name = "Stylish Samurai Helmet - Black"
-	path = /obj/item/clothing/head/coyote/samuraiwarriorfour
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/samuraiwarriorfive
-	name = "Stylish Samurai Helmet - White"
-	path = /obj/item/clothing/head/coyote/samuraiwarriorfive
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/samuraiguard1
-	name = "Simple Samurai Helmet - Reddish Brown"
-	path = /obj/item/clothing/head/coyote/samuraiguard1
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/samuraiguard2
-	name = "Simple Samurai Helmet - Blue"
-	path = /obj/item/clothing/head/coyote/samuraiguard2
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/samuraiguard3
-	name = "Simple Samurai Helmet - Brown"
-	path = /obj/item/clothing/head/coyote/samuraiguard3
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/samuraiguard4
-	name = "Simple Samurai Helmet - Black"
-	path = /obj/item/clothing/head/coyote/samuraiguard4
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/samuraiguard5
-	name = "Simple Samurai Helmet - White"
-	path = /obj/item/clothing/head/coyote/samuraiguard5
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
 /datum/gear/head/sallethelmet
 	name = "German Sallet helmet"
 	path = /obj/item/clothing/head/medievalhelmets/oldgerman
 	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
 	cost = 2
 
-/datum/gear/head/unberets
-	name = "United Nations beret"
-	path = /obj/item/clothing/head/f13/unberet
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/russianberet
-	name = "Russian VDV beret"
-	path = /obj/item/clothing/head/f13/rusvdvberet
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
 /datum/gear/head/morionhelmet
 	name = "Spainard Morion helmet"
 	path = /obj/item/clothing/head/medievalhelmets/oldspain
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/armoredcossack
-	name = "Armored black bearskin hat"
-	path = /obj/item/clothing/head/cossackgear
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-/datum/gear/head/armoredpilotka
-	name = "Armored pilotka hat"
-	path = /obj/item/clothing/head/kevlarhelmet/pilotka
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-/datum/gear/head/armoredsoviethelmet
-	name = "Old Soviet helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/steelww2soviet
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/armoredcossackwhite
-	name = "Armored white bearskin hat"
-	path = /obj/item/clothing/head/cossackgear/white
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-/datum/gear/head/bikersteelhelmet
-	name = "Biker helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/steelgerman
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/adrianfrench
-	name = "Adrian helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/steelfrench
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/steelushanka
-	name = "Armored Soviet Ushanka hat"
-	path = /obj/item/clothing/head/armoredushanka
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-/datum/gear/head/steelpapahat
-	name = "Armored papakha hat"
-	path = /obj/item/clothing/head/cossackgear/papakhacossack
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-/datum/gear/head/steelpaphatwinter
-	name = "Armored white papakha hat"
-	path = /obj/item/clothing/head/cossackgear/papakhawhitecossack
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-/datum/gear/head/steelpapahatkuban
-	name = "Armored Kuban papakha hat "
-	path = /obj/item/clothing/head/cossackgear/papakhakubancossack
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-/datum/gear/head/skullmask
-	name = "Tribal Skull-Mask"
-	path = /obj/item/clothing/head/helmet/f13/skull_helmet
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/steelm1
-	name = "M1 Helmet "
-	path = /obj/item/clothing/head/kevlarhelmet/ww2usa
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ancientusa
-	name = "Ancient ballistic American Helmet "
-	path = /obj/item/clothing/head/kevlarhelmet/warhammerhatsandhelmets/imperiumhelmet
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ancientwestgermany
-	name = "Armored Ancient West German cap "
-	path = /obj/item/clothing/head/kevlarhelmet/warhammerhatsandhelmets
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-/datum/gear/head/steeljap
-	name = "Old Japanese Helmet "
-	path = /obj/item/clothing/head/kevlarhelmet/ww237jap
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ninja
-	name = "Ninja Hood "
-	path = /obj/item/clothing/head/helmet/f13/ninja
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/armoredimperialrussia
-	name = "Armored Imperial Russian cap "
-	path = /obj/item/clothing/head/kevlarhelmet/ww1russiancap
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-/datum/gear/head/armoredimperialgermancap
-	name = "Armored East German cap "
-	path = /obj/item/clothing/head/kevlarhelmet/ww1capseries/german
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-
-/datum/gear/head/armoredbritishcap
-	name = "Armored British cap "
-	path = /obj/item/clothing/head/kevlarhelmet/ww1capseries
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-
-/datum/gear/head/armoredfrenchcap
-	name = "Armored French cap "
-	path = /obj/item/clothing/head/kevlarhelmet/ww1capseries/french
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 2
-
-/datum/gear/head/spartanhelmets
-	name = "M-87 'EVA' assault helmet"
-	path = /obj/item/clothing/head/evaspartan
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/spartanhelmetstwo
-	name = "M-87 'EVA' assault helmet 'Icebreaker'"
-	path = /obj/item/clothing/head/evaspartan2
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/spartanhelmetsthree
-	name = "M-87 'EVA' assault helmet 'Patriot'"
-	path = /obj/item/clothing/head/evaspartan3
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/spartanhelmetfour
-	name = "M-87 'Odin' assault helmet 'Icebreaker'"
-	path = /obj/item/clothing/head/gungnirspartan2
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/spartanhelmetfive
-	name = "M-87 'Odin' assault helmet"
-	path = /obj/item/clothing/head/gungnirspartan
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/odsthelmet
-	name = "M-87 UNMC DropTrooper assault helmet"
-	path = /obj/item/clothing/head/droptrooper
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-
-/datum/gear/head/odsthelmet2
-	name = "M-87 Luchtmobiele Brigade assault helmet"
-	path = /obj/item/clothing/head/droptrooper/ice
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/odsthelmet3
-	name = "M-87 HellTrooper assault helmet"
-	path = /obj/item/clothing/head/droptrooper/special
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/russianadrianhelmet
-	name = "Russian Adrian helmet "
-	path = /obj/item/clothing/head/kevlarhelmet/rusadrian
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ww1germanhelmet
-	name = "Outdated steel helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/ww1steelgerman
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/greekhelmet
-	name = "Hoplite Helmet"
-	path = /obj/item/clothing/head/coyote/greek
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/greekhelmetcrested
-	name = "Crested Hoplite Helmet"
-	path = /obj/item/clothing/head/coyote/greekcrested
 	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
 	cost = 2
 
@@ -694,503 +362,103 @@
 	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
 	cost = 2
 
-/datum/gear/head/ballistichelmets
-	name = "Modern Russian Helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/rus1
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ballistichelmets/number2
-	name = "KGB Russian Helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/rus2
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ballistichelmets/number3
-	name = "Canadian Ballistic Helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/canadian
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ballistichelmets/number4
-	name = "U.N Helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/unitednation
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/infilrator
-	name = "Infiltrator Helmet"
-	path = /obj/item/clothing/head/helmet/infiltrator
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/contractor
-	name = "Contractor Helmet"
-	path = /obj/item/clothing/head/helmet/infiltrator/contractor
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ballistichelmets/number5
-	name = "U.N Helmet Medical"
-	path = /obj/item/clothing/head/kevlarhelmet/unitednation/medical
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ballistichelmets/number6
-	name = "War Press Helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/newshelmet
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ballistichelmets/number7
-	name = "PASGT Desert Helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/americandesert
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ballistichelmets/number8
-	name = "Modern Chinese Helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/china1
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ballistichelmets/number8
-	name = "Aircrewman Helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/hueypilot
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ballistichelmets/number9
-	name = "Ghillie Helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/ghillie
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ballistichelmets/number10
-	name = "MK6 Helmet"
-	path = /obj/item/clothing/head/kevlarhelmet/ukhelmet
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-/datum/gear/head/ballistichelmets/fiend
-	name = "Fiend Helmet"
-	path = /obj/item/clothing/head/helmet/f13/fiend
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_HELMETS
-	cost = 2
-
-//Hat hats
-/datum/gear/head/yellowtricorne
-	name = "Yellow Tricorne"
-	path = /obj/item/clothing/head/coyote/yellowtricorne
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/whiteandbluetricorne
-	name = "White & Blue Tricorne"
-	path = /obj/item/clothing/head/coyote/whiteandbluetricorne
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-
-/datum/gear/head/orangetricorne
-	name = "Orange Tricorne"
-	path = /obj/item/clothing/head/coyote/orangetricorne
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
+// Female
 
 /datum/gear/head/kerchief
-	name = "Kerchief"
+	name = "wimple"
 	path = /obj/item/clothing/head/coyote/kerchief
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/britishtricorne
-	name = "Black Tricorne"
-	path = /obj/item/clothing/head/coyote/britishtricorne
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/britishtricornetwo
-	name = "Red Tricorne"
-	path = /obj/item/clothing/head/coyote/britishtricornetwo
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/chasseur_pt
-	name = "Chasseur - Green Feather"
-	path = /obj/item/clothing/head/coyote/chasseur_pt
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/chasseur_nl
-	name = "Chasseur - Pro"
-	path = /obj/item/clothing/head/coyote/chasseur_nl
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/chasseur_fr
-	name = "Chasseur - Light Blue Feather"
-	path = /obj/item/clothing/head/coyote/chasseur_fr
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/chasseur_br
-	name = "Chasseur - Red Feather"
-	path = /obj/item/clothing/head/coyote/chasseur_br
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/bearpelt
-	name = "Bear Pelt"
-	path = /obj/item/clothing/head/coyote/bearpelt
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/wolfpelt
-	name = "Wolf Pelt"
-	path = /obj/item/clothing/head/coyote/bearpelt
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/mayanheaddress
-	name = "Exotic Headdress"
-	path = /obj/item/clothing/head/coyote/mayanheaddress
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-
-/datum/gear/head/featheredhat
-	name = "Feathered Hat"
-	path = /obj/item/clothing/head/coyote/featheredhat
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/lionpelt
-	name = "Lion Pelt"
-	path = /obj/item/clothing/head/coyote/lionpelt
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/foxpelt
-	name = "Fox Pelt"
-	path = /obj/item/clothing/head/coyote/foxpelt
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/whitefoxpelt
-	name = "White Fox Pelt"
-	path = /obj/item/clothing/head/coyote/whitefoxpelt
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/gatorpelt
-	name = "Gator Pelt"
-	path = /obj/item/clothing/head/coyote/gatorpelt
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/blackcape
-	name = "Black Cape"
-	path = /obj/item/clothing/head/coyote/blackcape
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/sheeppelt
-	name = "Sheep Pelt"
-	path = /obj/item/clothing/head/coyote/sheeppelt
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/goatpelt
-	name = "Goat Pelt"
-	path = /obj/item/clothing/head/coyote/goatpelt
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/lizardpelt
-	name = "Lizard Pelt"
-	path = /obj/item/clothing/head/coyote/lizardpelt
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-
-/datum/gear/head/tengallon
-	name = "Ten Gallon Hat"
-	path = /obj/item/clothing/head/coyote/tengallon
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/cavalier
-	name = "Cavalier"
-	path = /obj/item/clothing/head/coyote/cavalier
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/bisonpelt
-	name = "Bison Pelt"
-	path = /obj/item/clothing/head/coyote/bisonpelt
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 	cost = 1
 
 /datum/gear/head/hennin
 	name = "Hennin"
 	path = /obj/item/clothing/head/coyote/hennin
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 	cost = 1
-
-/datum/gear/head/kasa
-	name = "Kasa"
-	path = /obj/item/clothing/head/coyote/kasa
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/datum/gear/head/jingasa
-	name = "Jingasa"
-	path = /obj/item/clothing/head/coyote/jingasa
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-
-/datum/gear/head/raccoonfurhat
-	name = "Raccoon Fur Hat"
-	path = /obj/item/clothing/head/coyote/raccoonfurhat
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-	cost = 1
-
-/obj/item/clothing/head/fifi
-	name = "fifi"
-	desc = "A colorful firlly hat"
-	icon_state = "fifi_hat"
-	item_state = "fifi_hat"
-
-
-/datum/gear/head/fifi
-	name = "Fifi jester hat"
-	path = /obj/item/clothing/head/fifi
-
-/datum/gear/head/croc_hat
-	name = "Crocodile hat"
-	path = /obj/item/clothing/head/croc_hat
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/pinched_cowboy
-	name = "pinched cowboy hat"
-	path = /obj/item/clothing/head/pinched_cowboy
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_COWBOY
-
-/datum/gear/head/floppy_hat
-	name = "floppy bush hat"
-	path = /obj/item/clothing/head/floppy_hat
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/japan_hat
-	name = "green floppy cap"
-	path = /obj/item/clothing/head/japan_cap
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/poppy
-	name = "poppy"
-	path = /obj/item/reagent_containers/food/snacks/grown/poppy
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/harebell
-	name = "harebell"
-	path = /obj/item/reagent_containers/food/snacks/grown/harebell
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/sunflower
-	name = "sun flower"
-	path = /obj/item/grown/sunflower
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/moonflower
-	name = "moon flower"
-	path = /obj/item/reagent_containers/food/snacks/grown/moonflower
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/novaflower
-	name = "nova flower"
-	path = /obj/item/grown/novaflower
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/rose
-	name = "rose"
-	path = /obj/item/grown/rose
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/carbon_rose
-	name = "carbon rose"
-	path = /obj/item/grown/carbon_rose
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/fever_blossom
-	name = "fever blossom"
-	path = /obj/item/reagent_containers/food/snacks/grown/fever_blossom
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-/*
-/datum/gear/head/tribal_helmet
-	name = "tribal helmet"
-	path = /obj/item/clothing/head/tribal_helmant
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-*/
-/datum/gear/head/adrian
-	name = "adrian helmet"
-	path = /obj/item/clothing/head/adrian
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/mk2_nettan_5
-	name = "Nettan Helm"
-	path = /obj/item/clothing/head/mk2_nettan_5
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/m1_standard
-	name = "Standard Helm"
-	path = /obj/item/clothing/head/m1_standard
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_GENERAL
-
-/datum/gear/head/wizard/red
-	name = "red wizard hat"
-	path = /obj/item/clothing/head/wizard/red
-
-/datum/gear/head/wizard/yellow
-	name = "yellow wizard hat"
-	path = /obj/item/clothing/head/wizard/yellow
-
-/datum/gear/head/wizard/black
-	name = "black wizard hat"
-	path = /obj/item/clothing/head/wizard/black
-
-/datum/gear/head/wizard/marisa
-	name = "marisa wizard hat"
-	path = /obj/item/clothing/head/wizard/marisa
-
-/datum/gear/head/wizard/magus
-	name = "magus wizard hat"
-	path = /obj/item/clothing/head/wizard/magus
-
-/datum/gear/head/wizard/violet
-	name = "violet wizard hat"
-	path = /obj/item/clothing/head/wizard/violet
-
-/datum/gear/head/aurora/voidsman
-	name = "Voidsman hat"
-	path = /obj/item/clothing/head/aurora/voidsman
-
-/datum/gear/head/wizard/officercap
-	name = "Grey Officer cap"
-	path = /obj/item/clothing/head/aurora/officercap
-
-/datum/gear/head/aurora/armsmancap
-	name = "armsman cap"
-	path = /obj/item/clothing/head/aurora/armsmancap
-
-/datum/gear/head/aurora/fur
-	name = "green fur cap"
-	path = /obj/item/clothing/head/aurora/fur
-
-/datum/gear/head/aurora/furpurle
-	name = "purple fur cap"
-	path = /obj/item/clothing/head/aurora/furpurple
-
-/datum/gear/head/aurora/furblue
-	name = "blue fur cap"
-	path = /obj/item/clothing/head/aurora/furblue
-
-/datum/gear/head/aurora/furred
-	name = "red fur cap"
-	path = /obj/item/clothing/head/aurora/furred
-
-/datum/gear/head/aurora/joku
-	name = "green joku cap"
-	path = /obj/item/clothing/head/aurora/joku
-
-/datum/gear/head/aurora/jokupurple
-	name = "purple joku cap"
-	path = /obj/item/clothing/head/aurora/jokupurple
-
-/datum/gear/head/aurora/jokublue
-	name = "blue joku cap"
-	path = /obj/item/clothing/head/aurora/jokublue
-
-/datum/gear/head/aurora/jokured
-	name = "red joku cap"
-	path = /obj/item/clothing/head/aurora/jokured
-
-/datum/gear/head/aurora/danishu
-	name = "Danishu cap"
-	path = /obj/item/clothing/head/aurora/dainshu
-
-/datum/gear/head/aurora/tiara
-	name = "Tiara"
-	path = /obj/item/clothing/head/aurora/sayyidah_tiara
 
 /datum/gear/head/witch/good
 	name = "good witch hat"
 	path = /obj/item/clothing/head/good_witch
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 
 /datum/gear/head/witch/dark
 	name = "dark witch hat"
 	path = /obj/item/clothing/head/dark_witch
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 
 /datum/gear/head/witch/classic
 	name = "classic witch hat"
 	path = /obj/item/clothing/head/classic_witch
-
-/datum/gear/head/witch/healer
-	name = "healer witch hat"
-	path = /obj/item/clothing/head/healer_witch
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 
 /datum/gear/head/witch/cutie
 	name = "cutie witch hat"
 	path = /obj/item/clothing/head/cutie_witch
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 
 /datum/gear/head/witch/shy
 	name = "shy witch hat"
 	path = /obj/item/clothing/head/shy_witch
-
-/datum/gear/head/witch/sexy
-	name = "sexy witch hat"
-	path = /obj/item/clothing/head/sexy_witch
-
-/datum/gear/head/witch/bunny
-	name = "bunny witch hat"
-	path = /obj/item/clothing/head/bunny_witch
-
-/datum/gear/head/witch/potions
-	name = "potions witch hat"
-	path = /obj/item/clothing/head/potions_witch
-
-/datum/gear/head/witch/syndie
-	name = "syndie witch hat"
-	path = /obj/item/clothing/head/syndie_witch
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 
 /datum/gear/head/witch/nt
 	name = "blue witch hat"
 	path = /obj/item/clothing/head/nt_witch
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 
-/datum/gear/head/hoodcowl
-	name = "Hood cowl"
-	path= /obj/item/clothing/head/hoodcowl
-
-/datum/gear/head/canadian
-	name = "Canadian Mountie Hat"
-	path= /obj/item/clothing/head/canadian
-
-/datum/gear/head/ncrranger
-	name = "NCR Ranger Helmet"
-	path= /obj/item/clothing/head/ncr_ranger
+/datum/gear/head/wizard/marisa
+	name = "marisa wizard hat"
+	path = /obj/item/clothing/head/wizard/marisa
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 
 /datum/gear/head/ribbon
 	name  = "Hair Ribbon"
 	path = /obj/item/clothing/head/ribbon
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 	cost = 0
 
 /datum/gear/head/bow
 	name  = "Hair bow"
 	path = /obj/item/clothing/head/bow
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 	cost = 0
 
 /datum/gear/head/bow/small
 	name  = "Hair bow, small"
 	path = /obj/item/clothing/head/bow/small
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 	cost = 0
+
+/datum/gear/head/poppy
+	name = "poppy"
+	path = /obj/item/reagent_containers/food/snacks/grown/poppy
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
+
+/datum/gear/head/harebell
+	name = "harebell"
+	path = /obj/item/reagent_containers/food/snacks/grown/harebell
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
+
+/datum/gear/head/sunflower
+	name = "sun flower"
+	path = /obj/item/grown/sunflower
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
+
+/datum/gear/head/moonflower
+	name = "moon flower"
+	path = /obj/item/reagent_containers/food/snacks/grown/moonflower
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
+
+/datum/gear/head/novaflower
+	name = "nova flower"
+	path = /obj/item/grown/novaflower
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
+/datum/gear/head/rose
+	name = "rose"
+	path = /obj/item/grown/rose
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
+
+/datum/gear/head/carbon_rose
+	name = "carbon rose"
+	path = /obj/item/grown/carbon_rose
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM

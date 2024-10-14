@@ -2475,3 +2475,26 @@
 	desc = "It's just a pair of bright orange pants. What kind of maniac would run around just wearing these?"
 	icon_state = "psycho"
 	item_state = "psycho"
+
+// Medieval stuff
+
+/obj/item/clothing/under/pants/f13/cloth/red
+	name = "red cloth trousers"
+	desc = "Trousers made for the every-day person. These ones are red."
+	mutantrace_variation = STYLE_DIGITIGRADE
+	icon_state = "cloth_red"
+	item_color = "cloth_red"
+
+/obj/item/clothing/under/pants/f13/cloth/blue
+	name = "blue cloth trousers"
+	desc = "Trousers made for the every-day person. These ones are blue."
+	mutantrace_variation = STYLE_DIGITIGRADE
+	icon_state = "cloth_blue"
+	item_color = "cloth_blue"
+
+/obj/item/clothing/under/pants/f13/cloth/green
+	name = "green cloth trousers"
+	desc = "Trousers made for the every-day person. These ones are green."
+	mutantrace_variation = STYLE_DIGITIGRADE
+	icon_state = "cloth_green"
+	item_color = "cloth_green"

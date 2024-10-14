@@ -2172,7 +2172,7 @@
 	heat_protection = CHEST
 	siemens_coefficient = 1.1
 	body_parts_hidden = 0
-	armor_tokens = list(ARMOR_MODIFIER_UP_DT_T1)
+	armor_tokens = list(ARMOR_MODIFIER_DOWN_MELEE_T1)
 
 /obj/item/clothing/suit/armor/light/kit/punk
 	name = "simple pauldrons"

@@ -138,3 +138,128 @@
 	flags_inv = HIDEEYES|HIDEFACE
 	strip_delay = 90 //You dont take a Major Leage cap
 	dog_fashion = null
+
+// Medieval stuff
+
+/obj/item/clothing/head/chaperon
+	name = "brown chaperon"
+	desc = "A fancy cloth hat that can be worn either folded up atop ones head (chaperon) or as a hood (liripipe). This one's brown."
+	icon_state = "chaperonbrownsoft"
+	item_state = "helmet"
+	var/soft_type = "chaperonbrown"
+
+	dog_fashion = null ///datum/dog_fashion/head/cargo_tech
+
+	var/flipped = 0
+
+/obj/item/clothing/head/chaperon/dropped(mob/user)
+	icon_state = "[soft_type]soft"
+	name = "brown chaperon"
+	flipped = FALSE
+	return ..()
+
+/obj/item/clothing/head/chaperon/verb/flipcap()
+	set category = "Object"
+	set name = "flip hat"
+
+	flip(usr)
+
+/obj/item/clothing/head/chaperon/AltClick(mob/user)
+	. = ..()
+	if(!user.canUseTopic(src, BE_CLOSE, ismonkey(user)))
+		return
+	flip(user)
+	return TRUE
+
+
+/obj/item/clothing/head/chaperon/proc/flip(mob/user)
+	if(!user.incapacitated(allow_crit = TRUE))
+		src.flipped = !src.flipped
+		if(src.flipped)
+			name = "brown liripipe"
+			icon_state = "[soft_type]soft_flipped"
+			to_chat(user, span_notice("You flip the hat into a liripipe."))
+		else
+			name = "brown chaperon"
+			icon_state = "[soft_type]soft"
+			to_chat(user, span_notice("You flip the hat into a chaperon."))
+		usr.update_inv_head()	//so our mob-overlays update
+
+/obj/item/clothing/head/chaperon/examine(mob/user)
+	. = ..()
+	. += span_notice("Alt-click the hat to flip it to be a [flipped ? "chaperon" : "liripipe"].")
+
+/obj/item/clothing/head/chaperon/red
+	name = "red chaperon"
+	desc = "A fancy cloth hat that can be worn either folded up atop ones head (chaperon) or as a hood (liripipe). This one's red."
+	icon_state = "chaperonredsoft"
+	soft_type = "chaperonred"
+
+/obj/item/clothing/head/chaperon/red/flip(mob/user)
+	if(!user.incapacitated(allow_crit = TRUE))
+		src.flipped = !src.flipped
+		if(src.flipped)
+			name = "red liripipe"
+			icon_state = "[soft_type]soft_flipped"
+			to_chat(user, span_notice("You flip the hat into a liripipe."))
+		else
+			name = "red chaperon"
+			icon_state = "[soft_type]soft"
+			to_chat(user, span_notice("You flip the hat into a chaperon."))
+		usr.update_inv_head()	//so our mob-overlays update
+
+/obj/item/clothing/head/chaperon/red/dropped(mob/user)
+	icon_state = "[soft_type]soft"
+	name = "red chaperon"
+	flipped = FALSE
+	return ..()
+
+/obj/item/clothing/head/chaperon/blue
+	name = "blue chaperon"
+	desc = "A fancy cloth hat that can be worn either folded up atop ones head (chaperon) or as a hood (liripipe). This one's blue."
+	icon_state = "chaperonbluesoft"
+	soft_type = "chaperonblue"
+
+/obj/item/clothing/head/chaperon/blue/flip(mob/user)
+	if(!user.incapacitated(allow_crit = TRUE))
+		src.flipped = !src.flipped
+		if(src.flipped)
+			name = "blue liripipe"
+			icon_state = "[soft_type]soft_flipped"
+			to_chat(user, span_notice("You flip the hat into a liripipe."))
+		else
+			name = "blue chaperon"
+			icon_state = "[soft_type]soft"
+			to_chat(user, span_notice("You flip the hat into a chaperon."))
+		usr.update_inv_head()	//so our mob-overlays update
+
+/obj/item/clothing/head/chaperon/blue/dropped(mob/user)
+	icon_state = "[soft_type]soft"
+	name = "blue chaperon"
+	flipped = FALSE
+	return ..()
+
+/obj/item/clothing/head/chaperon/green
+	name = "green chaperon"
+	desc = "A fancy cloth hat that can be worn either folded up atop ones head (chaperon) or as a hood (liripipe). This one's green."
+	icon_state = "chaperongreensoft"
+	soft_type = "chaperongreen"
+
+/obj/item/clothing/head/chaperon/green/flip(mob/user)
+	if(!user.incapacitated(allow_crit = TRUE))
+		src.flipped = !src.flipped
+		if(src.flipped)
+			name = "brown liripipe"
+			icon_state = "[soft_type]soft_flipped"
+			to_chat(user, span_notice("You flip the hat into a liripipe."))
+		else
+			name = "brown chaperon"
+			icon_state = "[soft_type]soft"
+			to_chat(user, span_notice("You flip the hat into a chaperon."))
+		usr.update_inv_head()	//so our mob-overlays update
+
+/obj/item/clothing/head/chaperon/green/dropped(mob/user)
+	icon_state = "[soft_type]soft"
+	name = "green chaperon"
+	flipped = FALSE
+	return ..()

@@ -576,8 +576,8 @@
 	mutantrace_variation = STYLE_DIGITIGRADE
 
 /obj/item/clothing/shoes/putt
-	name = "long puttees"
-	desc = "Long woolen leg wraps used sense the first world war"
+	name = "boots w/ winingas"
+	desc = "Some boots with wrapped winingas, which are just woolen wraps around the shin."
 	icon_state = "putt"
 	mutantrace_variation = STYLE_DIGITIGRADE
 

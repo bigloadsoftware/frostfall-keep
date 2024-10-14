@@ -337,8 +337,8 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
 
 /obj/item/clothing/head/slouch
-	name = "Khaki Slouch Hat"
-	desc = "A khaki fur felt hat adopted by the Australian army in the late 1800s, it has a puggaree hat band and has a cattleman esk crease. Was in use as its standard head gear before the bombs fell"
+	name = "brown cavalier hat"
+	desc = "A wide-brimmed hat with one side pinned up on its side, very fancy."
 	icon_state = "slouch_khaki"
 	item_state = "slouch_khaki"
 	can_toggle = 1
@@ -356,8 +356,8 @@
 			C.head_update(src, forced = 1)
 
 /obj/item/clothing/head/slouch/alt
-	name = "Khaki Slouch Hat, Alt"
-	desc = "A khaki fur felt hat adopted by the Australian army in the late 1800s, it has a puggaree hat band and has a cattleman esk crease. Was in use as its standard head gear before the bombs fell"
+	name = "brown wide-brimmed hat"
+	desc = "A brown wide-brimmed hat, for those who want to keep the sun out of their eyes."
 	icon_state = "slouch_khaki_alt"
 	item_state = "slouch_khaki_alt"
 	can_toggle = 1
@@ -375,8 +375,8 @@
 			C.head_update(src, forced = 1)
 
 /obj/item/clothing/head/slouch/colorable
-	name = "Colorable Slouch Hat"
-	desc = "A fur felt hat adopted by the Australian army in the late 1800s, it has a puggaree hat band and has a cattleman esk crease. Was in use as its standard head gear before the bombs fell"
+	name = "white cavalier hat"
+	desc = "A wide-brimmed hat with one side pinned up on its side, very fancy."
 	icon_state = "slouch_colorable"
 	item_state = "slouch_colorable"
 	can_toggle = 1
@@ -431,8 +431,8 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
 
 /obj/item/clothing/head/coyote/kerchief
-	name = "Kerchief"
-	desc = "A light head covering for those with a pale complexion."
+	name = "wimple"
+	desc = "A cloth covering around one's head, typically worn by females."
 	icon_state = "kerchief"
 	item_state = "kerchief"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
