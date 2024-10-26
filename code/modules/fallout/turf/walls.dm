@@ -353,7 +353,7 @@
 	if(departing_mob.logout_time && departing_mob.logout_time + 2 MINUTES > world.time)
 		to_chat(user, span_warning("This mind has only recently departed. Wait at most two minutes before sending this character out of the round."))
 		return
-	user.visible_message(span_warning("[user] [departing_mob == user ? "is trying to leave the swamps!" : "is trying to send [departing_mob] away!"]"), span_notice("You [departing_mob == user ? "are trying to leave the swamps." : "are trying to send [departing_mob] away."]"))
+	user.visible_message(span_warning("[user] [departing_mob == user ? "is trying to head home!" : "is trying to send [departing_mob] home!"]"), span_notice("You [departing_mob == user ? "are trying to head home." : "are trying to send [departing_mob] home."]"))
 	icon_state = "matrix_going" // ALERT, WEE WOO
 	update_icon()
 	in_use = TRUE
@@ -381,9 +381,9 @@
 	message_admins(dat)
 	log_admin(dat)
 	if(departing_mob.stat == DEAD)
-		departing_mob.visible_message(span_notice("[user] pushes the body of [departing_mob] over the border. They're someone else's problem now."))
+		departing_mob.visible_message(span_notice("[user] pushes the body of [departing_mob] over the threshold. They're someone else's problem now."))
 	else
-		departing_mob.visible_message(span_notice("[departing_mob == user ? "Out of their own volition, " : "Ushered by [user], "][departing_mob] crosses the border and departs the swamps."))
+		departing_mob.visible_message(span_notice("[departing_mob == user ? "Out of their own volition, " : "Ushered by [user], "][departing_mob] enters in and heads home."))
 	
 	if(departing_mob.client.is_in_game >= 1)
 		// if(departing_mob.client.is_in_game == 2)
@@ -392,6 +392,135 @@
 	
 	departing_mob.despawn()
 
+// MEDIEVAL ROUND REMOVAL
+
+/turf/closed/indestructible/f13/matrix/door
+	name = "home door"
+	desc = "<font color='#6eaa2c'>A door leading to safety...</font>"
+	icon_state = "door"
+
+/turf/closed/indestructible/f13/matrix/door/MouseDrop_T(atom/dropping, mob/user)
+	. = ..()
+	if(!isliving(user) || user.incapacitated(allow_crit = TRUE) || !isliving(dropping))
+		return //No ghosts or incapacitated folk allowed to do this.
+	if(in_use) // Someone's already going in.
+		return
+	if(SSmobs.there_is_no_escape)
+		to_chat(user, span_warning("This method of escape has been disabled. Sorry! You're allowed to ghost out and respawn though, just ahelp and tell an admin to ditch your body."))
+		return
+	var/mob/living/departing_mob = dropping
+	if(departing_mob != user && departing_mob.client)
+		to_chat(user, span_warning("This one retains their free will. It's their choice if they want to depart or not."))
+		return
+	if(alert("Are you sure you want to [departing_mob == user ? "depart the area for good (you" : "send this person away (they"] will be removed from the current round, the job slot freed)?", "Going to deep sleep", "Confirm", "Cancel") != "Confirm")
+		return
+	if(user.incapacitated(allow_crit = TRUE) || QDELETED(departing_mob) || (departing_mob != user && departing_mob.client) || get_dist(src, dropping) > 2 || get_dist(src, user) > 2)
+		return //Things have changed since the alert happened.
+	if(departing_mob.logout_time && departing_mob.logout_time + 2 MINUTES > world.time)
+		to_chat(user, span_warning("This mind has only recently departed. Wait at most two minutes before sending this character out of the round."))
+		return
+	user.visible_message(span_warning("[user] [departing_mob == user ? "is trying to head home!" : "is trying to send [departing_mob] home!"]"), span_notice("You [departing_mob == user ? "are trying to head home." : "are trying to send [departing_mob] home."]"))
+	icon_state = "door" // ALERT, WEE WOO
+	update_icon()
+	in_use = TRUE
+	if(!do_after(user, 50, target = src))
+		icon_state = initial(icon_state)
+		in_use = FALSE
+		return
+	icon_state = initial(icon_state)
+	in_use = FALSE
+	update_icon()
+	var/dat
+	if(ishuman(departing_mob))
+		dat = "[key_name(user)] has despawned [departing_mob == user ? "themselves" : departing_mob]."
+	else if(isanimal(departing_mob))
+		dat = "[key_name(user)] has despawned [departing_mob == user ? "themselves" : departing_mob]."
+	if(!length(departing_mob.contents))
+		dat += " none."
+	else
+		var/atom/movable/content = departing_mob.contents[1]
+		dat += " [content.name]"
+		for(var/i in 2 to length(departing_mob.contents))
+			content = departing_mob.contents[i]
+			dat += ", [content.name]"
+		dat += "."
+	message_admins(dat)
+	log_admin(dat)
+	if(departing_mob.stat == DEAD)
+		departing_mob.visible_message(span_notice("[user] pushes the body of [departing_mob] through the threshhold. They're someone else's problem now."))
+	else
+		departing_mob.visible_message(span_notice("[departing_mob == user ? "Out of their own volition, " : "Ushered by [user], "][departing_mob] enters the door and is sent home."))
+	
+	if(departing_mob.client.is_in_game >= 1)
+		// if(departing_mob.client.is_in_game == 2)
+		// 	to_chat(world, span_nicegreen("You hear through the grapevine that [departing_mob.name] has left the county."))
+		departing_mob.client.is_in_game = 0
+	
+	departing_mob.despawn()
+
+/turf/closed/indestructible/f13/matrix/caravan
+	name = "caravan entrance"
+	desc = "<font color='#6eaa2c'>This is where you get on, or get off.</font>"
+	icon_state = "caravan"
+
+/turf/closed/indestructible/f13/matrix/caravan/MouseDrop_T(atom/dropping, mob/user)
+	. = ..()
+	if(!isliving(user) || user.incapacitated(allow_crit = TRUE) || !isliving(dropping))
+		return //No ghosts or incapacitated folk allowed to do this.
+	if(in_use) // Someone's already going in.
+		return
+	if(SSmobs.there_is_no_escape)
+		to_chat(user, span_warning("This method of escape has been disabled. Sorry! You're allowed to ghost out and respawn though, just ahelp and tell an admin to ditch your body."))
+		return
+	var/mob/living/departing_mob = dropping
+	if(departing_mob != user && departing_mob.client)
+		to_chat(user, span_warning("This one retains their free will. It's their choice if they want to depart or not."))
+		return
+	if(alert("Are you sure you want to [departing_mob == user ? "depart the area for good (you" : "send this person away (they"] will be removed from the current round, the job slot freed)?", "Boarding the caravan", "Confirm", "Cancel") != "Confirm")
+		return
+	if(user.incapacitated(allow_crit = TRUE) || QDELETED(departing_mob) || (departing_mob != user && departing_mob.client) || get_dist(src, dropping) > 2 || get_dist(src, user) > 2)
+		return //Things have changed since the alert happened.
+	if(departing_mob.logout_time && departing_mob.logout_time + 2 MINUTES > world.time)
+		to_chat(user, span_warning("This mind has only recently departed. Wait at most two minutes before sending this character out of the round."))
+		return
+	user.visible_message(span_warning("[user] [departing_mob == user ? "is trying to depart with the caravan!" : "is trying to send [departing_mob] onto the caravan!"]"), span_notice("You [departing_mob == user ? "are trying to board the caravan." : "are trying to board [departing_mob] on the caravan."]"))
+	icon_state = "door" // ALERT, WEE WOO
+	update_icon()
+	in_use = TRUE
+	if(!do_after(user, 50, target = src))
+		icon_state = initial(icon_state)
+		in_use = FALSE
+		return
+	icon_state = initial(icon_state)
+	in_use = FALSE
+	update_icon()
+	var/dat
+	if(ishuman(departing_mob))
+		dat = "[key_name(user)] has despawned [departing_mob == user ? "themselves" : departing_mob]."
+	else if(isanimal(departing_mob))
+		dat = "[key_name(user)] has despawned [departing_mob == user ? "themselves" : departing_mob]."
+	if(!length(departing_mob.contents))
+		dat += " none."
+	else
+		var/atom/movable/content = departing_mob.contents[1]
+		dat += " [content.name]"
+		for(var/i in 2 to length(departing_mob.contents))
+			content = departing_mob.contents[i]
+			dat += ", [content.name]"
+		dat += "."
+	message_admins(dat)
+	log_admin(dat)
+	if(departing_mob.stat == DEAD)
+		departing_mob.visible_message(span_notice("[user] pushes the body of [departing_mob] onto the caravan. They're someone else's problem now."))
+	else
+		departing_mob.visible_message(span_notice("[departing_mob == user ? "Out of their own volition, " : "Ushered by [user], "][departing_mob] enters the caravan and is sent away."))
+	
+	if(departing_mob.client.is_in_game >= 1)
+		// if(departing_mob.client.is_in_game == 2)
+		// 	to_chat(world, span_nicegreen("You hear through the grapevine that [departing_mob.name] has left the county."))
+		departing_mob.client.is_in_game = 0
+
+// END OF MEDIEVAL ROUND REMOVAL
 
 /turf/closed/indestructible/f13/obsidian //Just like that one game studio that worked on the original game, or that block in Minecraft!
 	name = "obsidian"

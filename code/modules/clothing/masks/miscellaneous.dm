@@ -273,33 +273,33 @@
 			to_chat(user, "<span class='warning'>You must be holding [src] in order to tie it!")
 
 /obj/item/clothing/mask/bandana/red
-	name = "red bandana"
-	desc = "A fine red bandana with nanotech lining."
+	name = "red cloth mask"
+	desc = "A cloth tied around the mouth to protect from bad air, or to conceal identity."
 	icon_state = "bandred"
 
 /obj/item/clothing/mask/bandana/blue
-	name = "blue bandana"
-	desc = "A fine blue bandana with nanotech lining."
+	name = "blue cloth mask"
+	desc = "A cloth tied around the mouth to protect from bad air, or to conceal identity."
 	icon_state = "bandblue"
 
 /obj/item/clothing/mask/bandana/green
-	name = "green bandana"
-	desc = "A fine green bandana with nanotech lining."
+	name = "green cloth mask"
+	desc = "A cloth tied around the mouth to protect from bad air, or to conceal identity."
 	icon_state = "bandgreen"
 
 /obj/item/clothing/mask/bandana/gold
-	name = "gold bandana"
-	desc = "A fine gold bandana with nanotech lining."
+	name = "gold cloth mask"
+	desc = "A cloth tied around the mouth to protect from bad air, or to conceal identity."
 	icon_state = "bandgold"
 
 /obj/item/clothing/mask/bandana/black
-	name = "black bandana"
-	desc = "A fine black bandana with nanotech lining."
+	name = "black cloth mask"
+	desc = "A cloth tied around the mouth to protect from bad air, or to conceal identity."
 	icon_state = "bandblack"
 
 /obj/item/clothing/mask/bandana/skull
-	name = "skull bandana"
-	desc = "A fine black bandana with nanotech lining and a skull emblem."
+	name = "skull cloth mask"
+	desc = "A cloth tied around the mouth to protect from bad air, or to conceal identity. This one has a skull emblem on it."
 	icon_state = "bandskull"
 
 /obj/item/clothing/mask/mummy
@@ -508,3 +508,17 @@
 	desc = "A mask made of plastic and paint."
 	icon_state = "blackkitsunemask"
 	item_state = "blackkitsunemask"
+
+/obj/item/clothing/mask/cap
+	name = "cap"
+	desc = "A simple cloth cap, to give some extra warmth and protection. Worn by itself, or under a hat or helmet."
+	icon_state = "cap"
+	item_state = "cap"
+	flags_cover = FALSE
+
+/obj/item/clothing/mask/wimple
+	name = "wimple"
+	desc = "A cloth head covering, with the face visible. Typically worn by females."
+	icon_state = "wimple"
+	item_state = "wimple"
+	flags_cover = FALSE

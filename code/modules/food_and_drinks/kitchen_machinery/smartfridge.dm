@@ -891,3 +891,12 @@
 	if(O)
 		return TRUE
 	return FALSE
+
+// Medieval stuff
+
+/obj/machinery/smartfridge/drying_rack/simple
+	name = "drying rack"
+	desc = "A rack made for hanging up skin, hides, herbs, and fruits to dry."
+	icon = 'icons/fallout/farming/farming_structures.dmi'
+	icon = 'modular_roguetown/misc/structure.dmi'
+	icon_state = "dryrack"

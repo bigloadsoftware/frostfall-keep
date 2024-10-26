@@ -1,6 +1,7 @@
 /obj/structure/chair/sofa
-	name = "old sofa"
+	name = "settee"
 	icon_state = "sofamiddle"
+	desc = "Seating arrangement built out of fine wood, and padded with stuffed silk or leather. Rather fancy."
 	icon = 'icons/obj/sofa.dmi'
 	buildstackamount = 1
 	item_chair = null

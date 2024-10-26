@@ -431,7 +431,7 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/rushelmet
 
 /obj/item/clothing/head/coyote/kerchief
-	name = "wimple"
+	name = "kerchief"
 	desc = "A cloth covering around one's head, typically worn by females."
 	icon_state = "kerchief"
 	item_state = "kerchief"
