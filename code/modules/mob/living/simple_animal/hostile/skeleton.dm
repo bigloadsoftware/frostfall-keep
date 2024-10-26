@@ -4,7 +4,7 @@
 	icon = 'icons/mob/simple_human.dmi'
 	icon_state = "skeleton"
 	icon_living = "skeleton"
-	icon_dead = NULL
+	icon_dead = ""
 	gender = NEUTER
 	rotate_on_lying = TRUE
 	mob_armor = ARMOR_VALUE_SKELETON
