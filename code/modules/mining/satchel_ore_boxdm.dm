@@ -96,3 +96,11 @@
 
 /obj/structure/ore_box/onTransitZ()
 	return
+
+// medieval stuff
+
+/obj/structure/ore_box/minecart
+	icon = 'icons/obj/mining.dmi'
+	icon_state = "minecart"
+	name = "mine cart"
+	desc = "An iron-reinforced wooden mine cart used for transporting ore."

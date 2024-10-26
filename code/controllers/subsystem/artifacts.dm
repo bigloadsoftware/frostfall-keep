@@ -1,3 +1,4 @@
+
 /// processing subsystem for generating and ticking artifacts
 /// Artifacts are basically diablo 2 style magic items
 PROCESSING_SUBSYSTEM_DEF(artifacts)
@@ -1085,4 +1086,3 @@ PROCESSING_SUBSYSTEM_DEF(artifacts)
 	M.health = min(M.health - 10, M.maxHealth)
 	remove_movespeed_modifier(/datum/movespeed_modifier/artifact)
 	*/
-

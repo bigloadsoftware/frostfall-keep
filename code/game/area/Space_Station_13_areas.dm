@@ -1796,4 +1796,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/f13/underground/cave
 	name = "Cave"
 	icon_state = "cave"
-	outdoors = TRUE
+	outdoors = FALSE
+	ambience_area = list(
+		/datum/looping_sound/ambient/general,
+		/datum/looping_sound/ambient/cave,
+		/datum/looping_sound/ambient/tunnel,
+		/datum/looping_sound/ambient/general/eerie2
+	)
+	weather_tags = null

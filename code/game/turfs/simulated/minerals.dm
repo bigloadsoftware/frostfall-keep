@@ -197,10 +197,14 @@
 
 /turf/closed/mineral/random/high_chance
 	icon_state = "rock_highchance"
-	mineralChance = 35
+	mineralChance = 50
 	mineralSpawnChanceList = list(
-		/turf/closed/mineral/uranium = 35, /turf/closed/mineral/diamond = 30, /turf/closed/mineral/gold = 45, /turf/closed/mineral/titanium = 45,
-		/turf/closed/mineral/silver = 50, /turf/closed/mineral/plasma = 50, /turf/closed/mineral/bscrystal = 20, /turf/closed/mineral/strange = 40)
+		/turf/closed/mineral/diamond = 1, /turf/closed/mineral/gold = 4, /turf/closed/mineral/silver = 6, /turf/closed/mineral/iron = 40,
+		/turf/closed/mineral/limestone = 20, /turf/closed/mineral/indestructible = 10)
+	
+/turf/closed/mineral/random/high_chance/guarantee
+	icon_state = "rock_labor"
+	mineralChance = 100
 
 /turf/closed/mineral/random/high_chance/volcanic
 	environment_type = "basalt"
@@ -244,9 +248,8 @@
 	icon_state = "rock_lowchance"
 	mineralChance = 15
 	mineralSpawnChanceList = list(
-		/turf/closed/mineral/uranium = 2, /turf/closed/mineral/diamond = 1, /turf/closed/mineral/gold = 4, /turf/closed/mineral/titanium = 4,
-		/turf/closed/mineral/silver = 6, /turf/closed/mineral/plasma = 15, /turf/closed/mineral/iron = 40, /turf/closed/mineral/limestone = 20,
-		/*/turf/closed/mineral/gibtonite = 2, *//turf/closed/mineral/bscrystal = 1, /turf/closed/mineral/strange = 30) //indestructable chance moved to child, /underground
+		 /turf/closed/mineral/diamond = 1, /turf/closed/mineral/gold = 4,  /turf/closed/mineral/indestructible = 10, /turf/open/indestructible/ground/inside/mountain = 10,
+		/turf/closed/mineral/silver = 6, /turf/closed/mineral/iron = 40, /turf/closed/mineral/limestone = 20)
 
 /turf/closed/mineral/random/low_chance_desert
 	icon = 'modular_coyote/icons/turfs/walls.dmi'
@@ -524,6 +527,7 @@
 	turf_type = /turf/open/floor/plating/asteroid/snow/ice/icemoon
 	baseturfs = /turf/open/floor/plating/asteroid/snow/ice/icemoon
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/closed/mineral/silver
 	mineralType = /obj/item/stack/ore/silver
 	spreadChance = 5

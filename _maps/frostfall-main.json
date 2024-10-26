@@ -2,7 +2,8 @@
     "map_name": "Main",
     "map_path": "map_files/frostfallkeep/",
     "map_file": [
-        "Frostfallkeep.dmm",
+        "Frostfallkeep-Lower.dmm",
+		"Frostfallkeep.dmm",
 		"Frostfallkeep-Upper.dmm"
     ],
     "station_ruin_budget":0,
@@ -14,6 +15,20 @@
         "ferry": "ferry_fancy"
     },
     "traits":[
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
+			"Station": 1,
+			"Up": 1,
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Force West": 1,
+			"Name": "Frostfallkeep - Lower",
+			"Force X": 1,
+			"Force Y": 2,
+			"Force Z": 0
+		},
 		{
 			"Gravity": true,
 			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",

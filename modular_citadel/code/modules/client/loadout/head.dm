@@ -365,7 +365,7 @@
 // Female
 
 /datum/gear/head/kerchief
-	name = "wimple"
+	name = "kerchief"
 	path = /obj/item/clothing/head/coyote/kerchief
 	subcategory = LOADOUT_SUBCATEGORY_HEAD_FEM
 	cost = 1

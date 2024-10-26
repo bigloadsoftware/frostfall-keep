@@ -118,6 +118,12 @@
 	else if(istype(A, /obj/structure/simple_door))
 		var/obj/structure/simple_door/M = A
 		M.take_damage(20, BRUTE, "melee", 0, attacked_by = user)
+	
+/obj/item/twohanded/fireaxe/timber //probably needs a new medieval sprite
+	name = "timber axe"
+	desc = "An axe made for chopping wood, but it can chop anything really."
+	icon_state = "fireaxe"
+	icon_prefix = "fireaxe"
 
 
 // Bone Axe			Keywords: Damage 25/40, Bonus vs door, window

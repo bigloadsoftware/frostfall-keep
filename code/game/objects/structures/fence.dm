@@ -536,3 +536,56 @@
 	cuttable = FALSE
 	climbable = TRUE
 	proj_pass_rate = 80
+
+// Medieval stuff
+/*
+/obj/structure/fence/palisade
+	name = "palisade"
+	desc = "Sharpened logs braced up against eachother, forming a formidable wall."
+	density = TRUE
+	anchored = TRUE
+	opacity = FALSE
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "palisade"
+	barricade = TRUE
+	proj_pass_rate = 65
+	cuttable = FALSE
+	invulnerable = FALSE
+	hole_visuals = FALSE //Whether the fence piece has visuals for being cut. Used in update_cut_status()
+	max_integrity = 500 // juuuust about lower health than a door is.
+
+/obj/structure/fence/palisade/tips
+	icon_state = "palisade_tips"
+	density = FALSE
+	opacity = FALSE
+	layer = 8
+*/
+
+/obj/structure/fence/palisade
+	name = "palisade"
+	desc = "Sharpened logs braced up against eachother, forming a formidable wall."
+	density = TRUE
+	anchored = TRUE
+	opacity = TRUE
+	icon = 'icons/obj/palisade.dmi'
+	icon_state = "palisade"
+	barricade = TRUE
+	proj_pass_rate = 65
+	cuttable = FALSE
+	invulnerable = FALSE
+	hole_visuals = FALSE //Whether the fence piece has visuals for being cut. Used in update_cut_status()
+	max_integrity = 500 // juuuust about lower health than a door is.
+	layer = 6
+
+/obj/structure/fence/palisade/longleft
+	icon_state = "palisade_longleft"
+
+/obj/structure/fence/palisade/left
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "palisade_left"
+
+/obj/structure/fence/palisade/leftend
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "palisade_leftend"
+	density = FALSE
+	opacity = FALSE

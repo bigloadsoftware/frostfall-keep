@@ -356,6 +356,7 @@
 	icon = 'icons/obj/tomb.dmi'
 	icon_state = "ladystatue-left"
 	anchored = TRUE
+
 /obj/structure/statue/bos/ladyright
 	name = "The Lady"
 	desc = "The inscription reads 'Scribe with hands outstretched, pray her shelter of the world, reborn anew of olde.'"
@@ -377,3 +378,86 @@
 	icon_state = "lstatuelight"
 	anchored = TRUE
 	density = 1
+
+// Medieval stuff
+
+/obj/structure/statue/wheel
+	name = "caravan wheel"
+	desc = "Wheel to a large caravan cart... Marvel in the glory of its magnificent engineering. Go on, stare."
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "wheel"
+	anchored = TRUE
+	layer = 2
+	density = 0
+
+/obj/structure/statue/halfwheel
+	name = "caravan wheel"
+	desc = "Wheel to a large caravan cart... Marvel in the glory of its magnificent engineering. Go on, stare."
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "halfwheel"
+	anchored = TRUE
+	layer = 6
+	density = 0
+
+// catacombs stuff
+
+/obj/structure/statue/catacombs
+	name = "catacombs object"
+	desc = "Blocks your path."
+	anchored = TRUE
+	layer = 2
+	density = 1
+
+/obj/structure/statue/catacombs/casket1
+	name = "stone casket"
+	desc = "A casket made from stone, inscribed with markings describing the dead's legacy."
+	icon = 'icons/obj/catacombs64x32.dmi'
+	icon_state = "casket1"
+
+/obj/structure/statue/catacombs/casket1/side
+	icon = 'icons/obj/catacombs32x64.dmi'
+
+/obj/structure/statue/catacombs/casket2
+	name = "broken empty stone casket"
+	desc = "A casket made from stone, inscribed with markings describing the dead's legacy. This one's broken and empty."
+	icon = 'icons/obj/catacombs64x32.dmi'
+	icon_state = "casket2"
+
+/obj/structure/statue/catacombs/casket2/side
+	icon = 'icons/obj/catacombs32x64.dmi'
+
+/obj/structure/statue/catacombs/casket3
+	name = "broken stone casket"
+	desc = "A casket made from stone, inscribed with markings describing the dead's legacy. This one's broken, filled with bones."
+	icon = 'icons/obj/catacombs64x32.dmi'
+	icon_state = "casket3"
+
+/obj/structure/statue/catacombs/casket3/side
+	icon = 'icons/obj/catacombs32x64.dmi'
+
+/obj/structure/statue/catacombs/niche1
+	name = "grave niche"
+	desc = "A carved out hole in the wall intended to hold the deceased. This one has some old bones in it."
+	icon = 'icons/obj/catacombs64x32.dmi'
+	icon_state = "niche1"
+
+/obj/structure/statue/catacombs/niche1/side
+	icon = 'icons/obj/catacombs32x64.dmi'
+
+/obj/structure/statue/catacombs/niche2
+	name = "grave niche"
+	desc = "A carved out hole in the wall intended to hold the deceased. This one has some old bones in it."
+	icon = 'icons/obj/catacombs64x32.dmi'
+	icon_state = "niche2"
+
+/obj/structure/statue/catacombs/niche2/side
+	icon = 'icons/obj/catacombs32x64.dmi'
+
+/obj/structure/statue/catacombs/niche3
+	name = "grave niche"
+	desc = "A carved out hole in the wall intended to hold the deceased. This one's empty."
+	icon = 'icons/obj/catacombs64x32.dmi'
+	icon_state = "niche3"
+
+/obj/structure/statue/catacombs/niche3/side
+	icon = 'icons/obj/catacombs32x64.dmi'

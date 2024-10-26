@@ -43,7 +43,7 @@
 	environment = 19
 	grow_chance = 45
 	weather_tags = list(WEATHER_ALL)
-	ambientmusic = list(
+/*	ambientmusic = list(
 		//AREA_Z_MUSIC(Z_LEVEL_FALLBACK, 'sound/misc/sadtrombone.ogg'),
 		//AREA_Z_MUSIC(Z_LEVEL_CENTCOM, 'sound/machines/honkbot_evil_laugh.ogg'),
 		AREA_Z_MUSIC(Z_LEVEL_NASH_UNDERGROUND, 'sound/ambience/coolloops/sewers.ogg'),
@@ -58,8 +58,7 @@
 		AREA_Z_MUSIC(Z_LEVEL_NEWBOSTON, 'sound/ambience/coolloops/newboston.ogg'),
 		AREA_Z_MUSIC(Z_LEVEL_NEWBOSTON_UPPER, 'sound/ambience/coolloops/newboston.ogg'),
 	)
-
-
+*/
 /area/f13/wasteland/city
 	name = "City"
 	icon_state = "yellow"
@@ -195,6 +194,7 @@
 		/datum/looping_sound/ambient/general,
 		/datum/looping_sound/ambient/cave,
 		/datum/looping_sound/ambient/tunnel,
+		/datum/looping_sound/ambient/general/eerie2
 	)
 	weather_tags = null
 
@@ -211,6 +211,19 @@
 	)
 	weather_tags = null
 
+/area/f13/tunnel/catacombs
+	name = "Catacombs"
+	icon_state = "catacombs"
+	ambience_area = list(
+		/datum/looping_sound/ambient/general,
+		/datum/looping_sound/ambient/building,
+		/datum/looping_sound/ambient/cave,
+		/datum/looping_sound/ambient/tunnel,
+		/datum/looping_sound/ambient/general/eerie,
+		/datum/looping_sound/ambient/general/haunted1,
+		/datum/looping_sound/ambient/general/haunted2,
+	)
+
 /area/f13/bar
 	name = "Bar"
 	icon_state = "bar"
@@ -223,10 +236,19 @@
 	)
 	weather_tags = null
 
-/area/f13/wasteland/newboston
-	name = "New Boston Wasteland"
+/area/f13/wasteland/frostfallkeep
+	name = "Frostfall Keep Wasteland"
 
-/area/f13/wasteland/newboston/redwater
+	ambience_area = list(
+		/datum/looping_sound/ambient/general/creepywind3
+	)
+
+/area/f13/wasteland/frostfallkeep/roof
+	icon_state = "green"
+	weather_tags = null
+	outdoors = FALSE
+
+/area/f13/wasteland/frostfallkeep/redwater
 	name = "Redwater Wasteland"
 
 /area/f13/wasteland/garlandcity
@@ -235,10 +257,10 @@
 /area/f13/wasteland/dungeon
 	name = "Dungeon Wasteland"
 
-/// New Boston areas are assumed to be inside unless they're specifically the ../outdoors type
-/area/f13/wasteland/city/newboston
-	name = "New Boston"
-	icon_state = "newboston"
+/// Frostfall Keep areas are assumed to be inside unless they're specifically the ../outdoors type
+/area/f13/wasteland/city/frostfallkeep
+	name = "Frostfall Keep"
+	icon_state = "frostfallkeepin"
 	safe_town = TRUE
 	ambience_area = list(
 		/datum/looping_sound/ambient/general,
@@ -253,9 +275,16 @@
 	weather_tags = null
 	outdoors = FALSE
 
-/area/f13/wasteland/city/newboston/outdoors
-	name = "New Boston Streets"
-	icon_state = "newboston"
+/area/f13/wasteland/city/frostfallkeep/indoors
+	name = "Frostfall Keep Streets"
+	icon_state = "frostfallkeepin"
+	ambience_area = list(
+		/datum/looping_sound/ambient/general/structure
+	)
+
+/area/f13/wasteland/city/frostfallkeep/outdoors
+	name = "Frostfall Keep Streets"
+	icon_state = "frostfallkeep"
 	ambientsounds = list(
 		AREA_SOUND('sound/f13ambience/dog_distant_1.ogg', 10 SECONDS),
 		AREA_SOUND('sound/f13ambience/dog_distant_2.ogg', 10 SECONDS),
@@ -275,74 +304,92 @@
 		/datum/looping_sound/ambient/critters/birds,
 		/datum/looping_sound/ambient/critters/birds/crow,
 		/datum/looping_sound/ambient/woodcreak,
-		/datum/looping_sound/ambient/lightbulb,
-		
+		/datum/looping_sound/ambient/general/softwind
 
 		)
 	weather_tags = list(WEATHER_SAFE)
 	outdoors = TRUE
 
-/area/f13/wasteland/city/newboston/outdoors/redwater
+/area/f13/wasteland/city/frostfallkeep/outdoors/roof // basically an outside place, but with a roof blocking rain and shit.
+	name = "Frostfall Keep Structure"
+	icon_state = "frostfallkeepinout"
+	weather_tags = null
+	outdoors = FALSE
+
+/area/f13/wasteland/city/frostfallkeep/outdoors/redwater
 	name = "Redwater"
 	color = "#FF0000"
 
-/area/f13/wasteland/city/newboston/house
-	name = "New Boston Housing"
+/area/f13/wasteland/city/frostfallkeep/house
+	name = "Frostfall Keep Housing"
 	icon_state = "house"
 
-/area/f13/wasteland/city/newboston/farm
-	name = "New Boston Farm"
+/area/f13/wasteland/city/frostfallkeep/farm
+	name = "Frostfall Keep Farm"
 	icon_state = "farm"
 
-/area/f13/wasteland/city/newboston/bar
-	name = "New Boston Bar"
+/area/f13/wasteland/city/frostfallkeep/bar
+	name = "Frostfall Keep Tavern"
 	icon_state = "alcohol"
 	outdoors = FALSE
 
-/area/f13/wasteland/city/newboston/bank
-	name = "New Boston Bank"
+/area/f13/wasteland/city/frostfallkeep/bank
+	name = "Frostfall Keep Bank"
 	icon_state = "bank"
 	outdoors = FALSE
 
-/area/f13/wasteland/city/newboston/sauna
-	name = "New Boston Sauna"
+/area/f13/wasteland/city/frostfallkeep/sauna
+	name = "Frostfall Keep Bathhouse"
 	icon_state = "house1"
 	outdoors = FALSE
+	ambience_area = list(
+		/datum/looping_sound/ambient/sewers,
+		/datum/looping_sound/ambient/general/chimes
+	)
 
-/area/f13/wasteland/city/newboston/chapel
-	name = "New Boston Chapel"
+/area/f13/wasteland/city/frostfallkeep/chapel
+	name = "Frostfall Keep Church Building"
 	icon_state = "chapel1"
 
-/area/f13/wasteland/city/newboston/library
-	name = "New Boston Library"
+/area/f13/wasteland/city/frostfallkeep/chapel/cathedral
+	name = "Frostfall Keep Cathedral"
+	icon_state = "chapel1"
+	ambientmusic = (AREA_MUSIC('sound/ambience/coolloops/agnusdei.ogg', 354 SECONDS))
+
+/area/f13/wasteland/city/frostfallkeep/chapel/cloister
+	name = "Frostfall Keep Cloister Buildings"
+	icon_state = "chapel1"
+
+/area/f13/wasteland/city/frostfallkeep/library
+	name = "Frostfall Keep Library"
 	icon_state = "library"
 
 // Believe it or not, light switches are tied to areas, so...
-/area/f13/wasteland/city/newboston/house/cabin_one
+/area/f13/wasteland/city/frostfallkeep/house/cabin_one
 	icon_state = "sleep1"
 
-/area/f13/wasteland/city/newboston/house/cabin_two
+/area/f13/wasteland/city/frostfallkeep/house/cabin_two
 	icon_state = "sleep2"
 
-/area/f13/wasteland/city/newboston/house/cabin_three
+/area/f13/wasteland/city/frostfallkeep/house/cabin_three
 	icon_state = "sleep3"
 
-/area/f13/wasteland/city/newboston/house/cabin_four
+/area/f13/wasteland/city/frostfallkeep/house/cabin_four
 	icon_state = "sleep4"
 
-/area/f13/wasteland/city/newboston/house/cabin_five
+/area/f13/wasteland/city/frostfallkeep/house/cabin_five
 	icon_state = "sleep5"
 
-/area/f13/wasteland/city/newboston/house/cabin_six
+/area/f13/wasteland/city/frostfallkeep/house/cabin_six
 	icon_state = "sleep6"
 
-/area/f13/wasteland/city/newboston/house/cabin_seven
+/area/f13/wasteland/city/frostfallkeep/house/cabin_seven
 	icon_state = "sleep7"
 
-/area/f13/wasteland/city/newboston/house/cabin_eight
+/area/f13/wasteland/city/frostfallkeep/house/cabin_eight
 	icon_state = "sleep8"
 
-/area/f13/wasteland/city/newboston/house/cabin_nine
+/area/f13/wasteland/city/frostfallkeep/house/cabin_nine
 	icon_state = "sleep9"
 
 ///////////////

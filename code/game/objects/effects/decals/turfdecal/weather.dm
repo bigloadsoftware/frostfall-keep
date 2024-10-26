@@ -89,3 +89,13 @@
 	name = "grass edge"
 	icon = 'icons/turf/decals.dmi'
 	icon_state = "grass_edge_corner"
+
+/obj/effect/turf_decal/weather/bones
+	name = "bones"
+	icon = 'icons/obj/catacombs.dmi'
+	icon_state = "bones"
+
+/obj/effect/turf_decal/weather/bones/corner
+	name = "bones corner"
+	icon = 'icons/obj/catacombs.dmi'
+	icon_state = "bones_corner"

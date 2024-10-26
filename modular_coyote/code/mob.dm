@@ -1045,6 +1045,7 @@
 	icon_state = "mouse_gray"
 	icon_living = "mouse_gray"
 	icon_dead = "mouse_gray_dead"
+	density = 0
 
 /mob/living/simple_animal/advanced/mousebrown
 	name = "brown mouse"
@@ -1053,6 +1054,7 @@
 	icon_state = "mouse_brown"
 	icon_living = "mouse_brown"
 	icon_dead = "mouse_brown_dead"
+	density = 0
 
 /mob/living/simple_animal/advanced/mousewhite
 	name = "white mouse"
@@ -1061,6 +1063,7 @@
 	icon_state = "mouse_white"
 	icon_living = "mouse_white"
 	icon_dead = "mouse_white_dead"
+	density = 0
 
 /mob/living/simple_animal/advanced/opossum
 	name = "opossum"

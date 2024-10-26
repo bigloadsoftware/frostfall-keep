@@ -518,3 +518,99 @@
 		SOUND_LOOP_ENTRY('sound/f13ambience/ambientforestleft.ogg', 28 SECONDS, 1),
 		SOUND_LOOP_ENTRY('sound/f13ambience/ambientforestright.ogg', 28 SECONDS, 1)
 	)
+
+/datum/looping_sound/ambient/general/softwind
+	chance = 100
+	vary = FALSE
+	volume = SOUND_LOOP_VOL_RANGE(90, 100)
+	direct = TRUE
+	loop_delay = 0
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/ambience/coolloops/softwind.ogg', 90 SECONDS, 1))
+	
+/datum/looping_sound/ambient/general/chimes
+	chance = 100
+	vary = FALSE
+	volume = SOUND_LOOP_VOL_RANGE(90, 100)
+	direct = TRUE
+	loop_delay = 0
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/ambience/coolloops/chimes.ogg', 47 SECONDS, 1))
+
+/datum/looping_sound/ambient/general/creepywind1
+	chance = 100
+	vary = FALSE
+	volume = SOUND_LOOP_VOL_RANGE(100, 100)
+	direct = FALSE
+	loop_delay = 0
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/ambience/coolloops/cwind1.ogg', 354 SECONDS, 1))
+
+/datum/looping_sound/ambient/general/creepywind2
+	chance = 100
+	vary = FALSE
+	volume = SOUND_LOOP_VOL_RANGE(90, 100)
+	direct = FALSE
+	loop_delay = 0
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/ambience/coolloops/cwind2.ogg', 354 SECONDS, 1))
+
+/datum/looping_sound/ambient/general/creepywind3
+	chance = 100
+	vary = FALSE
+	volume = SOUND_LOOP_VOL_RANGE(90, 100)
+	direct = FALSE
+	loop_delay = 0
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/ambience/coolloops/cwind1.ogg', 354 SECONDS, 1),
+		SOUND_LOOP_ENTRY('sound/ambience/coolloops/cwind2.ogg', 354 SECONDS, 1))
+
+/datum/looping_sound/ambient/general/structure
+	chance = 100
+	vary = FALSE
+	volume = SOUND_LOOP_VOL_RANGE(100, 100)
+	direct = FALSE
+	loop_delay = 0
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/f13ambience/building.ogg', 4 SECONDS, 1),
+	)
+
+/datum/looping_sound/ambient/general/eerie
+	chance = 100
+	vary = FALSE
+	volume = SOUND_LOOP_VOL_RANGE(100, 100)
+	direct = FALSE
+	loop_delay = 0
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/ambience/coolloops/eerie.ogg', 30 SECONDS, 1),
+	)
+
+/datum/looping_sound/ambient/general/eerie2
+	chance = 100
+	vary = FALSE
+	volume = SOUND_LOOP_VOL_RANGE(100, 100)
+	direct = FALSE
+	loop_delay = 0
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/ambience/coolloops/eerie2.ogg', 30 SECONDS, 1),
+	)
+
+/datum/looping_sound/ambient/general/haunted1
+	chance = 100
+	vary = TRUE
+	volume = SOUND_LOOP_VOL_RANGE(100, 100)
+	direct = TRUE
+	loop_delay = 0
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/ambience/coolloops/moaning.ogg', 15 SECONDS, 1),
+	)
+
+/datum/looping_sound/ambient/general/haunted2
+	chance = 100
+	vary = TRUE
+	volume = SOUND_LOOP_VOL_RANGE(100, 100)
+	direct = TRUE
+	loop_delay = 0
+	mid_sounds = list(
+		SOUND_LOOP_ENTRY('sound/ambience/chains.ogg', 5 SECONDS, 1),
+	)

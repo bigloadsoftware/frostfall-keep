@@ -476,7 +476,7 @@
 	close_sound = "sound/f13machines/doorstore_close.ogg"
 	explosion_block = 1.5
 	material_count = 5
-	can_have_lock = TRUE
+	can_have_lock = FALSE
 
 /obj/structure/simple_door/metal/add_debris_element()
 	AddElement(/datum/element/debris, DEBRIS_SPARKS, -15, 8, 1)
@@ -508,7 +508,7 @@
 	desc = "The glass is dirty, you can't see a thing behind it."
 	icon_state = "dirtyglass"
 	door_type = "dirtyglass"
-	can_have_lock = TRUE
+	can_have_lock = FALSE
 
 /obj/structure/simple_door/dirtyglass/add_debris_element()
 	AddElement(/datum/element/debris, DEBRIS_GLASS, -10, 5)
