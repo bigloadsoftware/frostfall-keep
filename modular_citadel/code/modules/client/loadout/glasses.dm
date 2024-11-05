@@ -3,6 +3,10 @@
 	slot = SLOT_GLASSES
 	cost = 1
 
+/datum/gear/glasses/pincenez
+	name = "pince nez glasses"
+	path = /obj/item/clothing/glasses/pincenez
+
 /datum/gear/glasses/blindfold
 	name = "Blindfold"
 	path = /obj/item/clothing/glasses/sunglasses/blindfold
@@ -50,4 +54,3 @@
 /datum/gear/glasses/biker
 	name = "biker goggles"
 	path = /obj/item/clothing/glasses/f13/biker
-

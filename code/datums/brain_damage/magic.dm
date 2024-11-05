@@ -63,9 +63,9 @@
 /datum/brain_trauma/magic/stalker
 	name = "Stalking Phantom"
 	desc = "Patient is stalked by a phantom only they can see."
-	scan_desc = "extra-sensory paranoia"
-	gain_text = span_warning("You feel like something wants to kill you...")
-	lose_text = span_notice("You no longer feel eyes on your back.")
+	scan_desc = "a demon"
+	gain_text = span_warning("It has found you.")
+	lose_text = span_notice("Is it really gone...?")
 	var/obj/effect/hallucination/simple/stalker_phantom/stalker
 	var/close_stalker = FALSE //For heartbeat
 

@@ -575,7 +575,7 @@
 	invulnerable = FALSE
 	hole_visuals = FALSE //Whether the fence piece has visuals for being cut. Used in update_cut_status()
 	max_integrity = 500 // juuuust about lower health than a door is.
-	layer = 6
+	layer = ABOVE_MOB_LAYER
 
 /obj/structure/fence/palisade/longleft
 	icon_state = "palisade_longleft"

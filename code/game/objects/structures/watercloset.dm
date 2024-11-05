@@ -812,7 +812,7 @@
 	return TRUE
 
 /obj/structure/curtain/on_attack_hand(mob/user, act_intent = user.a_intent, unarmed_attack_flags)
-	playsound(loc, 'sound/effects/curtain.ogg', 50, 1)
+	playsound(loc, 'sound/effects/rustle2.ogg', 50, 1)
 	toggle()
 
 /obj/structure/curtain/deconstruct(disassembled = TRUE)
@@ -855,5 +855,5 @@
 			if(get_dir(src,user) != dir)
 				balloon_alert(user, "You can only open the [src] from \the [dir2text(dir)]! ")
 			else
-				playsound(loc, 'sound/effects/curtain.ogg', 50, 1)
+				playsound(loc, 'sound/effects/rustle2.ogg', 50, 1)
 				toggle()

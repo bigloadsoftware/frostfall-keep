@@ -49,6 +49,16 @@
 	desc = "A small bottle of toxins. Do not drink, it is poisonous."
 	list_reagents = list(/datum/reagent/toxin = 30)
 
+/obj/item/reagent_containers/glass/bottle/toxin/waterskin
+	name = "leather waterskin"
+	desc = "A large pouch made from animal bits, meant to hold water or other liquids. It's best not to think which part of the animal this is."
+	custom_materials = list(/datum/material/leather = 500)
+	possible_transfer_amounts = list(5, 10, 15, 20, 25, 30, 50, 60, 120)
+	volume = 120
+	icon = 'icons/obj/drinks.dmi'
+	icon_state = "waterskin"
+	slot_flags = INV_SLOTBIT_BELT
+
 /obj/item/reagent_containers/glass/bottle/cyanide
 	name = "cyanide bottle"
 	desc = "A small bottle of cyanide. Bitter almonds?"
