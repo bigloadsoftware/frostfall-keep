@@ -739,3 +739,11 @@
 	name = "prescription cold goggles"
 	vision_correction = 1
 
+// Medieval
+
+/obj/item/clothing/glasses/pincenez
+	name = "pince nez glasses"
+	desc = "Round glassex affixed to wooden or metal brackets, which are worn clamped to one's nose."
+	icon_state = "pince_nez"
+	item_state = "pince_nez"
+	vision_correction = 1

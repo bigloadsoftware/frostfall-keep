@@ -487,7 +487,7 @@
 	icon_state = "iron"
 	door_type = "iron"
 	explosion_block = 5
-	can_have_lock = TRUE
+	can_have_lock = FALSE
 	opening_time = 12
 	closing_time = 8
 
@@ -500,9 +500,9 @@
 	close_sound = "sound/f13machines/doorchainlink_close.ogg"
 	opacity = FALSE
 	base_opacity = FALSE
-	can_have_lock = TRUE
 	proj_pass_rate = 95
 	pass_flags = LETPASSTHROW
+	can_have_lock = TRUE
 
 /obj/structure/simple_door/dirtyglass
 	desc = "The glass is dirty, you can't see a thing behind it."
@@ -520,7 +520,7 @@
 	door_type = "brokenglass"
 	opacity = FALSE
 	base_opacity = FALSE
-	can_have_lock = TRUE
+	can_have_lock = FALSE
 
 /obj/structure/simple_door/brokenglass/add_debris_element()
 	AddElement(/datum/element/debris, DEBRIS_WOOD, -10, 5)
@@ -531,7 +531,7 @@
 	door_type = "glass"
 	opacity = FALSE
 	base_opacity = FALSE
-	can_have_lock = TRUE
+	can_have_lock = FALSE
 
 /obj/structure/simple_door/glass/add_debris_element()
 	AddElement(/datum/element/debris, DEBRIS_GLASS, -10, 5)
