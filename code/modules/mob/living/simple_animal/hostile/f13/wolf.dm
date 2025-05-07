@@ -50,7 +50,7 @@
 	emote_taunt_sound = null
 	idlesound = null
 	see_in_dark = 8
-	wander = 0
+	wander = 1
 	anchored = FALSE
 	possible_a_intents = list(INTENT_HELP, INTENT_HARM)
 	footstep_type = FOOTSTEP_MOB_BAREFOOT

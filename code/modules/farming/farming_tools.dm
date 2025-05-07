@@ -110,6 +110,11 @@
 	custom_materials = list(/datum/material/wood = MINERAL_MATERIAL_AMOUNT * 2)
 	item_flags = NO_MAT_REDEMPTION
 
+/obj/item/reagent_containers/glass/bucket/wood/compost
+	name = "compost bucket"
+	desc = "It's a bucket made of wood. Stinks like shit."
+	list_reagents = list(/datum/reagent/compost = 120)
+
 /obj/item/reagent_containers/glass/bucket/plastic
 	name = "plastic bucket"
 	desc = "It's a bucket made of blue plastic."

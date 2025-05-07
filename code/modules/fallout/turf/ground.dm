@@ -422,7 +422,7 @@ GLOBAL_LIST_INIT(dirt_loots, list(
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
-	greeble = "nest"
+	greeble = "null"
 
 /turf/open/indestructible/ground/outside/dirt/Initialize()
 	. = ..()
